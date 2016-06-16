@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD83CDE61D01F880004A756C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE41D01F880004A756C /* Main.storyboard */; };
+		BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE71D01F880004A756C /* Assets.xcassets */; };
+		BD83CDEB1D01F880004A756C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */; };
+		BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF21D01F90C004A756C /* DataManager.swift */; };
+		BD83CDF51D01F930004A756C /* MedicinesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */; };
+		BD83CDF71D01F93C004A756C /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF61D01F93C004A756C /* NotesTableViewController.swift */; };
+		BD83CDF91D01F948004A756C /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF81D01F948004A756C /* NotesViewController.swift */; };
+		BD83CDFB1D01F96E004A756C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDFA1D01F96E004A756C /* AppDelegate.swift */; };
+		BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDFC1D01F978004A756C /* ButtonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD83CDDD1D01F87F004A756C /* PocketDoc-Airlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketDoc-Airlink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD83CDE51D01F880004A756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD83CDE71D01F880004A756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD83CDEA1D01F880004A756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD83CDEC1D01F880004A756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD83CDF21D01F90C004A756C /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicinesTableViewCell.swift; sourceTree = "<group>"; };
+		BD83CDF61D01F93C004A756C /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		BD83CDF81D01F948004A756C /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		BD83CDFA1D01F96E004A756C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD83CDFC1D01F978004A756C /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD83CDDA1D01F87F004A756C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD83CDD41D01F87F004A756C = {
+			isa = PBXGroup;
+			children = (
+				BD83CDDF1D01F87F004A756C /* PocketDoc-Airlink */,
+				BD83CDDE1D01F87F004A756C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD83CDDE1D01F87F004A756C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD83CDDD1D01F87F004A756C /* PocketDoc-Airlink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD83CDDF1D01F87F004A756C /* PocketDoc-Airlink */ = {
+			isa = PBXGroup;
+			children = (
+				BD83CDF21D01F90C004A756C /* DataManager.swift */,
+				BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */,
+				BD83CDF61D01F93C004A756C /* NotesTableViewController.swift */,
+				BD83CDFA1D01F96E004A756C /* AppDelegate.swift */,
+				BD83CDF81D01F948004A756C /* NotesViewController.swift */,
+				BD83CDE41D01F880004A756C /* Main.storyboard */,
+				BD83CDFC1D01F978004A756C /* ButtonViewController.swift */,
+				BD83CDE71D01F880004A756C /* Assets.xcassets */,
+				BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */,
+				BD83CDEC1D01F880004A756C /* Info.plist */,
+			);
+			path = "PocketDoc-Airlink";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD83CDDC1D01F87F004A756C /* PocketDoc-Airlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD83CDEF1D01F880004A756C /* Build configuration list for PBXNativeTarget "PocketDoc-Airlink" */;
+			buildPhases = (
+				BD83CDD91D01F87F004A756C /* Sources */,
+				BD83CDDA1D01F87F004A756C /* Frameworks */,
+				BD83CDDB1D01F87F004A756C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PocketDoc-Airlink";
+			productName = "PocketDoc-Airlink";
+			productReference = BD83CDDD1D01F87F004A756C /* PocketDoc-Airlink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD83CDD51D01F87F004A756C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rod;
+				TargetAttributes = {
+					BD83CDDC1D01F87F004A756C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BD83CDD81D01F87F004A756C /* Build configuration list for PBXProject "PocketDoc-Airlink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD83CDD41D01F87F004A756C;
+			productRefGroup = BD83CDDE1D01F87F004A756C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD83CDDC1D01F87F004A756C /* PocketDoc-Airlink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD83CDDB1D01F87F004A756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83CDEB1D01F880004A756C /* LaunchScreen.storyboard in Resources */,
+				BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */,
+				BD83CDE61D01F880004A756C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD83CDD91D01F87F004A756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83CDF51D01F930004A756C /* MedicinesTableViewCell.swift in Sources */,
+				BD83CDF91D01F948004A756C /* NotesViewController.swift in Sources */,
+				BD83CDF71D01F93C004A756C /* NotesTableViewController.swift in Sources */,
+				BD83CDFB1D01F96E004A756C /* AppDelegate.swift in Sources */,
+				BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */,
+				BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD83CDE41D01F880004A756C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD83CDE51D01F880004A756C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD83CDEA1D01F880004A756C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD83CDED1D01F880004A756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD83CDEE1D01F880004A756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD83CDF01D01F880004A756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD83CDF11D01F880004A756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD83CDD81D01F87F004A756C /* Build configuration list for PBXProject "PocketDoc-Airlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD83CDED1D01F880004A756C /* Debug */,
+				BD83CDEE1D01F880004A756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD83CDEF1D01F880004A756C /* Build configuration list for PBXNativeTarget "PocketDoc-Airlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD83CDF01D01F880004A756C /* Debug */,
+				BD83CDF11D01F880004A756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD83CDD51D01F87F004A756C /* Project object */;
+}
