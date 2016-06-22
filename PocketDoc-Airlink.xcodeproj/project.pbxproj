@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		BD3A19481D14926200A3FF80 /* heli_vert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19471D14926200A3FF80 /* heli_vert.jpg */; };
 		BD3A194A1D14935300A3FF80 /* Header Airlink.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19491D14935300A3FF80 /* Header Airlink.png */; };
 		BD3A19701D14976900A3FF80 /*  DKA adults.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */; };
@@ -64,6 +65,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		BD3A19471D14926200A3FF80 /* heli_vert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = heli_vert.jpg; path = ../heli_vert.jpg; sourceTree = "<group>"; };
 		BD3A19491D14935300A3FF80 /* Header Airlink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Header Airlink.png"; sourceTree = "<group>"; };
 		BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = " DKA adults.pdf"; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 		BD83CDDF1D01F87F004A756C /* PocketDoc-Airlink */ = {
 			isa = PBXGroup;
 			children = (
+				019419511D1AE53D003A9618 /* EmailViewController.swift */,
 				BD83CDE41D01F880004A756C /* Main.storyboard */,
 				BD83CDFC1D01F978004A756C /* ButtonViewController.swift */,
 				BD83CDFA1D01F96E004A756C /* AppDelegate.swift */,
@@ -362,6 +365,7 @@
 				BD83CDFB1D01F96E004A756C /* AppDelegate.swift in Sources */,
 				BD68A04E1D132C2900DF536D /* ArticleViewController.swift in Sources */,
 				BD68A04C1D132A6700DF536D /* ArticleTableViewController.swift in Sources */,
+				019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */,
 				BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */,
 				BD68A0501D13333600DF536D /* MedicineTableViewController.swift in Sources */,
 				BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */,
