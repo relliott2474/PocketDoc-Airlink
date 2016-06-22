@@ -7,6 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD3A19481D14926200A3FF80 /* heli_vert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19471D14926200A3FF80 /* heli_vert.jpg */; };
+		BD3A194A1D14935300A3FF80 /* Header Airlink.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19491D14935300A3FF80 /* Header Airlink.png */; };
+		BD3A19701D14976900A3FF80 /*  DKA adults.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */; };
+		BD3A19711D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19501D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf */; };
+		BD3A19721D14976900A3FF80 /* Acute Coronary Syndrome (1).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19511D14976900A3FF80 /* Acute Coronary Syndrome (1).pdf */; };
+		BD3A19731D14976900A3FF80 /* Altered Mental Status.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19521D14976900A3FF80 /* Altered Mental Status.pdf */; };
+		BD3A19741D14976900A3FF80 /* Anaphylaxis Adult.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19531D14976900A3FF80 /* Anaphylaxis Adult.pdf */; };
+		BD3A19751D14976900A3FF80 /* Aortic Dissection.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19541D14976900A3FF80 /* Aortic Dissection.pdf */; };
+		BD3A19761D14976900A3FF80 /* Asthma - Adult.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19551D14976900A3FF80 /* Asthma - Adult.pdf */; };
+		BD3A19771D14976900A3FF80 /* Blood protocol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19561D14976900A3FF80 /* Blood protocol.pdf */; };
+		BD3A19781D14976900A3FF80 /* CVA Stroke one(2).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19571D14976900A3FF80 /* CVA Stroke one(2).pdf */; };
+		BD3A19791D14976900A3FF80 /* CVA Stroke one.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19581D14976900A3FF80 /* CVA Stroke one.pdf */; };
+		BD3A197A1D14976900A3FF80 /* Drowning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19591D14976900A3FF80 /* Drowning.pdf */; };
+		BD3A197B1D14976900A3FF80 /* Frostbite.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A195A1D14976900A3FF80 /* Frostbite.pdf */; };
+		BD3A197C1D14976900A3FF80 /* General Overdose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A195B1D14976900A3FF80 /* General Overdose.pdf */; };
+		BD3A197D1D14976900A3FF80 /* Hyperkalemia protocol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A195C1D14976900A3FF80 /* Hyperkalemia protocol.pdf */; };
+		BD3A197E1D14976900A3FF80 /* Hypertension not related to pregnancy.(1).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A195D1D14976900A3FF80 /* Hypertension not related to pregnancy.(1).pdf */; };
+		BD3A197F1D14976900A3FF80 /* Hyperthermia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A195E1D14976900A3FF80 /* Hyperthermia.pdf */; };
+		BD3A19801D14976900A3FF80 /* Hypoglycemia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A195F1D14976900A3FF80 /* Hypoglycemia.pdf */; };
+		BD3A19821D14976900A3FF80 /* Hypothermia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19611D14976900A3FF80 /* Hypothermia.pdf */; };
+		BD3A19831D14976900A3FF80 /* ICH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19621D14976900A3FF80 /* ICH.pdf */; };
+		BD3A19841D14976900A3FF80 /* Insulin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19631D14976900A3FF80 /* Insulin.pdf */; };
+		BD3A19851D14976900A3FF80 /* MAD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19641D14976900A3FF80 /* MAD.pdf */; };
+		BD3A19861D14976900A3FF80 /* Narcotics and Opiates.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19651D14976900A3FF80 /* Narcotics and Opiates.pdf */; };
+		BD3A19871D14976900A3FF80 /* Rhabdomyolysis.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19661D14976900A3FF80 /* Rhabdomyolysis.pdf */; };
+		BD3A19881D14976900A3FF80 /* Sedation guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19671D14976900A3FF80 /* Sedation guideline.pdf */; };
+		BD3A19891D14976900A3FF80 /* Seizure  Adult.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19681D14976900A3FF80 /* Seizure  Adult.pdf */; };
+		BD3A198A1D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19691D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf */; };
+		BD3A198B1D14976900A3FF80 /* Shock.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196A1D14976900A3FF80 /* Shock.pdf */; };
+		BD3A198C1D14976900A3FF80 /* Snakebite Protocol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196B1D14976900A3FF80 /* Snakebite Protocol.pdf */; };
+		BD3A198D1D14976900A3FF80 /* Syncope.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196C1D14976900A3FF80 /* Syncope.pdf */; };
+		BD3A198E1D14976900A3FF80 /* Therapeutic Hypothermia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */; };
+		BD3A198F1D14976900A3FF80 /* Tylenol Overdose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */; };
+		BD3A19901D14976900A3FF80 /* Vaginal Bleeding.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */; };
+		BD68A04A1D13266100DF536D /* Airlink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD68A0481D13266100DF536D /* Airlink.xcdatamodeld */; };
+		BD68A04C1D132A6700DF536D /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A04B1D132A6700DF536D /* ArticleTableViewController.swift */; };
+		BD68A04E1D132C2900DF536D /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A04D1D132C2900DF536D /* ArticleViewController.swift */; };
+		BD68A0501D13333600DF536D /* MedicineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A04F1D13333600DF536D /* MedicineTableViewController.swift */; };
+		BD68A0521D13334B00DF536D /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A0511D13334B00DF536D /* MedicineViewController.swift */; };
+		BD68A0651D133B1500DF536D /* pdf List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD68A0591D133B1500DF536D /* pdf List.plist */; };
+		BD68A06D1D13548600DF536D /* Meds List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD68A06C1D13548600DF536D /* Meds List.plist */; };
+		BD68A06F1D1372AF00DF536D /* thickLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD68A06E1D1372AF00DF536D /* thickLine@2x.png */; };
 		BD83CDE61D01F880004A756C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE41D01F880004A756C /* Main.storyboard */; };
 		BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE71D01F880004A756C /* Assets.xcassets */; };
 		BD83CDEB1D01F880004A756C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */; };
@@ -16,9 +58,54 @@
 		BD83CDF91D01F948004A756C /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF81D01F948004A756C /* NotesViewController.swift */; };
 		BD83CDFB1D01F96E004A756C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDFA1D01F96E004A756C /* AppDelegate.swift */; };
 		BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDFC1D01F978004A756C /* ButtonViewController.swift */; };
+		BD8B05E01D14A8EA00B5F90B /* Blood Products TXA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD8B05DF1D14A8EA00B5F90B /* Blood Products TXA.pdf */; };
+		BD8B05E21D14A90D00B5F90B /* Platelets During Transport.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD8B05E11D14A90D00B5F90B /* Platelets During Transport.pdf */; };
+		BD8B05E41D14A95300B5F90B /* Peds Burn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD8B05E31D14A95300B5F90B /* Peds Burn.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD3A19471D14926200A3FF80 /* heli_vert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = heli_vert.jpg; path = ../heli_vert.jpg; sourceTree = "<group>"; };
+		BD3A19491D14935300A3FF80 /* Header Airlink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Header Airlink.png"; sourceTree = "<group>"; };
+		BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = " DKA adults.pdf"; sourceTree = "<group>"; };
+		BD3A19501D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Abdominal Pain not related to pregnancy or trauma.pdf"; sourceTree = "<group>"; };
+		BD3A19511D14976900A3FF80 /* Acute Coronary Syndrome (1).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Acute Coronary Syndrome (1).pdf"; sourceTree = "<group>"; };
+		BD3A19521D14976900A3FF80 /* Altered Mental Status.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Altered Mental Status.pdf"; sourceTree = "<group>"; };
+		BD3A19531D14976900A3FF80 /* Anaphylaxis Adult.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Anaphylaxis Adult.pdf"; sourceTree = "<group>"; };
+		BD3A19541D14976900A3FF80 /* Aortic Dissection.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Aortic Dissection.pdf"; sourceTree = "<group>"; };
+		BD3A19551D14976900A3FF80 /* Asthma - Adult.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Asthma - Adult.pdf"; sourceTree = "<group>"; };
+		BD3A19561D14976900A3FF80 /* Blood protocol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Blood protocol.pdf"; sourceTree = "<group>"; };
+		BD3A19571D14976900A3FF80 /* CVA Stroke one(2).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CVA Stroke one(2).pdf"; sourceTree = "<group>"; };
+		BD3A19581D14976900A3FF80 /* CVA Stroke one.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CVA Stroke one.pdf"; sourceTree = "<group>"; };
+		BD3A19591D14976900A3FF80 /* Drowning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Drowning.pdf; sourceTree = "<group>"; };
+		BD3A195A1D14976900A3FF80 /* Frostbite.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Frostbite.pdf; sourceTree = "<group>"; };
+		BD3A195B1D14976900A3FF80 /* General Overdose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "General Overdose.pdf"; sourceTree = "<group>"; };
+		BD3A195C1D14976900A3FF80 /* Hyperkalemia protocol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hyperkalemia protocol.pdf"; sourceTree = "<group>"; };
+		BD3A195D1D14976900A3FF80 /* Hypertension not related to pregnancy.(1).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hypertension not related to pregnancy.(1).pdf"; sourceTree = "<group>"; };
+		BD3A195E1D14976900A3FF80 /* Hyperthermia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hyperthermia.pdf; sourceTree = "<group>"; };
+		BD3A195F1D14976900A3FF80 /* Hypoglycemia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hypoglycemia.pdf; sourceTree = "<group>"; };
+		BD3A19611D14976900A3FF80 /* Hypothermia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hypothermia.pdf; sourceTree = "<group>"; };
+		BD3A19621D14976900A3FF80 /* ICH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ICH.pdf; sourceTree = "<group>"; };
+		BD3A19631D14976900A3FF80 /* Insulin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Insulin.pdf; sourceTree = "<group>"; };
+		BD3A19641D14976900A3FF80 /* MAD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MAD.pdf; sourceTree = "<group>"; };
+		BD3A19651D14976900A3FF80 /* Narcotics and Opiates.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Narcotics and Opiates.pdf"; sourceTree = "<group>"; };
+		BD3A19661D14976900A3FF80 /* Rhabdomyolysis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rhabdomyolysis.pdf; sourceTree = "<group>"; };
+		BD3A19671D14976900A3FF80 /* Sedation guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sedation guideline.pdf"; sourceTree = "<group>"; };
+		BD3A19681D14976900A3FF80 /* Seizure  Adult.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Seizure  Adult.pdf"; sourceTree = "<group>"; };
+		BD3A19691D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sepsis, Septic Shock, Adult.pdf"; sourceTree = "<group>"; };
+		BD3A196A1D14976900A3FF80 /* Shock.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shock.pdf; sourceTree = "<group>"; };
+		BD3A196B1D14976900A3FF80 /* Snakebite Protocol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Snakebite Protocol.pdf"; sourceTree = "<group>"; };
+		BD3A196C1D14976900A3FF80 /* Syncope.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Syncope.pdf; sourceTree = "<group>"; };
+		BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Therapeutic Hypothermia.pdf"; sourceTree = "<group>"; };
+		BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tylenol Overdose.pdf"; sourceTree = "<group>"; };
+		BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Vaginal Bleeding.pdf"; sourceTree = "<group>"; };
+		BD68A0491D13266100DF536D /* Airlink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airlink.xcdatamodel; sourceTree = "<group>"; };
+		BD68A04B1D132A6700DF536D /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
+		BD68A04D1D132C2900DF536D /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		BD68A04F1D13333600DF536D /* MedicineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineTableViewController.swift; sourceTree = "<group>"; };
+		BD68A0511D13334B00DF536D /* MedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
+		BD68A0591D133B1500DF536D /* pdf List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pdf List.plist"; sourceTree = "<group>"; };
+		BD68A06C1D13548600DF536D /* Meds List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Meds List.plist"; sourceTree = "<group>"; };
+		BD68A06E1D1372AF00DF536D /* thickLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thickLine@2x.png"; sourceTree = "<group>"; };
 		BD83CDDD1D01F87F004A756C /* PocketDoc-Airlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketDoc-Airlink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD83CDE51D01F880004A756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD83CDE71D01F880004A756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +117,9 @@
 		BD83CDF81D01F948004A756C /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		BD83CDFA1D01F96E004A756C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD83CDFC1D01F978004A756C /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		BD8B05DF1D14A8EA00B5F90B /* Blood Products TXA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Blood Products TXA.pdf"; sourceTree = "<group>"; };
+		BD8B05E11D14A90D00B5F90B /* Platelets During Transport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Platelets During Transport.pdf"; sourceTree = "<group>"; };
+		BD8B05E31D14A95300B5F90B /* Peds Burn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Peds Burn.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +133,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD3A19401D138C5000A3FF80 /* Articles View */ = {
+			isa = PBXGroup;
+			children = (
+				BD68A04B1D132A6700DF536D /* ArticleTableViewController.swift */,
+				BD68A04D1D132C2900DF536D /* ArticleViewController.swift */,
+			);
+			name = "Articles View";
+			sourceTree = "<group>";
+		};
+		BD3A19411D138C5E00A3FF80 /* Notes Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				BD83CDF21D01F90C004A756C /* DataManager.swift */,
+				BD83CDF61D01F93C004A756C /* NotesTableViewController.swift */,
+				BD83CDF81D01F948004A756C /* NotesViewController.swift */,
+			);
+			name = "Notes Viewer";
+			sourceTree = "<group>";
+		};
+		BD3A19421D138C7600A3FF80 /* Medicine Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */,
+				BD68A04F1D13333600DF536D /* MedicineTableViewController.swift */,
+				BD68A0511D13334B00DF536D /* MedicineViewController.swift */,
+			);
+			name = "Medicine Viewer";
+			sourceTree = "<group>";
+		};
+		BD3A194E1D14976900A3FF80 /* Medical */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */,
+				BD3A19501D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf */,
+				BD3A19511D14976900A3FF80 /* Acute Coronary Syndrome (1).pdf */,
+				BD3A19521D14976900A3FF80 /* Altered Mental Status.pdf */,
+				BD3A19531D14976900A3FF80 /* Anaphylaxis Adult.pdf */,
+				BD3A19541D14976900A3FF80 /* Aortic Dissection.pdf */,
+				BD3A19551D14976900A3FF80 /* Asthma - Adult.pdf */,
+				BD3A19561D14976900A3FF80 /* Blood protocol.pdf */,
+				BD8B05DF1D14A8EA00B5F90B /* Blood Products TXA.pdf */,
+				BD3A19571D14976900A3FF80 /* CVA Stroke one(2).pdf */,
+				BD3A19581D14976900A3FF80 /* CVA Stroke one.pdf */,
+				BD3A19591D14976900A3FF80 /* Drowning.pdf */,
+				BD3A195A1D14976900A3FF80 /* Frostbite.pdf */,
+				BD3A195B1D14976900A3FF80 /* General Overdose.pdf */,
+				BD3A195C1D14976900A3FF80 /* Hyperkalemia protocol.pdf */,
+				BD3A195D1D14976900A3FF80 /* Hypertension not related to pregnancy.(1).pdf */,
+				BD3A195E1D14976900A3FF80 /* Hyperthermia.pdf */,
+				BD3A195F1D14976900A3FF80 /* Hypoglycemia.pdf */,
+				BD3A19611D14976900A3FF80 /* Hypothermia.pdf */,
+				BD3A19621D14976900A3FF80 /* ICH.pdf */,
+				BD3A19631D14976900A3FF80 /* Insulin.pdf */,
+				BD3A19641D14976900A3FF80 /* MAD.pdf */,
+				BD3A19651D14976900A3FF80 /* Narcotics and Opiates.pdf */,
+				BD8B05E31D14A95300B5F90B /* Peds Burn.pdf */,
+				BD8B05E11D14A90D00B5F90B /* Platelets During Transport.pdf */,
+				BD3A19661D14976900A3FF80 /* Rhabdomyolysis.pdf */,
+				BD3A19671D14976900A3FF80 /* Sedation guideline.pdf */,
+				BD3A19681D14976900A3FF80 /* Seizure  Adult.pdf */,
+				BD3A19691D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf */,
+				BD3A196A1D14976900A3FF80 /* Shock.pdf */,
+				BD3A196B1D14976900A3FF80 /* Snakebite Protocol.pdf */,
+				BD3A196C1D14976900A3FF80 /* Syncope.pdf */,
+				BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */,
+				BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */,
+				BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */,
+			);
+			path = Medical;
+			sourceTree = "<group>";
+		};
 		BD83CDD41D01F87F004A756C = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +223,22 @@
 		BD83CDDF1D01F87F004A756C /* PocketDoc-Airlink */ = {
 			isa = PBXGroup;
 			children = (
-				BD83CDF21D01F90C004A756C /* DataManager.swift */,
-				BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */,
-				BD83CDF61D01F93C004A756C /* NotesTableViewController.swift */,
-				BD83CDFA1D01F96E004A756C /* AppDelegate.swift */,
-				BD83CDF81D01F948004A756C /* NotesViewController.swift */,
 				BD83CDE41D01F880004A756C /* Main.storyboard */,
 				BD83CDFC1D01F978004A756C /* ButtonViewController.swift */,
+				BD83CDFA1D01F96E004A756C /* AppDelegate.swift */,
+				BD3A19421D138C7600A3FF80 /* Medicine Viewer */,
+				BD3A19411D138C5E00A3FF80 /* Notes Viewer */,
+				BD3A19401D138C5000A3FF80 /* Articles View */,
+				BD68A0481D13266100DF536D /* Airlink.xcdatamodeld */,
 				BD83CDE71D01F880004A756C /* Assets.xcassets */,
+				BD3A19491D14935300A3FF80 /* Header Airlink.png */,
+				BD3A19471D14926200A3FF80 /* heli_vert.jpg */,
+				BD3A194E1D14976900A3FF80 /* Medical */,
+				BD68A06E1D1372AF00DF536D /* thickLine@2x.png */,
 				BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */,
 				BD83CDEC1D01F880004A756C /* Info.plist */,
+				BD68A0591D133B1500DF536D /* pdf List.plist */,
+				BD68A06C1D13548600DF536D /* Meds List.plist */,
 			);
 			path = "PocketDoc-Airlink";
 			sourceTree = "<group>";
@@ -108,6 +275,7 @@
 				TargetAttributes = {
 					BD83CDDC1D01F87F004A756C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 57XC6Y3386;
 					};
 				};
 			};
@@ -134,9 +302,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3A198A1D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf in Resources */,
+				BD3A198F1D14976900A3FF80 /* Tylenol Overdose.pdf in Resources */,
+				BD3A19851D14976900A3FF80 /* MAD.pdf in Resources */,
+				BD3A197B1D14976900A3FF80 /* Frostbite.pdf in Resources */,
+				BD3A19781D14976900A3FF80 /* CVA Stroke one(2).pdf in Resources */,
+				BD3A19711D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf in Resources */,
+				BD3A19891D14976900A3FF80 /* Seizure  Adult.pdf in Resources */,
+				BD8B05E01D14A8EA00B5F90B /* Blood Products TXA.pdf in Resources */,
+				BD68A06F1D1372AF00DF536D /* thickLine@2x.png in Resources */,
+				BD3A19801D14976900A3FF80 /* Hypoglycemia.pdf in Resources */,
+				BD3A19791D14976900A3FF80 /* CVA Stroke one.pdf in Resources */,
+				BD3A19761D14976900A3FF80 /* Asthma - Adult.pdf in Resources */,
+				BD68A06D1D13548600DF536D /* Meds List.plist in Resources */,
+				BD8B05E41D14A95300B5F90B /* Peds Burn.pdf in Resources */,
+				BD3A197F1D14976900A3FF80 /* Hyperthermia.pdf in Resources */,
+				BD3A19901D14976900A3FF80 /* Vaginal Bleeding.pdf in Resources */,
+				BD3A197D1D14976900A3FF80 /* Hyperkalemia protocol.pdf in Resources */,
 				BD83CDEB1D01F880004A756C /* LaunchScreen.storyboard in Resources */,
+				BD3A19481D14926200A3FF80 /* heli_vert.jpg in Resources */,
+				BD3A19881D14976900A3FF80 /* Sedation guideline.pdf in Resources */,
+				BD68A0651D133B1500DF536D /* pdf List.plist in Resources */,
+				BD3A198D1D14976900A3FF80 /* Syncope.pdf in Resources */,
+				BD3A198C1D14976900A3FF80 /* Snakebite Protocol.pdf in Resources */,
+				BD3A19721D14976900A3FF80 /* Acute Coronary Syndrome (1).pdf in Resources */,
+				BD3A19871D14976900A3FF80 /* Rhabdomyolysis.pdf in Resources */,
 				BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */,
+				BD3A19841D14976900A3FF80 /* Insulin.pdf in Resources */,
+				BD3A194A1D14935300A3FF80 /* Header Airlink.png in Resources */,
+				BD3A197C1D14976900A3FF80 /* General Overdose.pdf in Resources */,
+				BD3A197E1D14976900A3FF80 /* Hypertension not related to pregnancy.(1).pdf in Resources */,
+				BD3A19741D14976900A3FF80 /* Anaphylaxis Adult.pdf in Resources */,
+				BD3A19821D14976900A3FF80 /* Hypothermia.pdf in Resources */,
+				BD3A198B1D14976900A3FF80 /* Shock.pdf in Resources */,
+				BD3A19701D14976900A3FF80 /*  DKA adults.pdf in Resources */,
+				BD3A19751D14976900A3FF80 /* Aortic Dissection.pdf in Resources */,
 				BD83CDE61D01F880004A756C /* Main.storyboard in Resources */,
+				BD8B05E21D14A90D00B5F90B /* Platelets During Transport.pdf in Resources */,
+				BD3A19831D14976900A3FF80 /* ICH.pdf in Resources */,
+				BD3A19861D14976900A3FF80 /* Narcotics and Opiates.pdf in Resources */,
+				BD3A198E1D14976900A3FF80 /* Therapeutic Hypothermia.pdf in Resources */,
+				BD3A197A1D14976900A3FF80 /* Drowning.pdf in Resources */,
+				BD3A19731D14976900A3FF80 /* Altered Mental Status.pdf in Resources */,
+				BD3A19771D14976900A3FF80 /* Blood protocol.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,12 +355,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD68A0521D13334B00DF536D /* MedicineViewController.swift in Sources */,
 				BD83CDF51D01F930004A756C /* MedicinesTableViewCell.swift in Sources */,
 				BD83CDF91D01F948004A756C /* NotesViewController.swift in Sources */,
 				BD83CDF71D01F93C004A756C /* NotesTableViewController.swift in Sources */,
 				BD83CDFB1D01F96E004A756C /* AppDelegate.swift in Sources */,
+				BD68A04E1D132C2900DF536D /* ArticleViewController.swift in Sources */,
+				BD68A04C1D132A6700DF536D /* ArticleTableViewController.swift in Sources */,
 				BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */,
+				BD68A0501D13333600DF536D /* MedicineTableViewController.swift in Sources */,
 				BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */,
+				BD68A04A1D13266100DF536D /* Airlink.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
@@ -276,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
@@ -302,8 +517,22 @@
 				BD83CDF11D01F880004A756C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD68A0481D13266100DF536D /* Airlink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD68A0491D13266100DF536D /* Airlink.xcdatamodel */,
+			);
+			currentVersion = BD68A0491D13266100DF536D /* Airlink.xcdatamodel */;
+			path = Airlink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD83CDD51D01F87F004A756C /* Project object */;
 }

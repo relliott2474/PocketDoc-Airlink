@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pdf name</key>
+		<string>Aortic Dissection</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Asthma - Adult</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Abdominal Pain not related to pregnancy or trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>OHSU Coag Reversal</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Altered Mental Status</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Anaphylaxis Adult</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Blood protocol</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>CVA Stroke one</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Drowning</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Frostbite</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>General Overdose</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Hyperkalemia protocol</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Acute Coronary Syndrome (1)</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Hypertension not related to pregnancy.(1)</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Hyperthermia</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Hypothermia</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>ICH</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Insulin</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>MAD</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Narcotics and Opiates</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Peds Burn</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Platelets During Transport</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Rhabdomyolysis</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Sedation guideline</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Seizure  Adult</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Sepsis, Septic Shock, Adult</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Shock</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Snakebite Protocol</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Syncope</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Therapeutic Hypothermia</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Tylenol Overdose</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Vaginal Bleeding</string>
+	</dict>
+</array>
+</plist>

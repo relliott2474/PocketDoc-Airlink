@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import ParseUI
+//import ParseUI
 
-class MedicinesTableViewCell: PFTableViewCell {
+class MedicinesTableViewCell: UITableViewCell {
 
     @IBOutlet weak var mainName: UILabel!
     @IBOutlet weak var infoLabel: UILabel!

@@ -9,8 +9,6 @@
 
 import UIKit
 import Foundation
-import Bolts
-import Parse
 import CoreData
 
 let rowHeight = 40.0 as CGFloat
@@ -23,11 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
         // Override point for customization after application launch.
-        NSThread.sleepForTimeInterval(1.3)
+        NSThread.sleepForTimeInterval(1.5)
         
-        Parse.setApplicationId("rN7P8OZVhVjj4aGCZrWGiv4f2aUrFr1nc9sWfxRG", clientKey: "7hQc37H0DqZ2wrNjQDHZNWJvv58P52d8lMraW8C0")
-        //UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        //Parse.setApplicationId("rN7P8OZVhVjj4aGCZrWGiv4f2aUrFr1nc9sWfxRG", clientKey: "7hQc37H0DqZ2wrNjQDHZNWJvv58P52d8lMraW8C0")
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
         //UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().tintColor = UIColor.redColor()
         
         /*let parseConfiguration = ParseClientConfiguration(block: { (ParseMutableClientConfiguration) -> Void in
             ParseMutableClientConfiguration.applicationId = "5tttttiuibkdi,kl000234"
@@ -41,8 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillResignActive(application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+        
     }
 
     func applicationDidEnterBackground(application: UIApplication) {
@@ -71,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
-        let modelURL = NSBundle.mainBundle().URLForResource("CDNoteList", withExtension: "momd")!
+        let modelURL = NSBundle.mainBundle().URLForResource("Airlink", withExtension: "momd")!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
     

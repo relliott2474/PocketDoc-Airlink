@@ -17,8 +17,8 @@ class NotesViewController: UIViewController {
     
     @IBOutlet weak var buttonOutlet: UIButton!
     @IBOutlet weak var notesField: UITextView!
-    @IBOutlet weak var titleTextField: UITextField!
 
+    @IBOutlet weak var titleTextField: UITextField!
     
     @IBAction func buttonAction(sender: AnyObject) {
         
