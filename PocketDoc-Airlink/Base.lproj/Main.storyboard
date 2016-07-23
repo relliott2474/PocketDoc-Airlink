@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="B4U-02-kM9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="B4U-02-kM9">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -46,7 +48,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0N-PP-eag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1840" y="-166"/>
+            <point key="canvasLocation" x="2020" y="150"/>
         </scene>
         <!--Article View Controller-->
         <scene sceneID="Gtx-A5-1M5">
@@ -79,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vE-hI-PLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2808" y="-166"/>
+            <point key="canvasLocation" x="2782" y="150"/>
         </scene>
         <!--Notes View Controller-->
         <scene sceneID="K2C-or-XVv">
@@ -219,8 +221,8 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Suggestions">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="Gdd-3q-rQA" kind="show" id="yvM-pQ-qmg"/>
@@ -230,14 +232,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBY-D3-Fmg">
-                                <rect key="frame" x="0.0" y="38" width="600" height="84"/>
+                                <rect key="frame" x="0.0" y="106" width="600" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="EBq-Ws-zbz"/>
+                                    <constraint firstAttribute="height" constant="50" id="EBq-Ws-zbz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="23"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Reference Articles">
+                                <state key="normal" title="Reference Guidelines">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -245,10 +247,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPg-JK-msu">
-                                <rect key="frame" x="0.0" y="136" width="600" height="84"/>
+                                <rect key="frame" x="0.0" y="204" width="600" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="nT9-sx-dSp"/>
+                                    <constraint firstAttribute="height" constant="50" id="nT9-sx-dSp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="23"/>
                                 <state key="normal" title="Personal Notes">
@@ -260,10 +262,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91B-l9-RrC">
-                                <rect key="frame" x="0.0" y="234" width="600" height="84"/>
+                                <rect key="frame" x="0.0" y="302" width="600" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="Oqf-PI-ExC"/>
+                                    <constraint firstAttribute="height" constant="50" id="Oqf-PI-ExC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
                                 <state key="normal" title="Reference Medications">
@@ -274,33 +276,91 @@
                                     <segue destination="jdP-zK-tTX" kind="show" id="yY9-Fx-zRM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-QI-XzH" customClass="RoundButton" customModule="PocketDoc_Airlink" customModuleProvider="target">
+                                <rect key="frame" x="41" y="13" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="1S5-fT-814"/>
+                                    <constraint firstAttribute="width" constant="75" id="Uvg-ur-IoX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Call Helenka">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="callHelenka:" destination="SYK-aW-MAk" eventType="touchUpInside" id="KDM-H3-sN8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRf-vI-YTb" customClass="RoundButton" customModule="PocketDoc_Airlink" customModuleProvider="target">
+                                <rect key="frame" x="484" y="13" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="WN3-KH-avs"/>
+                                    <constraint firstAttribute="width" constant="75" id="ye2-0w-feG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Call Rod">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="callRod:" destination="SYK-aW-MAk" eventType="touchUpInside" id="Us7-t3-jv7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="LtH-ep-HRe" secondAttribute="bottom" constant="-64" id="0Bv-k4-cwL"/>
                             <constraint firstItem="sPg-JK-msu" firstAttribute="centerX" secondItem="eBY-D3-Fmg" secondAttribute="centerX" id="0bh-l0-OY3"/>
-                            <constraint firstItem="eBY-D3-Fmg" firstAttribute="top" secondItem="aYm-rH-flG" secondAttribute="bottom" constant="38" id="7TP-wS-hcz"/>
+                            <constraint firstItem="eBY-D3-Fmg" firstAttribute="top" secondItem="aYm-rH-flG" secondAttribute="bottom" constant="106" id="7TP-wS-hcz"/>
+                            <constraint firstItem="1TA-QI-XzH" firstAttribute="leading" secondItem="SD4-Zs-Z0s" secondAttribute="leading" constant="41" id="BBy-5n-waB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fNq-hP-x4T" secondAttribute="trailing" constant="77" id="HhS-fO-fe6"/>
                             <constraint firstItem="LtH-ep-HRe" firstAttribute="top" secondItem="aYm-rH-flG" secondAttribute="bottom" id="IKQ-ik-8lG"/>
                             <constraint firstItem="LtH-ep-HRe" firstAttribute="leading" secondItem="sPg-JK-msu" secondAttribute="leading" id="L28-WZ-5ea"/>
-                            <constraint firstItem="sPg-JK-msu" firstAttribute="top" secondItem="eBY-D3-Fmg" secondAttribute="bottom" constant="14" id="LRz-zq-82L"/>
+                            <constraint firstItem="sPg-JK-msu" firstAttribute="top" secondItem="eBY-D3-Fmg" secondAttribute="bottom" constant="48" id="LRz-zq-82L"/>
+                            <constraint firstItem="1TA-QI-XzH" firstAttribute="top" secondItem="VRf-vI-YTb" secondAttribute="top" id="Ota-nH-Y6x"/>
+                            <constraint firstItem="1TA-QI-XzH" firstAttribute="top" secondItem="aYm-rH-flG" secondAttribute="bottom" constant="13" id="SZh-Jt-LIb"/>
+                            <constraint firstAttribute="trailing" secondItem="VRf-vI-YTb" secondAttribute="trailing" constant="41" id="VgM-AF-p5c"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LtH-ep-HRe" secondAttribute="trailing" constant="-20" id="WTQ-P0-S6W"/>
                             <constraint firstItem="fNq-hP-x4T" firstAttribute="leading" secondItem="SD4-Zs-Z0s" secondAttribute="leadingMargin" constant="78" id="aWc-XC-EHx"/>
                             <constraint firstItem="91B-l9-RrC" firstAttribute="leading" secondItem="eBY-D3-Fmg" secondAttribute="leading" id="g9W-3K-MAK"/>
+                            <constraint firstItem="eBY-D3-Fmg" firstAttribute="top" secondItem="1TA-QI-XzH" secondAttribute="bottom" constant="18" id="goL-oH-cPp"/>
                             <constraint firstItem="GKE-T4-hG8" firstAttribute="top" secondItem="fNq-hP-x4T" secondAttribute="bottom" constant="6" id="ha5-qU-PB9"/>
                             <constraint firstItem="91B-l9-RrC" firstAttribute="leading" secondItem="sPg-JK-msu" secondAttribute="leading" id="jfg-F4-4h7"/>
                             <constraint firstItem="sPg-JK-msu" firstAttribute="centerX" secondItem="SD4-Zs-Z0s" secondAttribute="centerX" id="m0t-zm-UkP"/>
                             <constraint firstItem="91B-l9-RrC" firstAttribute="centerX" secondItem="eBY-D3-Fmg" secondAttribute="centerX" id="nMG-JP-DRC"/>
+                            <constraint firstItem="VRf-vI-YTb" firstAttribute="baseline" secondItem="1TA-QI-XzH" secondAttribute="firstBaseline" id="nv2-pT-70d"/>
                             <constraint firstAttribute="trailing" secondItem="91B-l9-RrC" secondAttribute="trailing" id="pAu-gc-Zfw"/>
                             <constraint firstItem="91B-l9-RrC" firstAttribute="leading" secondItem="SD4-Zs-Z0s" secondAttribute="leading" id="qbJ-sG-QRG"/>
-                            <constraint firstItem="fNq-hP-x4T" firstAttribute="top" secondItem="91B-l9-RrC" secondAttribute="bottom" priority="750" constant="184" id="sh1-IH-EEj"/>
-                            <constraint firstItem="91B-l9-RrC" firstAttribute="top" secondItem="sPg-JK-msu" secondAttribute="bottom" constant="14" id="wmm-ut-5vp"/>
+                            <constraint firstItem="fNq-hP-x4T" firstAttribute="top" secondItem="91B-l9-RrC" secondAttribute="bottom" priority="750" constant="150" id="sh1-IH-EEj"/>
+                            <constraint firstItem="91B-l9-RrC" firstAttribute="top" secondItem="sPg-JK-msu" secondAttribute="bottom" constant="48" id="wmm-ut-5vp"/>
+                            <constraint firstItem="VRf-vI-YTb" firstAttribute="top" secondItem="aYm-rH-flG" secondAttribute="bottom" constant="13" id="yBp-E1-HEa"/>
+                            <constraint firstItem="1TA-QI-XzH" firstAttribute="baseline" secondItem="VRf-vI-YTb" secondAttribute="firstBaseline" id="zFO-ft-hSu"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7TP-wS-hcz"/>
+                            </mask>
+                        </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="WT6-rC-N2j"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
+                        <outlet property="callButton" destination="1TA-QI-XzH" id="IRk-0b-mGv"/>
                         <outlet property="notesButton" destination="sPg-JK-msu" id="gvY-Nf-7P6"/>
                         <outlet property="refArticles" destination="eBY-D3-Fmg" id="PdI-A1-qpt"/>
                         <outlet property="refMeds" destination="91B-l9-RrC" id="OoS-SC-u3r"/>
@@ -326,7 +386,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Dg-Vp-13F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1266" y="1920"/>
+            <point key="canvasLocation" x="1112" y="1944"/>
         </scene>
         <!--Medicine Table View Controller-->
         <scene sceneID="A83-lG-pEC">
@@ -378,7 +438,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bkw-vX-SOZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1918" y="1968"/>
+            <point key="canvasLocation" x="2040" y="1812"/>
         </scene>
         <!--Medicine View Controller-->
         <scene sceneID="pSq-dH-OXn">
@@ -456,7 +516,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XH7-GQ-HXk" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2853" y="1992"/>
+            <point key="canvasLocation" x="2773" y="1794"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZoX-aO-YFR">

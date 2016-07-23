@@ -10,12 +10,21 @@ import UIKit
 
 class ButtonViewController: UIViewController {
     
+    @IBAction func callRod(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "tel://8307089137")!)
+    }
+    
+    @IBAction func callHelenka(sender: AnyObject) {
+        
+        UIApplication.sharedApplication().openURL(NSURL(string:"tel://5414195220")!)
+    }
     @IBOutlet weak var refArticles: UIButton!
     @IBOutlet weak var refMeds: UIButton!
+    @IBOutlet weak var callButton: UIButton!
     @IBOutlet weak var notesButton: UIButton!
-    @IBOutlet weak var PhoneNumBtn: UIButton!
+
     
-    let buttonColor:UIColor = UIColor.redColor()
+    let buttonColor:UIColor = UIColor.whiteColor()
     let barColorTint:UIColor = UIColor(red:0.94, green:0.33, blue:0.31, alpha:1.0)
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,21 +51,6 @@ class ButtonViewController: UIViewController {
         
     }
     
-    func borders(){
-        
-        //let lighterColor = UIColor(red:0.96, green:0.26, blue:0.21, alpha:1.0)
-        //self.refArticles.layer.cornerRadius = 2.0
-        //self.refArticles.layer.borderWidth = 1.0
-        //self.refArticles.layer.borderColor = UIColor.redColor().CGColor
-        //refArticles.backgroundColor = buttonColor
-        //refMeds.backgroundColor = buttonColor
-        //self.refMeds.layer.cornerRadius = 2.0
-        //PhoneNumBtn.backgroundColor = buttonColor
-        //notesButton.backgroundColor = buttonColor
-        //self.refMeds.layer.borderWidth = 1.0
-        //refMeds.layer.borderColor = UIColor.redColor().CGColor
-        
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -65,7 +59,8 @@ class ButtonViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         //navigationController!.navigationBar.barTintColor = UIColor.redColor()
-        borders()
+        
     }
     
-   }
+    
+}

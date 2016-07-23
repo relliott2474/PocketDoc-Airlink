@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
+		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
+		01AE41991D1DBF9B00B3D720 /* Dangerous patient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41981D1DBF9B00B3D720 /* Dangerous patient.pdf */; };
+		01AE419B1D1DBFA600B3D720 /* Hazmat Transport.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE419A1D1DBFA600B3D720 /* Hazmat Transport.pdf */; };
+		01AE419D1D1DBFBC00B3D720 /* Air vs ground Algorhithm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE419C1D1DBFBC00B3D720 /* Air vs ground Algorhithm.pdf */; };
+		01AE419F1D1DBFDC00B3D720 /* Pediatric RSI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE419E1D1DBFDC00B3D720 /* Pediatric RSI.pdf */; };
+		01AE41A11D1DC05300B3D720 /* Death in feild guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41A01D1DC05300B3D720 /* Death in feild guideline.pdf */; };
+		01AE41A31D1DC07000B3D720 /* External Jugular Cannulation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41A21D1DC07000B3D720 /* External Jugular Cannulation.pdf */; };
+		01AE41A51D1DC29100B3D720 /* Refusal of care guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41A41D1DC29100B3D720 /* Refusal of care guideline.pdf */; };
+		01AE41A71D1DC37100B3D720 /* Echarotomy guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41A61D1DC37100B3D720 /* Echarotomy guideline.pdf */; };
+		01C68DA61D3FE07200B3E341 /* Istat Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C68DA51D3FE07200B3E341 /* Istat Guidelines.pdf */; };
+		01CFAC9B1D21BB7E002652D7 /* OHSU Coag Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01CFAC9A1D21BB7E002652D7 /* OHSU Coag Reversal.pdf */; };
+		01D5101D1D41370A00803366 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5101C1D41370A00803366 /* RoundButton.swift */; };
 		BD3A19481D14926200A3FF80 /* heli_vert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19471D14926200A3FF80 /* heli_vert.jpg */; };
 		BD3A194A1D14935300A3FF80 /* Header Airlink.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3A19491D14935300A3FF80 /* Header Airlink.png */; };
 		BD3A19701D14976900A3FF80 /*  DKA adults.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */; };
@@ -52,7 +64,6 @@
 		BD68A06F1D1372AF00DF536D /* thickLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD68A06E1D1372AF00DF536D /* thickLine@2x.png */; };
 		BD83CDE61D01F880004A756C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE41D01F880004A756C /* Main.storyboard */; };
 		BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE71D01F880004A756C /* Assets.xcassets */; };
-		BD83CDEB1D01F880004A756C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */; };
 		BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF21D01F90C004A756C /* DataManager.swift */; };
 		BD83CDF51D01F930004A756C /* MedicinesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */; };
 		BD83CDF71D01F93C004A756C /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF61D01F93C004A756C /* NotesTableViewController.swift */; };
@@ -66,6 +77,18 @@
 
 /* Begin PBXFileReference section */
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01AE41981D1DBF9B00B3D720 /* Dangerous patient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dangerous patient.pdf"; sourceTree = "<group>"; };
+		01AE419A1D1DBFA600B3D720 /* Hazmat Transport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hazmat Transport.pdf"; sourceTree = "<group>"; };
+		01AE419C1D1DBFBC00B3D720 /* Air vs ground Algorhithm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Air vs ground Algorhithm.pdf"; sourceTree = "<group>"; };
+		01AE419E1D1DBFDC00B3D720 /* Pediatric RSI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pediatric RSI.pdf"; sourceTree = "<group>"; };
+		01AE41A01D1DC05300B3D720 /* Death in feild guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Death in feild guideline.pdf"; sourceTree = "<group>"; };
+		01AE41A21D1DC07000B3D720 /* External Jugular Cannulation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "External Jugular Cannulation.pdf"; sourceTree = "<group>"; };
+		01AE41A41D1DC29100B3D720 /* Refusal of care guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Refusal of care guideline.pdf"; sourceTree = "<group>"; };
+		01AE41A61D1DC37100B3D720 /* Echarotomy guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Echarotomy guideline.pdf"; sourceTree = "<group>"; };
+		01C68DA51D3FE07200B3E341 /* Istat Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Istat Guidelines.pdf"; sourceTree = "<group>"; };
+		01CFAC9A1D21BB7E002652D7 /* OHSU Coag Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "OHSU Coag Reversal.pdf"; sourceTree = "<group>"; };
+		01D5101C1D41370A00803366 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		BD3A19471D14926200A3FF80 /* heli_vert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = heli_vert.jpg; path = ../heli_vert.jpg; sourceTree = "<group>"; };
 		BD3A19491D14935300A3FF80 /* Header Airlink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Header Airlink.png"; sourceTree = "<group>"; };
 		BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = " DKA adults.pdf"; sourceTree = "<group>"; };
@@ -111,7 +134,6 @@
 		BD83CDDD1D01F87F004A756C /* PocketDoc-Airlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketDoc-Airlink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD83CDE51D01F880004A756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD83CDE71D01F880004A756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD83CDEA1D01F880004A756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD83CDEC1D01F880004A756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD83CDF21D01F90C004A756C /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicinesTableViewCell.swift; sourceTree = "<group>"; };
@@ -167,6 +189,14 @@
 		BD3A194E1D14976900A3FF80 /* Medical */ = {
 			isa = PBXGroup;
 			children = (
+				01AE41A61D1DC37100B3D720 /* Echarotomy guideline.pdf */,
+				01AE419C1D1DBFBC00B3D720 /* Air vs ground Algorhithm.pdf */,
+				01AE41981D1DBF9B00B3D720 /* Dangerous patient.pdf */,
+				01AE41A41D1DC29100B3D720 /* Refusal of care guideline.pdf */,
+				01AE41A21D1DC07000B3D720 /* External Jugular Cannulation.pdf */,
+				01AE41A01D1DC05300B3D720 /* Death in feild guideline.pdf */,
+				01AE419A1D1DBFA600B3D720 /* Hazmat Transport.pdf */,
+				01AE419E1D1DBFDC00B3D720 /* Pediatric RSI.pdf */,
 				BD3A194F1D14976900A3FF80 /*  DKA adults.pdf */,
 				BD3A19501D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf */,
 				BD3A19511D14976900A3FF80 /* Acute Coronary Syndrome (1).pdf */,
@@ -188,8 +218,10 @@
 				BD3A19611D14976900A3FF80 /* Hypothermia.pdf */,
 				BD3A19621D14976900A3FF80 /* ICH.pdf */,
 				BD3A19631D14976900A3FF80 /* Insulin.pdf */,
+				01C68DA51D3FE07200B3E341 /* Istat Guidelines.pdf */,
 				BD3A19641D14976900A3FF80 /* MAD.pdf */,
 				BD3A19651D14976900A3FF80 /* Narcotics and Opiates.pdf */,
+				01CFAC9A1D21BB7E002652D7 /* OHSU Coag Reversal.pdf */,
 				BD8B05E31D14A95300B5F90B /* Peds Burn.pdf */,
 				BD8B05E11D14A90D00B5F90B /* Platelets During Transport.pdf */,
 				BD3A19661D14976900A3FF80 /* Rhabdomyolysis.pdf */,
@@ -228,6 +260,7 @@
 				019419511D1AE53D003A9618 /* EmailViewController.swift */,
 				BD83CDE41D01F880004A756C /* Main.storyboard */,
 				BD83CDFC1D01F978004A756C /* ButtonViewController.swift */,
+				01D5101C1D41370A00803366 /* RoundButton.swift */,
 				BD83CDFA1D01F96E004A756C /* AppDelegate.swift */,
 				BD3A19421D138C7600A3FF80 /* Medicine Viewer */,
 				BD3A19411D138C5E00A3FF80 /* Notes Viewer */,
@@ -238,7 +271,7 @@
 				BD3A19471D14926200A3FF80 /* heli_vert.jpg */,
 				BD3A194E1D14976900A3FF80 /* Medical */,
 				BD68A06E1D1372AF00DF536D /* thickLine@2x.png */,
-				BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */,
+				019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */,
 				BD83CDEC1D01F880004A756C /* Info.plist */,
 				BD68A0591D133B1500DF536D /* pdf List.plist */,
 				BD68A06C1D13548600DF536D /* Meds List.plist */,
@@ -316,19 +349,27 @@
 				BD68A06F1D1372AF00DF536D /* thickLine@2x.png in Resources */,
 				BD3A19801D14976900A3FF80 /* Hypoglycemia.pdf in Resources */,
 				BD3A19791D14976900A3FF80 /* CVA Stroke one.pdf in Resources */,
+				01CFAC9B1D21BB7E002652D7 /* OHSU Coag Reversal.pdf in Resources */,
+				01AE41A31D1DC07000B3D720 /* External Jugular Cannulation.pdf in Resources */,
+				01AE41A11D1DC05300B3D720 /* Death in feild guideline.pdf in Resources */,
 				BD3A19761D14976900A3FF80 /* Asthma - Adult.pdf in Resources */,
+				01AE419B1D1DBFA600B3D720 /* Hazmat Transport.pdf in Resources */,
 				BD68A06D1D13548600DF536D /* Meds List.plist in Resources */,
 				BD8B05E41D14A95300B5F90B /* Peds Burn.pdf in Resources */,
+				01AE41A51D1DC29100B3D720 /* Refusal of care guideline.pdf in Resources */,
+				01AE41991D1DBF9B00B3D720 /* Dangerous patient.pdf in Resources */,
 				BD3A197F1D14976900A3FF80 /* Hyperthermia.pdf in Resources */,
 				BD3A19901D14976900A3FF80 /* Vaginal Bleeding.pdf in Resources */,
 				BD3A197D1D14976900A3FF80 /* Hyperkalemia protocol.pdf in Resources */,
-				BD83CDEB1D01F880004A756C /* LaunchScreen.storyboard in Resources */,
 				BD3A19481D14926200A3FF80 /* heli_vert.jpg in Resources */,
 				BD3A19881D14976900A3FF80 /* Sedation guideline.pdf in Resources */,
 				BD68A0651D133B1500DF536D /* pdf List.plist in Resources */,
 				BD3A198D1D14976900A3FF80 /* Syncope.pdf in Resources */,
+				01C68DA61D3FE07200B3E341 /* Istat Guidelines.pdf in Resources */,
 				BD3A198C1D14976900A3FF80 /* Snakebite Protocol.pdf in Resources */,
 				BD3A19721D14976900A3FF80 /* Acute Coronary Syndrome (1).pdf in Resources */,
+				01AE419D1D1DBFBC00B3D720 /* Air vs ground Algorhithm.pdf in Resources */,
+				01AE419F1D1DBFDC00B3D720 /* Pediatric RSI.pdf in Resources */,
 				BD3A19871D14976900A3FF80 /* Rhabdomyolysis.pdf in Resources */,
 				BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */,
 				BD3A19841D14976900A3FF80 /* Insulin.pdf in Resources */,
@@ -338,9 +379,11 @@
 				BD3A19741D14976900A3FF80 /* Anaphylaxis Adult.pdf in Resources */,
 				BD3A19821D14976900A3FF80 /* Hypothermia.pdf in Resources */,
 				BD3A198B1D14976900A3FF80 /* Shock.pdf in Resources */,
+				01AE41A71D1DC37100B3D720 /* Echarotomy guideline.pdf in Resources */,
 				BD3A19701D14976900A3FF80 /*  DKA adults.pdf in Resources */,
 				BD3A19751D14976900A3FF80 /* Aortic Dissection.pdf in Resources */,
 				BD83CDE61D01F880004A756C /* Main.storyboard in Resources */,
+				019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */,
 				BD8B05E21D14A90D00B5F90B /* Platelets During Transport.pdf in Resources */,
 				BD3A19831D14976900A3FF80 /* ICH.pdf in Resources */,
 				BD3A19861D14976900A3FF80 /* Narcotics and Opiates.pdf in Resources */,
@@ -364,6 +407,7 @@
 				BD83CDF71D01F93C004A756C /* NotesTableViewController.swift in Sources */,
 				BD83CDFB1D01F96E004A756C /* AppDelegate.swift in Sources */,
 				BD68A04E1D132C2900DF536D /* ArticleViewController.swift in Sources */,
+				01D5101D1D41370A00803366 /* RoundButton.swift in Sources */,
 				BD68A04C1D132A6700DF536D /* ArticleTableViewController.swift in Sources */,
 				019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */,
 				BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */,
@@ -382,14 +426,6 @@
 				BD83CDE51D01F880004A756C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BD83CDE91D01F880004A756C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD83CDEA1D01F880004A756C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -471,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -484,9 +520,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -496,9 +534,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

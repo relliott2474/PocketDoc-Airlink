@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heli_vert.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hlw-Cc-2Mz">
+                                <rect key="frame" x="-44" y="0.0" width="644" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bend/K Falls" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K57-wa-HNR">
+                                <rect key="frame" x="71" y="79" width="107" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="g6R-IU-rKG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airlink" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="20" y="28" width="155" height="43"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="GIf-8V-c9E"/>
+                                    <constraint firstAttribute="width" constant="155" id="GvJ-GX-Jif"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2016 Rod Elliott-Mullens. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="20" y="559" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85070833329999995" green="0.85070833329999995" blue="0.85070833329999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="K57-wa-HNR" secondAttribute="trailing" constant="402" id="34b-6X-0G4"/>
+                            <constraint firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstItem="K57-wa-HNR" firstAttribute="trailing" secondItem="GJd-Yh-RWb" secondAttribute="trailing" constant="3" id="8DF-7g-spD"/>
+                            <constraint firstItem="K57-wa-HNR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="Cpj-qs-PF2"/>
+                            <constraint firstItem="K57-wa-HNR" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" constant="8" symbolic="YES" id="Gy6-XA-vww"/>
+                            <constraint firstItem="hlw-Cc-2Mz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-64" id="IRs-Gf-rHz"/>
+                            <constraint firstItem="hlw-Cc-2Mz" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="Jy9-gi-64l"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hlw-Cc-2Mz" secondAttribute="bottom" id="NTm-5k-oHq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hlw-Cc-2Mz" secondAttribute="trailing" constant="-20" id="Qil-oS-0CC"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" symbolic="YES" id="UKr-EG-InY"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="K57-wa-HNR" secondAttribute="bottom" constant="450" id="V18-zE-mWr"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="hlw-Cc-2Mz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="hIi-hR-pep"/>
+                            <constraint firstItem="hlw-Cc-2Mz" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="kgI-WG-7Dz"/>
+                            <constraint firstItem="hlw-Cc-2Mz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="pcz-Qn-Rzx"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="obG-Y5-kRd" secondAttribute="leading" id="sgO-Y9-fgH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jy9-gi-64l"/>
+                                <exclude reference="kgI-WG-7Dz"/>
+                                <exclude reference="pcz-Qn-Rzx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heli_vert.jpg" width="600" height="901"/>
+    </resources>
+</document>

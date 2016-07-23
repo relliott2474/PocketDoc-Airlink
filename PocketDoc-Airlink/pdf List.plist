@@ -13,10 +13,8 @@
 	<dict>
 		<key>pdf name</key>
 		<string>Abdominal Pain not related to pregnancy or trauma</string>
-	</dict>
-	<dict>
-		<key>pdf name</key>
-		<string>OHSU Coag Reversal</string>
+		<key>type</key>
+		<string>OB</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
@@ -129,6 +127,46 @@
 	<dict>
 		<key>pdf name</key>
 		<string>Vaginal Bleeding</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Air vs ground Algorhithm</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Dangerous patient</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>External Jugular Cannulation</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Death in feild guideline</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Hazmat Transport</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric RSI</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Refusal of care guideline</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Echarotomy guideline</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>OHSU Coag Reversal</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Istat Guidelines</string>
 	</dict>
 </array>
 </plist>
