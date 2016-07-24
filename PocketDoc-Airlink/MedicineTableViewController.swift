@@ -21,7 +21,7 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
     func loadTableData(){
         let path = NSBundle.mainBundle().pathForResource("Meds List", ofType:"plist")
         cellContent = NSArray(contentsOfFile:path!)!
-        //print("loaded cell content is \(cellContent)")
+        print("loaded cell content is \(cellContent)")
         let descriptor: NSSortDescriptor = NSSortDescriptor(key: "name", ascending: true)
         let sortedResults: NSArray = cellContent.sortedArrayUsingDescriptors([descriptor])
         meds = sortedResults as! [NSDictionary]

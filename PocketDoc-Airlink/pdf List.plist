@@ -5,8 +5,12 @@
 	<dict>
 		<key>pdf name</key>
 		<string>Aortic Dissection</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
+		<key>type</key>
+		<string>Adult</string>
 		<key>pdf name</key>
 		<string>Asthma - Adult</string>
 	</dict>
@@ -19,154 +23,314 @@
 	<dict>
 		<key>pdf name</key>
 		<string>Altered Mental Status</string>
+		<key>type</key>
+		<string>OB</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Anaphylaxis Adult</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Blood protocol</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>CVA Stroke one</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Drowning</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Frostbite</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>General Overdose</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
+		<key>type</key>
+		<string>Adult</string>
 		<key>pdf name</key>
 		<string>Hyperkalemia protocol</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Acute Coronary Syndrome (1)</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Hypertension not related to pregnancy.(1)</string>
+		<string>Hypertension not related to pregnancy</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
+		<key>type</key>
+		<string>Adult</string>
 		<key>pdf name</key>
 		<string>Hyperthermia</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Hypothermia</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>ICH</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Insulin</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>MAD</string>
+		<string>Mucosal Atomizer Device</string>
+		<key>type</key>
+		<string>Pediatric</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Narcotics and Opiates</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Peds Burn</string>
+		<key>type</key>
+		<string>Pediatrics</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Platelets During Transport</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Rhabdomyolysis</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Sedation guideline</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Seizure  Adult</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Sepsis, Septic Shock, Adult</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Shock</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Snakebite Protocol</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Syncope</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Therapeutic Hypothermia</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Tylenol Overdose</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
+		<key>type</key>
+		<string>OB</string>
 		<key>pdf name</key>
 		<string>Vaginal Bleeding</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Air vs ground Algorhithm</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Dangerous patient</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>External Jugular Cannulation</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Death in feild guideline</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Hazmat Transport</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
+		<key>type</key>
+		<string>Pediatric</string>
 		<key>pdf name</key>
 		<string>Pediatric RSI</string>
 	</dict>
 	<dict>
+		<key>type</key>
+		<string>Adult</string>
 		<key>pdf name</key>
 		<string>Refusal of care guideline</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Echarotomy guideline</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>OHSU Coag Reversal</string>
+		<key>type</key>
+		<string>Adult</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
 		<string>Istat Guidelines</string>
+		<key>type</key>
+		<string>Adult</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Terbutaline Sulfate Protocol</string>
+		<key>type</key>
+		<string>OB</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pregnancy Induced Hypertension</string>
+		<key>type</key>
+		<string>OB</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Postpartum Hemorrhage</string>
+		<key>type</key>
+		<string>OB</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatic Sepsis, Meningitis</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric Seizures</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric Sedation for Intubated Patients</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric Head Injury</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric Fluid Maintenance</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric Fluid Maintenanc</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric DKA Protocol</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Peds Burn</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric Asthma</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatric Anaphylaxis</string>
+		<key>type</key>
+		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pediatirc Blood Loss, Shock Protocol</string>
+		<key>type</key>
+		<string>Pediatric</string>
 	</dict>
 </array>
 </plist>

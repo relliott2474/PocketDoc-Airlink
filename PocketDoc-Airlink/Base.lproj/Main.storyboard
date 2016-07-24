@@ -8,33 +8,129 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Article Button View Controller-->
+        <scene sceneID="laK-cU-H7O">
+            <objects>
+                <viewController id="RhC-Uv-FE0" customClass="ArticleButtonViewController" customModule="PocketDoc_Airlink" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P7J-av-FwJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dfq-Je-UQ0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xsh-vR-JC9">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heli_vert.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HlN-D1-NOK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSc-85-Dyc">
+                                <rect key="frame" x="167" y="52" width="266" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="JTp-LB-5Qf"/>
+                                    <constraint firstAttribute="width" constant="266" id="uyZ-mR-ALE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <state key="normal" title="Adult Guidelines">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="adultGuide:" destination="RhC-Uv-FE0" eventType="touchUpInside" id="H6b-dP-kh4"/>
+                                    <segue destination="Py4-qm-rs1" kind="show" identifier="Adult" id="ocb-98-sE2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEe-8D-URL">
+                                <rect key="frame" x="167" y="224" width="266" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="7tX-UZ-zQo"/>
+                                    <constraint firstAttribute="height" constant="45" id="eLl-91-qyt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <state key="normal" title="OB Guidelines">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="obGuide:" destination="RhC-Uv-FE0" eventType="touchUpInside" id="DMe-Jh-37N"/>
+                                    <segue destination="Py4-qm-rs1" kind="show" identifier="OB" id="KMl-Ee-oNp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tn-uI-J8c">
+                                <rect key="frame" x="167" y="138" width="266" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="GlH-Li-iyV"/>
+                                    <constraint firstAttribute="width" constant="266" id="T4O-Dr-xAi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <state key="normal" title="Pediatric Guidelines">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pediatricGuide:" destination="RhC-Uv-FE0" eventType="touchUpInside" id="Xok-Yi-c7n"/>
+                                    <segue destination="Py4-qm-rs1" kind="show" identifier="Pediatric" id="HmW-VW-uF8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HlN-D1-NOK" firstAttribute="centerX" secondItem="uEe-8D-URL" secondAttribute="centerX" id="9n1-XB-9jq"/>
+                            <constraint firstItem="HlN-D1-NOK" firstAttribute="top" secondItem="P7J-av-FwJ" secondAttribute="bottom" id="Ln1-o3-wiF"/>
+                            <constraint firstItem="uEe-8D-URL" firstAttribute="top" secondItem="2Tn-uI-J8c" secondAttribute="bottom" constant="41" id="RQh-SL-7OG"/>
+                            <constraint firstItem="uEe-8D-URL" firstAttribute="centerX" secondItem="Xsh-vR-JC9" secondAttribute="centerX" id="Tje-Ko-KHP"/>
+                            <constraint firstItem="2Tn-uI-J8c" firstAttribute="centerX" secondItem="Xsh-vR-JC9" secondAttribute="centerX" id="W38-yy-Noe"/>
+                            <constraint firstItem="BSc-85-Dyc" firstAttribute="top" secondItem="P7J-av-FwJ" secondAttribute="bottom" constant="52" id="dIW-qh-OMR"/>
+                            <constraint firstItem="HlN-D1-NOK" firstAttribute="centerX" secondItem="2Tn-uI-J8c" secondAttribute="centerX" id="i6y-b4-hmI"/>
+                            <constraint firstItem="HlN-D1-NOK" firstAttribute="centerX" secondItem="BSc-85-Dyc" secondAttribute="centerX" id="ola-vw-LIp"/>
+                            <constraint firstItem="dfq-Je-UQ0" firstAttribute="top" secondItem="HlN-D1-NOK" secondAttribute="bottom" id="pfv-2u-XcL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HlN-D1-NOK" secondAttribute="trailing" constant="-20" id="r8O-Ru-luM"/>
+                            <constraint firstItem="HlN-D1-NOK" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leadingMargin" constant="-20" id="sdO-SX-dxx"/>
+                            <constraint firstItem="2Tn-uI-J8c" firstAttribute="top" secondItem="BSc-85-Dyc" secondAttribute="bottom" constant="41" id="tSt-ki-v4U"/>
+                            <constraint firstItem="BSc-85-Dyc" firstAttribute="centerX" secondItem="Xsh-vR-JC9" secondAttribute="centerX" id="zmJ-Lc-NIL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9n1-XB-9jq"/>
+                                <exclude reference="i6y-b4-hmI"/>
+                                <exclude reference="ola-vw-LIp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rbW-hq-2Sf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2040" y="243"/>
+        </scene>
         <!--Article Table View Controller-->
         <scene sceneID="U4l-KS-edZ">
             <objects>
                 <tableViewController id="Py4-qm-rs1" customClass="ArticleTableViewController" customModule="PocketDoc_Airlink" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nfn-7W-jjZ">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nfn-7W-jjZ">
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="articleCell" id="qhS-mq-mmm" customClass="MedicinesTableViewCell" customModule="PocketDoc_Airlink" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="articleCell" id="qhS-mq-mmm" customClass="ArticleTableViewCell" customModule="PocketDoc_Airlink" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="45"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qhS-mq-mmm" id="nez-zg-XBs">
-                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wA-WZ-KJJ">
-                                            <rect key="frame" x="15" y="0.0" width="414" height="43"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wA-WZ-KJJ">
+                                            <rect key="frame" x="15" y="0.0" width="534" height="43"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="4wA-WZ-KJJ" secondAttribute="bottom" constant="-7" id="WfG-01-iyA"/>
+                                        <constraint firstItem="4wA-WZ-KJJ" firstAttribute="top" secondItem="nez-zg-XBs" secondAttribute="topMargin" constant="-8" id="tTI-9c-aeR"/>
+                                        <constraint firstItem="4wA-WZ-KJJ" firstAttribute="leading" secondItem="nez-zg-XBs" secondAttribute="leadingMargin" constant="7" id="vKJ-O0-FyV"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="4wA-WZ-KJJ" secondAttribute="trailing" constant="10" id="xgS-O9-qQ5"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <inset key="separatorInset" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
-                                    <outlet property="mainName" destination="4wA-WZ-KJJ" id="K5E-4e-eVN"/>
+                                    <outlet property="mainName" destination="4wA-WZ-KJJ" id="JkI-em-AgP"/>
                                     <segue destination="Y5C-xt-WWa" kind="show" id="ux2-fk-kxZ"/>
                                 </connections>
                             </tableViewCell>
@@ -48,7 +144,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0N-PP-eag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2020" y="150"/>
+            <point key="canvasLocation" x="2847" y="243"/>
         </scene>
         <!--Article View Controller-->
         <scene sceneID="Gtx-A5-1M5">
@@ -81,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vE-hI-PLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2782" y="150"/>
+            <point key="canvasLocation" x="3608" y="243"/>
         </scene>
         <!--Notes View Controller-->
         <scene sceneID="K2C-or-XVv">
@@ -243,7 +339,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Py4-qm-rs1" kind="show" id="X4v-XM-Pat"/>
+                                    <segue destination="RhC-Uv-FE0" kind="show" id="dnX-Yr-7uw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPg-JK-msu">
@@ -542,6 +638,7 @@
         <image name="thickLine.png" width="212" height="3"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="ocb-98-sE2"/>
         <segue reference="S4w-L2-wYf"/>
     </inferredMetricsTieBreakers>
 </document>

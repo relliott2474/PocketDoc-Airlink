@@ -60,7 +60,7 @@
 		<key>name</key>
 		<string>Lidocaine</string>
 		<key>dose range</key>
-		<string> Dose: Load: 0.7-1.4mg/kg then dose 1-4 mg/min infusion</string>
+		<string>Dose: Load: 0.7-1.4mg/kg then dose 1-4 mg/min infusion</string>
 		<key>textinfo</key>
 		<string>max over 24 hours 30-50 mcg/kg/min </string>
 	</dict>
