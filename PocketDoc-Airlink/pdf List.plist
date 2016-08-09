@@ -208,7 +208,7 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Death in feild guideline</string>
+		<string>Death in field guideline</string>
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
@@ -232,7 +232,7 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Echarotomy guideline</string>
+		<string>Escharotomy guideline</string>
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
@@ -331,6 +331,66 @@
 		<string>Pediatirc Blood Loss, Shock Protocol</string>
 		<key>type</key>
 		<string>Pediatric</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>TXA Bleeding control in the trauma patient</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>SpinalImmobilization-Interfacility</string>
+		<key>Type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Head Injury Protocol</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>General Trauma Management</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Facial trauma</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Eye Trauma</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Burn protocol- Adult</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Blood Transfusion Protocol</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Amputation</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Abdominal Trauma</string>
+		<key>type</key>
+		<string>Trauma</string>
 	</dict>
 </array>
 </plist>

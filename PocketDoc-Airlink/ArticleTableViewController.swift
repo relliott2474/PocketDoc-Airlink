@@ -11,13 +11,14 @@ import UIKit
 class ArticleTableViewController: UITableViewController {
     var articles = [NSDictionary]()
     var cellContent:Array = [[String:String]]()
-    var segueName = String()
+    //var segueName = String()
+    var segueName = identified
     var filteredContent = [[String:String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadTableData(segueName)
-        self.title = "Articles"
+        loadTableData(identified)
+        self.title = identified
         //tableView.estimatedRowHeight = 44.0
         //tableView.rowHeight = UITableViewAutomaticDimension
         
@@ -80,7 +81,7 @@ class ArticleTableViewController: UITableViewController {
         //Test func for segue load
         let path = NSBundle.mainBundle().pathForResource("pdf List", ofType:"plist")
         let cellContent:Array = NSArray(contentsOfFile:path!) as! [[String:String]]
-        print("segueName = \(segueName)")
+        //print("segueName = \(segueName)")
         filteredContent = cellContent.filter{$0["type"] == segueName}
         let filtArray:NSArray = filteredContent as NSArray
         let descriptor: NSSortDescriptor = NSSortDescriptor(key: "pdf name", ascending: true)

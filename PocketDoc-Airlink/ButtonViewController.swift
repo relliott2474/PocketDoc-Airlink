@@ -15,8 +15,7 @@ class ButtonViewController: UIViewController {
     }
     
     @IBAction func callHelenka(sender: AnyObject) {
-        
-        UIApplication.sharedApplication().openURL(NSURL(string:"tel://5414195220")!)
+      UIApplication.sharedApplication().openURL(NSURL(string:"tel://5414195220")!)
     }
     @IBOutlet weak var refArticles: UIButton!
     @IBOutlet weak var refMeds: UIButton!

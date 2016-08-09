@@ -126,9 +126,9 @@ Load: 1mcg/kg over 10min (not needed when transitioning from another sedative)
 		<key>name</key>
 		<string>Tranexamic acid</string>
 		<key>dose range</key>
-		<string>Dose: 1 gram over 10 minutes </string>
+		<string>Dose: 1 gram over 10 minutes in 100cc NS</string>
 		<key>textinfo</key>
-		<string></string>
+		<string>then for infusion 1 gram IV in 100cc NS to run over 8 hours at 17.2 cc/hr.</string>
 	</dict>
 	<dict>
 		<key>picImage</key>
@@ -178,7 +178,7 @@ Load: 1mcg/kg over 10min (not needed when transitioning from another sedative)
 		<key>dose range</key>
 		<string>RSI dose 1mg/kg IV or 6.5 - 13 mg/kg IM</string>
 		<key>textinfo</key>
-		<string>Alternatively 0.1-0.5 mg/min IV continuous infusion Peds dose: 1.5 - 2 mg/kg over 30-60 sec. Ketamine is a potent sedative, amnestic, analgesic and anaesthetic agent. It has relatively little effect on the respiratory centre at the doses used. </string>
+		<string>Alternatively 0.1-0.5 mg/min IV continuous infusion  Peds dose: 1.5 - 2 mg/kg over 30-60 sec.  Ketamine is a potent sedative, amnestic, analgesic and anaesthetic agent. It has relatively little effect on the respiratory centre at the doses used. </string>
 	</dict>
 </array>
 </plist>
