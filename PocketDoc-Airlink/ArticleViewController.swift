@@ -13,6 +13,8 @@ class ArticleViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var pdfWebView: UIWebView!
         
     @IBOutlet weak var loadIndicator: UIActivityIndicatorView!
+    
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()

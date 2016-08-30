@@ -178,7 +178,19 @@ Load: 1mcg/kg over 10min (not needed when transitioning from another sedative)
 		<key>dose range</key>
 		<string>RSI dose 1mg/kg IV or 6.5 - 13 mg/kg IM</string>
 		<key>textinfo</key>
-		<string>Alternatively 0.1-0.5 mg/min IV continuous infusion  Peds dose: 1.5 - 2 mg/kg over 30-60 sec.  Ketamine is a potent sedative, amnestic, analgesic and anaesthetic agent. It has relatively little effect on the respiratory centre at the doses used. </string>
+		<string>Peds dose: 1.5 - 2 mg/kg over 30-60 sec.  Ketamine is a potent sedative, amnestic, analgesic and anaesthetic agent. It has relatively little effect on the respiratory centre at the doses used. </string>
+	</dict>
+	<dict>
+		<key>picImage</key>
+		<string></string>
+		<key>name</key>
+		<string>Glucagon</string>
+		<key>dose range</key>
+		<string>Beta Blocker OD: 1-3 units IV ( adult dose)</string>
+		<key>textinfo</key>
+		<string>Indicated for Hypoglycemia and Beta Blocker Overdose
+
+Side effects: Hypotension, N/V, Hypokalemia, Rebound Hypoglycemia Peds Dose: .025 units/kg IV/IM/SQ  May repeat up to total of 2 doses.</string>
 	</dict>
 </array>
 </plist>

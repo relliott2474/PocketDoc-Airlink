@@ -56,8 +56,6 @@ class ArticleTableViewController: UITableViewController {
     
 
     // MARK: - Navigation
-
-     //In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let destinationVC = segue.destinationViewController as! ArticleViewController
         if let indexPath = self.tableView.indexPathForSelectedRow{
@@ -78,7 +76,7 @@ class ArticleTableViewController: UITableViewController {
             articles = sortedResults as! [NSDictionary]*/
         
         
-        //Test func for segue load
+        //func for segue load
         let path = NSBundle.mainBundle().pathForResource("pdf List", ofType:"plist")
         let cellContent:Array = NSArray(contentsOfFile:path!) as! [[String:String]]
         //print("segueName = \(segueName)")
