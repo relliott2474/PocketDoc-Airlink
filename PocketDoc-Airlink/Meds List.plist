@@ -98,7 +98,7 @@
 		<key>picImage</key>
 		<string>Syringe-Full-120</string>
 		<key>name</key>
-		<string>PCC</string>
+		<string>Kcentra/PCC</string>
 		<key>dose range</key>
 		<string>Only used for life threatening bleeds</string>
 		<key>textinfo</key>
@@ -176,9 +176,20 @@ Load: 1mcg/kg over 10min (not needed when transitioning from another sedative)
 		<key>name</key>
 		<string>Ketamine</string>
 		<key>dose range</key>
-		<string>RSI dose 1mg/kg IV or 6.5 - 13 mg/kg IM</string>
+		<string>RSI dose Adult: 1-2mg/kg IV   Peds: .5 - 2mg/kg IV</string>
 		<key>textinfo</key>
-		<string>Peds dose: 1.5 - 2 mg/kg over 30-60 sec.  Ketamine is a potent sedative, amnestic, analgesic and anaesthetic agent. It has relatively little effect on the respiratory centre at the doses used. </string>
+		<string>Adult:
+
+IM dose for sedation 2-4 mg/kg
+Procedure dosing IV: 1-2 mg / kg Followed by .25-.5 mg/kg q5-10 min as needed
+For Infusion: 5-20 mcg/kg/min infusion for sedation.
+
+
+Peds:
+Procedure: .5 -2mg/kg IV May repeat .25-1mg/kg q 15 min
+Intranasal 5 mg/kg MAD
+For Infusion: 10-15mcg/kg/min
+  Ketamine is a potent sedative, amnestic, analgesic and anaesthetic agent. It has relatively little effect on the respiratory centre at the doses used. </string>
 	</dict>
 	<dict>
 		<key>picImage</key>
@@ -190,7 +201,7 @@ Load: 1mcg/kg over 10min (not needed when transitioning from another sedative)
 		<key>textinfo</key>
 		<string>Indicated for Hypoglycemia and Beta Blocker Overdose
 
-Side effects: Hypotension, N/V, Hypokalemia, Rebound Hypoglycemia Peds Dose: .025 units/kg IV/IM/SQ  May repeat up to total of 2 doses.</string>
+Side effects: Hypotension, N/V, Hypokalemia, Rebound Hypoglycemia  Peds Dose: .025 units/kg IV/IM/SQ  May repeat up to total of 2 doses.</string>
 	</dict>
 </array>
 </plist>
