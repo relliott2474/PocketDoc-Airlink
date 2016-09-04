@@ -8,14 +8,14 @@
 
 import UIKit
 
-@IBDesignable public class RoundButton:UIButton {
+public class RoundButton:UIButton {
     
-    @IBInspectable var borderColor:UIColor = UIColor.whiteColor(){
+    var borderColor:UIColor = UIColor.whiteColor(){
         didSet{
             layer.borderColor = borderColor.CGColor
             }
         }
-    @IBInspectable var borderWidth:CGFloat = 2.0{
+    var borderWidth:CGFloat = 2.0{
         didSet{
             layer.borderWidth = borderWidth
             }
