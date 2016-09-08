@@ -12,15 +12,13 @@ import UIKit
 class ButtonViewController: UIViewController {
     
     @IBAction func callRod(sender: AnyObject) {
-        notify2("Rod")
-        
-        //UIApplication.sharedApplication().openURL(NSURL(string: "tel://8307089137")!)
+        notify("Rod", number:"tel://8307089137")
     }
     
     @IBAction func callHelenka(sender: AnyObject) {
-        notify2("Helenka")
-      //UIApplication.sharedApplication().openURL(NSURL(string:"tel://5414195220")!)
+        notify("Helenka", number: "tel://5414195220")
     }
+    
     @IBOutlet weak var refArticles: UIButton!
     @IBOutlet weak var refMeds: UIButton!
     @IBOutlet weak var callButton: UIButton!
@@ -65,15 +63,16 @@ class ButtonViewController: UIViewController {
         
     }
     
-    func notify2(name:String){
+    func notify(name:String, number:String){
         
         let callAlert = UIAlertController(title: "Call", message: "Do you wish to call \(name)?", preferredStyle: UIAlertControllerStyle.Alert)
         
         callAlert.addAction(UIAlertAction(title: "Yes", style: .Default, handler: {( action:UIAlertAction!) in
-            UIApplication.sharedApplication().openURL(NSURL(string: "tel://8307089137")!)}
+            UIApplication.sharedApplication().openURL(NSURL(string: number)!)}
             ))
         
         callAlert.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
+        
         self.presentViewController(callAlert, animated:true, completion:nil)
     }
     
