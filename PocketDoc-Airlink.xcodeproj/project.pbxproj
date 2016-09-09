@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01302B081D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01302B071D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
 		0197513B1D58ED3100EE40C8 /* Abdominal Trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0197512F1D58ED3100EE40C8 /* Abdominal Trauma.pdf */; };
@@ -30,7 +31,6 @@
 		01AE41A51D1DC29100B3D720 /* Refusal of care guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41A41D1DC29100B3D720 /* Refusal of care guideline.pdf */; };
 		01AE41A71D1DC37100B3D720 /* Escharotomy guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41A61D1DC37100B3D720 /* Escharotomy guideline.pdf */; };
 		01C68DA61D3FE07200B3E341 /* Istat Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C68DA51D3FE07200B3E341 /* Istat Guidelines.pdf */; };
-		01CFAC9B1D21BB7E002652D7 /* OHSU Coag Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01CFAC9A1D21BB7E002652D7 /* OHSU Coag Reversal.pdf */; };
 		01D5101D1D41370A00803366 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5101C1D41370A00803366 /* RoundButton.swift */; };
 		01DFE8DC1D43DFC600BDCDB1 /* ArticleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DFE8DB1D43DFC600BDCDB1 /* ArticleButtonViewController.swift */; };
 		01DFE8DE1D45761800BDCDB1 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DFE8DD1D45761800BDCDB1 /* ArticleTableViewCell.swift */; };
@@ -105,6 +105,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01302B071D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Anticoagulation Reversal.pdf"; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0197512F1D58ED3100EE40C8 /* Abdominal Trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Abdominal Trauma.pdf"; path = "../../Abdominal Trauma.pdf"; sourceTree = "<group>"; };
@@ -128,7 +129,6 @@
 		01AE41A41D1DC29100B3D720 /* Refusal of care guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Refusal of care guideline.pdf"; sourceTree = "<group>"; };
 		01AE41A61D1DC37100B3D720 /* Escharotomy guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Escharotomy guideline.pdf"; sourceTree = "<group>"; };
 		01C68DA51D3FE07200B3E341 /* Istat Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Istat Guidelines.pdf"; sourceTree = "<group>"; };
-		01CFAC9A1D21BB7E002652D7 /* OHSU Coag Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "OHSU Coag Reversal.pdf"; sourceTree = "<group>"; };
 		01D5101C1D41370A00803366 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		01DFE8DB1D43DFC600BDCDB1 /* ArticleButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleButtonViewController.swift; sourceTree = "<group>"; };
 		01DFE8DD1D45761800BDCDB1 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 				01C68DA51D3FE07200B3E341 /* Istat Guidelines.pdf */,
 				BD3A19641D14976900A3FF80 /* Mucosal Atomizer Device.pdf */,
 				BD3A19651D14976900A3FF80 /* Narcotics and Opiates.pdf */,
-				01CFAC9A1D21BB7E002652D7 /* OHSU Coag Reversal.pdf */,
+				01302B071D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf */,
 				01DFE8E71D4579E900BDCDB1 /* Pediatirc Blood Loss, Shock Protocol.pdf */,
 				01DFE8DF1D4579B800BDCDB1 /* Pediatric Anaphylaxis.pdf */,
 				01DFE8E91D4579F800BDCDB1 /* Pediatric Asthma.pdf */,
@@ -448,7 +448,6 @@
 				BD3A19801D14976900A3FF80 /* Hypoglycemia.pdf in Resources */,
 				019751441D58ED3100EE40C8 /* SpinalImmobilization-Interfacility.pdf in Resources */,
 				BD3A19791D14976900A3FF80 /* CVA Stroke one.pdf in Resources */,
-				01CFAC9B1D21BB7E002652D7 /* OHSU Coag Reversal.pdf in Resources */,
 				01AE41A31D1DC07000B3D720 /* External Jugular Cannulation.pdf in Resources */,
 				01DFE8E61D4579DA00BDCDB1 /* Epiglottis and croup.pdf in Resources */,
 				01AE41A11D1DC05300B3D720 /* Death in field guideline.pdf in Resources */,
@@ -464,6 +463,7 @@
 				0197513D1D58ED3100EE40C8 /* Blood Transfusion Protocol.pdf in Resources */,
 				BD3A197D1D14976900A3FF80 /* Hyperkalemia protocol.pdf in Resources */,
 				BD3A19881D14976900A3FF80 /* Sedation guideline.pdf in Resources */,
+				01302B081D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf in Resources */,
 				BD68A0651D133B1500DF536D /* pdf List.plist in Resources */,
 				BD3A198D1D14976900A3FF80 /* Syncope.pdf in Resources */,
 				01DFE8E21D4579C500BDCDB1 /* Childbirth Normal Delivery.pdf in Resources */,
