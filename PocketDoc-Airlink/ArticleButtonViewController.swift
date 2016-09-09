@@ -58,17 +58,7 @@ class ArticleButtonViewController: UIViewController {
     }
     
 
-  
-    // MARK: - Navigation
-    /*
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let segue = segue.destinationViewController as! ArticleTableViewController
-        //segue.performSegueWithIdentifier(segueIdentifier, sender:nil)
-        //segue.segueName = segueIdentifier
-        
-        }
-    */
-    override func performSegueWithIdentifier(identifier: String, sender: AnyObject?){
+  override func performSegueWithIdentifier(identifier: String, sender: AnyObject?){
         identified = identifier
         //print("segue identifier = \(identified)")
         

@@ -11,7 +11,6 @@ import UIKit
 class ArticleTableViewController: UITableViewController {
     var articles = [NSDictionary]()
     var cellContent:Array = [[String:String]]()
-    //var segueName = String()
     var segueName = identified
     var filteredContent = [[String:String]]()
     
