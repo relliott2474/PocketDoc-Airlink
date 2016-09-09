@@ -91,6 +91,7 @@
 		BD68A0651D133B1500DF536D /* pdf List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD68A0591D133B1500DF536D /* pdf List.plist */; };
 		BD68A06D1D13548600DF536D /* Meds List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD68A06C1D13548600DF536D /* Meds List.plist */; };
 		BD68A06F1D1372AF00DF536D /* thickLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD68A06E1D1372AF00DF536D /* thickLine@2x.png */; };
+		BD6D50B31D82719B002A070B /* St Charles Coagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD6D50B21D82719B002A070B /* St Charles Coagulation Reversal.pdf */; };
 		BD83CDE61D01F880004A756C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE41D01F880004A756C /* Main.storyboard */; };
 		BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE71D01F880004A756C /* Assets.xcassets */; };
 		BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF21D01F90C004A756C /* DataManager.swift */; };
@@ -189,6 +190,7 @@
 		BD68A0591D133B1500DF536D /* pdf List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pdf List.plist"; sourceTree = "<group>"; };
 		BD68A06C1D13548600DF536D /* Meds List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Meds List.plist"; sourceTree = "<group>"; };
 		BD68A06E1D1372AF00DF536D /* thickLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thickLine@2x.png"; sourceTree = "<group>"; };
+		BD6D50B21D82719B002A070B /* St Charles Coagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Coagulation Reversal.pdf"; sourceTree = "<group>"; };
 		BD83CDDD1D01F87F004A756C /* PocketDoc-Airlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketDoc-Airlink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD83CDE51D01F880004A756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD83CDE71D01F880004A756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				BD3A19691D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf */,
 				BD3A196A1D14976900A3FF80 /* Shock.pdf */,
 				BD3A196B1D14976900A3FF80 /* Snakebite Protocol.pdf */,
+				BD6D50B21D82719B002A070B /* St Charles Coagulation Reversal.pdf */,
 				BD3A196C1D14976900A3FF80 /* Syncope.pdf */,
 				BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */,
 				BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */,
@@ -431,6 +434,7 @@
 				BD3A19781D14976900A3FF80 /* CVA Stroke one(2).pdf in Resources */,
 				019751421D58ED3100EE40C8 /* Head Injury Protocol.pdf in Resources */,
 				019751401D58ED3100EE40C8 /* Facial trauma.pdf in Resources */,
+				BD6D50B31D82719B002A070B /* St Charles Coagulation Reversal.pdf in Resources */,
 				01DFE8F21D457A1D00BDCDB1 /* Pediatric Sedation for Intubated Patients.pdf in Resources */,
 				BD3A19711D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf in Resources */,
 				BD3A19891D14976900A3FF80 /* Seizure  Adult.pdf in Resources */,
