@@ -83,6 +83,7 @@
 		BD3A198E1D14976900A3FF80 /* Therapeutic Hypothermia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */; };
 		BD3A198F1D14976900A3FF80 /* Tylenol Overdose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */; };
 		BD3A19901D14976900A3FF80 /* Vaginal Bleeding.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */; };
+		BD4D63611D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4D63601D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf */; };
 		BD68A04A1D13266100DF536D /* Airlink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD68A0481D13266100DF536D /* Airlink.xcdatamodeld */; };
 		BD68A04C1D132A6700DF536D /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A04B1D132A6700DF536D /* ArticleTableViewController.swift */; };
 		BD68A04E1D132C2900DF536D /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A04D1D132C2900DF536D /* ArticleViewController.swift */; };
@@ -182,6 +183,7 @@
 		BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Therapeutic Hypothermia.pdf"; sourceTree = "<group>"; };
 		BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tylenol Overdose.pdf"; sourceTree = "<group>"; };
 		BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Vaginal Bleeding.pdf"; sourceTree = "<group>"; };
+		BD4D63601D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Anticoagulation Reversal.pdf"; sourceTree = "<group>"; };
 		BD68A0491D13266100DF536D /* Airlink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airlink.xcdatamodel; sourceTree = "<group>"; };
 		BD68A04B1D132A6700DF536D /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		BD68A04D1D132C2900DF536D /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 				019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */,
 				01EEC4C11D5A5C540064497F /* heli_vert.jpg */,
 				BD68A0591D133B1500DF536D /* pdf List.plist */,
+				BD4D63601D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf */,
 				BD68A06C1D13548600DF536D /* Meds List.plist */,
 			);
 			path = "PocketDoc-Airlink";
@@ -427,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4D63611D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf in Resources */,
 				BD3A198A1D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf in Resources */,
 				BD3A198F1D14976900A3FF80 /* Tylenol Overdose.pdf in Resources */,
 				BD3A19851D14976900A3FF80 /* Mucosal Atomizer Device.pdf in Resources */,

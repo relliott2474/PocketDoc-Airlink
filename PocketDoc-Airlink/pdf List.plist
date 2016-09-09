@@ -398,5 +398,11 @@
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
+	<dict>
+		<key>type</key>
+		<string>Adult</string>
+		<key>pdf name</key>
+		<string>St Charles Anticoagulation Reversal</string>
+	</dict>
 </array>
 </plist>
