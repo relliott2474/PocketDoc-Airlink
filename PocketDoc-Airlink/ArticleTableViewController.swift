@@ -74,6 +74,19 @@ class ArticleTableViewController: UITableViewController {
             let sortedResults: NSArray = cellContent.sortedArrayUsingDescriptors([descriptor])
             articles = sortedResults as! [NSDictionary]*/
         
+        /*if segueName == "Procedures"{
+            
+            let path = NSBundle.mainBundle().pathForResource("Procedure List", ofType:"plist")
+            let cellContent:NSArray = NSArray(contentsOfFile:path!) as! [[String:String]]
+            //print("segueName = \(segueName)")
+            //filteredContent = cellContent.filter{$0["type"] == segueName}
+            //let filtArray:NSArray = filteredContent as NSArray
+            let descriptor: NSSortDescriptor = NSSortDescriptor(key: "procedure name", ascending: true)
+            let sortedResults = cellContent.sortedArrayUsingDescriptors([descriptor]) as NSArray
+            articles = sortedResults as! [NSDictionary]
+            print(articles)
+            */
+
         
         //func for segue load
         let path = NSBundle.mainBundle().pathForResource("pdf List", ofType:"plist")

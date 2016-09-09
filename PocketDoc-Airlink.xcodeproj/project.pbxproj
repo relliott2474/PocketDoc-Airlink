@@ -83,7 +83,13 @@
 		BD3A198E1D14976900A3FF80 /* Therapeutic Hypothermia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */; };
 		BD3A198F1D14976900A3FF80 /* Tylenol Overdose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */; };
 		BD3A19901D14976900A3FF80 /* Vaginal Bleeding.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */; };
-		BD4D63611D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4D63601D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf */; };
+		BD4363D31D8298BA008E30FF /* PEEP Reccs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4363D21D8298BA008E30FF /* PEEP Reccs.pdf */; };
+		BD4363D61D829A57008E30FF /* Femoral ABG Procedure .pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4363D51D829A57008E30FF /* Femoral ABG Procedure .pdf */; };
+		BD4363DC1D829C35008E30FF /* Multiple Patient Incident.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4363DB1D829C35008E30FF /* Multiple Patient Incident.pdf */; };
+		BD4363DE1D829D18008E30FF /* Needle Cricothyroidotomy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4363DD1D829D18008E30FF /* Needle Cricothyroidotomy.pdf */; };
+		BD4363E01D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4363DF1D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf */; };
+		BD4363E21D82A672008E30FF /* Pelvic Fracture Stablization.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4363E11D82A672008E30FF /* Pelvic Fracture Stablization.pdf */; };
+		BD4363E41D82B647008E30FF /* Ketamine Guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD4363E31D82B647008E30FF /* Ketamine Guideline.pdf */; };
 		BD68A04A1D13266100DF536D /* Airlink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD68A0481D13266100DF536D /* Airlink.xcdatamodeld */; };
 		BD68A04C1D132A6700DF536D /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A04B1D132A6700DF536D /* ArticleTableViewController.swift */; };
 		BD68A04E1D132C2900DF536D /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A04D1D132C2900DF536D /* ArticleViewController.swift */; };
@@ -92,7 +98,6 @@
 		BD68A0651D133B1500DF536D /* pdf List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD68A0591D133B1500DF536D /* pdf List.plist */; };
 		BD68A06D1D13548600DF536D /* Meds List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD68A06C1D13548600DF536D /* Meds List.plist */; };
 		BD68A06F1D1372AF00DF536D /* thickLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD68A06E1D1372AF00DF536D /* thickLine@2x.png */; };
-		BD6D50B31D82719B002A070B /* St Charles Coagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD6D50B21D82719B002A070B /* St Charles Coagulation Reversal.pdf */; };
 		BD83CDE61D01F880004A756C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE41D01F880004A756C /* Main.storyboard */; };
 		BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83CDE71D01F880004A756C /* Assets.xcassets */; };
 		BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83CDF21D01F90C004A756C /* DataManager.swift */; };
@@ -183,7 +188,13 @@
 		BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Therapeutic Hypothermia.pdf"; sourceTree = "<group>"; };
 		BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tylenol Overdose.pdf"; sourceTree = "<group>"; };
 		BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Vaginal Bleeding.pdf"; sourceTree = "<group>"; };
-		BD4D63601D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Anticoagulation Reversal.pdf"; sourceTree = "<group>"; };
+		BD4363D21D8298BA008E30FF /* PEEP Reccs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PEEP Reccs.pdf"; sourceTree = "<group>"; };
+		BD4363D51D829A57008E30FF /* Femoral ABG Procedure .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Femoral ABG Procedure .pdf"; sourceTree = "<group>"; };
+		BD4363DB1D829C35008E30FF /* Multiple Patient Incident.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Multiple Patient Incident.pdf"; path = "../Multiple Patient Incident.pdf"; sourceTree = "<group>"; };
+		BD4363DD1D829D18008E30FF /* Needle Cricothyroidotomy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Needle Cricothyroidotomy.pdf"; sourceTree = "<group>"; };
+		BD4363DF1D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Open Pneumothorax Procedure.pdf"; sourceTree = "<group>"; };
+		BD4363E11D82A672008E30FF /* Pelvic Fracture Stablization.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pelvic Fracture Stablization.pdf"; sourceTree = "<group>"; };
+		BD4363E31D82B647008E30FF /* Ketamine Guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ketamine Guideline.pdf"; sourceTree = "<group>"; };
 		BD68A0491D13266100DF536D /* Airlink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airlink.xcdatamodel; sourceTree = "<group>"; };
 		BD68A04B1D132A6700DF536D /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		BD68A04D1D132C2900DF536D /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
@@ -192,7 +203,6 @@
 		BD68A0591D133B1500DF536D /* pdf List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pdf List.plist"; sourceTree = "<group>"; };
 		BD68A06C1D13548600DF536D /* Meds List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Meds List.plist"; sourceTree = "<group>"; };
 		BD68A06E1D1372AF00DF536D /* thickLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thickLine@2x.png"; sourceTree = "<group>"; };
-		BD6D50B21D82719B002A070B /* St Charles Coagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Coagulation Reversal.pdf"; sourceTree = "<group>"; };
 		BD83CDDD1D01F87F004A756C /* PocketDoc-Airlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketDoc-Airlink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD83CDE51D01F880004A756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD83CDE71D01F880004A756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -309,6 +319,7 @@
 				01DFE8F11D457A1D00BDCDB1 /* Pediatric Sedation for Intubated Patients.pdf */,
 				01DFE8F31D457A2400BDCDB1 /* Pediatric Seizures.pdf */,
 				01DFE8F51D457A2C00BDCDB1 /* Pediatric Sepsis, Meningitis.pdf */,
+				BD4363D21D8298BA008E30FF /* PEEP Reccs.pdf */,
 				BD8B05E11D14A90D00B5F90B /* Platelets During Transport.pdf */,
 				01DFE8F71D457A3500BDCDB1 /* Postpartum Hemorrhage.pdf */,
 				01DFE8F91D457A3F00BDCDB1 /* Pregnancy Induced Hypertension.pdf */,
@@ -318,7 +329,6 @@
 				BD3A19691D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf */,
 				BD3A196A1D14976900A3FF80 /* Shock.pdf */,
 				BD3A196B1D14976900A3FF80 /* Snakebite Protocol.pdf */,
-				BD6D50B21D82719B002A070B /* St Charles Coagulation Reversal.pdf */,
 				BD3A196C1D14976900A3FF80 /* Syncope.pdf */,
 				BD3A196D1D14976900A3FF80 /* Therapeutic Hypothermia.pdf */,
 				BD3A196E1D14976900A3FF80 /* Tylenol Overdose.pdf */,
@@ -326,6 +336,19 @@
 				BD3A196F1D14976900A3FF80 /* Vaginal Bleeding.pdf */,
 			);
 			path = Medical;
+			sourceTree = "<group>";
+		};
+		BD4363D41D829985008E30FF /* Procedures */ = {
+			isa = PBXGroup;
+			children = (
+				BD4363E31D82B647008E30FF /* Ketamine Guideline.pdf */,
+				BD4363E11D82A672008E30FF /* Pelvic Fracture Stablization.pdf */,
+				BD4363DF1D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf */,
+				BD4363DD1D829D18008E30FF /* Needle Cricothyroidotomy.pdf */,
+				BD4363DB1D829C35008E30FF /* Multiple Patient Incident.pdf */,
+				BD4363D51D829A57008E30FF /* Femoral ABG Procedure .pdf */,
+			);
+			name = Procedures;
 			sourceTree = "<group>";
 		};
 		BD83CDD41D01F87F004A756C = {
@@ -365,7 +388,7 @@
 				019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */,
 				01EEC4C11D5A5C540064497F /* heli_vert.jpg */,
 				BD68A0591D133B1500DF536D /* pdf List.plist */,
-				BD4D63601D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf */,
+				BD4363D41D829985008E30FF /* Procedures */,
 				BD68A06C1D13548600DF536D /* Meds List.plist */,
 			);
 			path = "PocketDoc-Airlink";
@@ -430,7 +453,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4D63611D82944700D26C23 /* St Charles Anticoagulation Reversal.pdf in Resources */,
+				BD4363E41D82B647008E30FF /* Ketamine Guideline.pdf in Resources */,
 				BD3A198A1D14976900A3FF80 /* Sepsis, Septic Shock, Adult.pdf in Resources */,
 				BD3A198F1D14976900A3FF80 /* Tylenol Overdose.pdf in Resources */,
 				BD3A19851D14976900A3FF80 /* Mucosal Atomizer Device.pdf in Resources */,
@@ -438,7 +461,7 @@
 				BD3A19781D14976900A3FF80 /* CVA Stroke one(2).pdf in Resources */,
 				019751421D58ED3100EE40C8 /* Head Injury Protocol.pdf in Resources */,
 				019751401D58ED3100EE40C8 /* Facial trauma.pdf in Resources */,
-				BD6D50B31D82719B002A070B /* St Charles Coagulation Reversal.pdf in Resources */,
+				BD4363DE1D829D18008E30FF /* Needle Cricothyroidotomy.pdf in Resources */,
 				01DFE8F21D457A1D00BDCDB1 /* Pediatric Sedation for Intubated Patients.pdf in Resources */,
 				BD3A19711D14976900A3FF80 /* Abdominal Pain not related to pregnancy or trauma.pdf in Resources */,
 				BD3A19891D14976900A3FF80 /* Seizure  Adult.pdf in Resources */,
@@ -453,6 +476,7 @@
 				01EEC4C21D5A5C540064497F /* heli_vert.jpg in Resources */,
 				01DFE8F41D457A2400BDCDB1 /* Pediatric Seizures.pdf in Resources */,
 				BD3A19801D14976900A3FF80 /* Hypoglycemia.pdf in Resources */,
+				BD4363E21D82A672008E30FF /* Pelvic Fracture Stablization.pdf in Resources */,
 				019751441D58ED3100EE40C8 /* SpinalImmobilization-Interfacility.pdf in Resources */,
 				BD3A19791D14976900A3FF80 /* CVA Stroke one.pdf in Resources */,
 				01AE41A31D1DC07000B3D720 /* External Jugular Cannulation.pdf in Resources */,
@@ -463,6 +487,7 @@
 				BD68A06D1D13548600DF536D /* Meds List.plist in Resources */,
 				BD8B05E41D14A95300B5F90B /* Peds Burn.pdf in Resources */,
 				01AE41A51D1DC29100B3D720 /* Refusal of care guideline.pdf in Resources */,
+				BD4363DC1D829C35008E30FF /* Multiple Patient Incident.pdf in Resources */,
 				01DFE8E81D4579E900BDCDB1 /* Pediatirc Blood Loss, Shock Protocol.pdf in Resources */,
 				01AE41991D1DBF9B00B3D720 /* Dangerous patient.pdf in Resources */,
 				BD3A197F1D14976900A3FF80 /* Hyperthermia.pdf in Resources */,
@@ -473,6 +498,7 @@
 				01302B081D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf in Resources */,
 				BD68A0651D133B1500DF536D /* pdf List.plist in Resources */,
 				BD3A198D1D14976900A3FF80 /* Syncope.pdf in Resources */,
+				BD4363E01D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf in Resources */,
 				01DFE8E21D4579C500BDCDB1 /* Childbirth Normal Delivery.pdf in Resources */,
 				01C68DA61D3FE07200B3E341 /* Istat Guidelines.pdf in Resources */,
 				BD3A198C1D14976900A3FF80 /* Snakebite Protocol.pdf in Resources */,
@@ -481,8 +507,10 @@
 				01DFE8EA1D4579F800BDCDB1 /* Pediatric Asthma.pdf in Resources */,
 				01AE419D1D1DBFBC00B3D720 /* Air vs ground Algorhithm.pdf in Resources */,
 				01AE419F1D1DBFDC00B3D720 /* Pediatric RSI.pdf in Resources */,
+				BD4363D61D829A57008E30FF /* Femoral ABG Procedure .pdf in Resources */,
 				BD3A19871D14976900A3FF80 /* Rhabdomyolysis.pdf in Resources */,
 				01DFE8E41D4579CE00BDCDB1 /* Childbirth Abnormal Delivery.pdf in Resources */,
+				BD4363D31D8298BA008E30FF /* PEEP Reccs.pdf in Resources */,
 				BD83CDE81D01F880004A756C /* Assets.xcassets in Resources */,
 				019751411D58ED3100EE40C8 /* General Trauma Management.pdf in Resources */,
 				0197513B1D58ED3100EE40C8 /* Abdominal Trauma.pdf in Resources */,

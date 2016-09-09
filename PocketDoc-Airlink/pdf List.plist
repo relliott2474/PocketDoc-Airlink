@@ -393,16 +393,52 @@
 		<string>Trauma</string>
 	</dict>
 	<dict>
-		<key>pdf name</key>
-		<string>St Charles Coagulation Reversal</string>
 		<key>type</key>
 		<string>Adult</string>
+		<key>pdf name</key>
+		<string>St Charles Anticoagulation Reversal</string>
 	</dict>
 	<dict>
 		<key>type</key>
 		<string>Adult</string>
 		<key>pdf name</key>
-		<string>St Charles Anticoagulation Reversal</string>
+		<string>PEEP Reccs</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Procedures</string>
+		<key>pdf name</key>
+		<string>Needle Cricothyroidotomy</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Procedures</string>
+		<key>pdf name</key>
+		<string>Multiple Patient Incident</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Procedures</string>
+		<key>pdf name</key>
+		<string>Femoral ABG Procedure </string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Procedures</string>
+		<key>pdf name</key>
+		<string>Open Pneumothorax Procedure</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Pelvic Fracture Stablization</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Adult</string>
+		<key>pdf name</key>
+		<string>Ketamine Guideline</string>
 	</dict>
 </array>
 </plist>
