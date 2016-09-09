@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01302B081D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01302B071D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
 		0197513B1D58ED3100EE40C8 /* Abdominal Trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0197512F1D58ED3100EE40C8 /* Abdominal Trauma.pdf */; };
@@ -104,6 +105,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01302B071D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Anticoagulation Reversal.pdf"; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0197512F1D58ED3100EE40C8 /* Abdominal Trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Abdominal Trauma.pdf"; path = "../../Abdominal Trauma.pdf"; sourceTree = "<group>"; };
@@ -460,6 +462,7 @@
 				0197513D1D58ED3100EE40C8 /* Blood Transfusion Protocol.pdf in Resources */,
 				BD3A197D1D14976900A3FF80 /* Hyperkalemia protocol.pdf in Resources */,
 				BD3A19881D14976900A3FF80 /* Sedation guideline.pdf in Resources */,
+				01302B081D826F7E00B311A9 /* St Charles Anticoagulation Reversal.pdf in Resources */,
 				BD68A0651D133B1500DF536D /* pdf List.plist in Resources */,
 				BD3A198D1D14976900A3FF80 /* Syncope.pdf in Resources */,
 				01DFE8E21D4579C500BDCDB1 /* Childbirth Normal Delivery.pdf in Resources */,
