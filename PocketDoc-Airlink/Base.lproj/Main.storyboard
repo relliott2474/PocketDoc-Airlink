@@ -83,15 +83,32 @@
                                     <segue destination="Py4-qm-rs1" kind="show" identifier="Trauma" id="mji-8u-hnX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-XC-ayK">
+                                <rect key="frame" x="167" y="304" width="266" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="0iG-I5-iiy"/>
+                                    <constraint firstAttribute="height" constant="45" id="7ck-38-bhq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <state key="normal" title="Procedures">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceduresGuide:" destination="RhC-Uv-FE0" eventType="touchUpInside" id="SWi-ay-HvK"/>
+                                    <segue destination="Py4-qm-rs1" kind="show" id="UXT-qq-cig"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="HlN-D1-NOK" firstAttribute="centerX" secondItem="uEe-8D-URL" secondAttribute="centerX" id="9n1-XB-9jq"/>
                             <constraint firstItem="ma9-aF-oVd" firstAttribute="centerX" secondItem="Xsh-vR-JC9" secondAttribute="centerX" id="CL5-If-WWc"/>
+                            <constraint firstItem="6Gd-XC-ayK" firstAttribute="top" secondItem="ma9-aF-oVd" secondAttribute="bottom" constant="25" id="L15-Sq-7Qr"/>
                             <constraint firstItem="HlN-D1-NOK" firstAttribute="top" secondItem="P7J-av-FwJ" secondAttribute="bottom" id="Ln1-o3-wiF"/>
                             <constraint firstItem="uEe-8D-URL" firstAttribute="top" secondItem="2Tn-uI-J8c" secondAttribute="bottom" constant="26" id="RQh-SL-7OG"/>
                             <constraint firstItem="ma9-aF-oVd" firstAttribute="top" secondItem="uEe-8D-URL" secondAttribute="bottom" constant="26" id="RcE-4e-x8b"/>
                             <constraint firstItem="uEe-8D-URL" firstAttribute="centerX" secondItem="Xsh-vR-JC9" secondAttribute="centerX" id="Tje-Ko-KHP"/>
+                            <constraint firstItem="6Gd-XC-ayK" firstAttribute="centerX" secondItem="Xsh-vR-JC9" secondAttribute="centerX" id="UOV-jw-Ven"/>
                             <constraint firstItem="2Tn-uI-J8c" firstAttribute="centerX" secondItem="Xsh-vR-JC9" secondAttribute="centerX" id="W38-yy-Noe"/>
                             <constraint firstItem="BSc-85-Dyc" firstAttribute="top" secondItem="P7J-av-FwJ" secondAttribute="bottom" constant="20" id="dIW-qh-OMR"/>
                             <constraint firstItem="HlN-D1-NOK" firstAttribute="centerX" secondItem="2Tn-uI-J8c" secondAttribute="centerX" id="i6y-b4-hmI"/>

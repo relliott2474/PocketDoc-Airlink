@@ -19,6 +19,7 @@ class ArticleButtonViewController: UIViewController {
         case Adult = "Adult"
         case Peds = "Pediatric"
         case OB = "OB"
+        case Procedures = "Procedures"
     }
     
     var segueIdentifier = TypeArt.Empty.rawValue
@@ -46,6 +47,11 @@ class ArticleButtonViewController: UIViewController {
         performSegueWithIdentifier(segueIdentifier, sender: nil)
     }
         
+    @IBAction func proceduresGuide(sender: AnyObject) {
+        segueIdentifier = TypeArt.Procedures.rawValue
+        performSegueWithIdentifier(segueIdentifier, sender: nil)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -58,17 +64,7 @@ class ArticleButtonViewController: UIViewController {
     }
     
 
-  
-    // MARK: - Navigation
-    /*
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let segue = segue.destinationViewController as! ArticleTableViewController
-        //segue.performSegueWithIdentifier(segueIdentifier, sender:nil)
-        //segue.segueName = segueIdentifier
-        
-        }
-    */
-    override func performSegueWithIdentifier(identifier: String, sender: AnyObject?){
+  override func performSegueWithIdentifier(identifier: String, sender: AnyObject?){
         identified = identifier
         //print("segue identifier = \(identified)")
         
