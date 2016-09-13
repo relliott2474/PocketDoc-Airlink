@@ -176,7 +176,7 @@ Load: 1mcg/kg over 10min (not needed when transitioning from another sedative)
 		<key>name</key>
 		<string>Ketamine</string>
 		<key>dose range</key>
-		<string>RSI dose Adult: 1-2mg/kg IV   Peds: .5 - 2mg/kg IV</string>
+		<string>RSI dose Adult: 1-2mg/kg IV  RSI Peds: 0.5 - 2mg/kg IV</string>
 		<key>textinfo</key>
 		<string>Adult:
 

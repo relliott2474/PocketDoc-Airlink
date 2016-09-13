@@ -238,12 +238,6 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>OHSU Coag Reversal</string>
-		<key>type</key>
-		<string>Adult</string>
-	</dict>
-	<dict>
-		<key>pdf name</key>
 		<string>Istat Guidelines</string>
 		<key>type</key>
 		<string>Adult</string>
@@ -268,7 +262,7 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Pediatic Sepsis, Meningitis</string>
+		<string>Pediatric Sepsis, Meningitis</string>
 		<key>type</key>
 		<string>Pediatric</string>
 	</dict>
