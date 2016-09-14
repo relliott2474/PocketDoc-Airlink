@@ -18,8 +18,6 @@ class ArticleTableViewController: UITableViewController {
         super.viewDidLoad()
         loadTableData(identified)
         self.title = identified
-        //tableView.estimatedRowHeight = 44.0
-        //tableView.rowHeight = UITableViewAutomaticDimension
         
     }
 
@@ -64,34 +62,9 @@ class ArticleTableViewController: UITableViewController {
     }
  
     func loadTableData(segueName:String){
-        //path is the pdf list
-        // then 'filter' based on the key: "type"
-        // then display in the table the selected types of articles, sorted alphabetically
-            /*let path = NSBundle.mainBundle().pathForResource("pdf List", ofType:"plist")
-            cellContent = NSArray(contentsOfFile:path!)!
-            print("loaded cell content is \(cellContent)")
-            let descriptor: NSSortDescriptor = NSSortDescriptor(key: "pdf name", ascending: true)
-            let sortedResults: NSArray = cellContent.sortedArrayUsingDescriptors([descriptor])
-            articles = sortedResults as! [NSDictionary]*/
-        
-        /*if segueName == "Procedures"{
-            
-            let path = NSBundle.mainBundle().pathForResource("Procedure List", ofType:"plist")
-            let cellContent:NSArray = NSArray(contentsOfFile:path!) as! [[String:String]]
-            //print("segueName = \(segueName)")
-            //filteredContent = cellContent.filter{$0["type"] == segueName}
-            //let filtArray:NSArray = filteredContent as NSArray
-            let descriptor: NSSortDescriptor = NSSortDescriptor(key: "procedure name", ascending: true)
-            let sortedResults = cellContent.sortedArrayUsingDescriptors([descriptor]) as NSArray
-            articles = sortedResults as! [NSDictionary]
-            print(articles)
-            */
-
-        
         //func for segue load
         let path = NSBundle.mainBundle().pathForResource("pdf List", ofType:"plist")
         let cellContent:Array = NSArray(contentsOfFile:path!) as! [[String:String]]
-        //print("segueName = \(segueName)")
         filteredContent = cellContent.filter{$0["type"] == segueName}
         let filtArray:NSArray = filteredContent as NSArray
         let descriptor: NSSortDescriptor = NSSortDescriptor(key: "pdf name", ascending: true)

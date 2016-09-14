@@ -18,12 +18,6 @@ class ArticleViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        /*let path = NSBundle.mainBundle().pathForResource(articlePDF, ofType: "pdf")
-        let request = NSURL(fileURLWithPath: path!)
-        
-        self.pdfWebView.loadRequest(request)*/
-        
-        // Do any additional setup after loading the view.
         loadPDF()
     }
     func loadPDF(){
