@@ -20,7 +20,7 @@ class NotesTableViewController: UITableViewController {
         self.tableView.reloadData()
         title = "Notes List"
         self.tableView.rowHeight = rowHeight + 20
-        navigationController!.navigationBar.barTintColor = UIColor.redColor()
+        navigationController!.navigationBar.barTintColor = UIColor.red
         
     }
 
@@ -30,35 +30,35 @@ class NotesTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notesArray.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("notesCell", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "notesCell", for: indexPath)
 
         // Configure the cell...
-        let noteHeading = notesArray[indexPath.row]
+        let noteHeading = notesArray[(indexPath as NSIndexPath).row]
         //cell.textLabel!.text = notesArray[indexPath.row].title  // if using a class
-        cell.textLabel?.text = noteHeading.valueForKey("noteTitle") as? String // accesses the CoreData
-        cell.detailTextLabel?.text = noteHeading.valueForKey("noteDate") as? String
-        print(noteHeading.valueForKey("noteDate"))
-        print(notesArray[indexPath.row])
+        cell.textLabel?.text = noteHeading.value(forKey: "noteTitle") as? String // accesses the CoreData
+        cell.detailTextLabel?.text = noteHeading.value(forKey: "noteDate") as? String
+        print(noteHeading.value(forKey: "noteDate"))
+        print(notesArray[(indexPath as NSIndexPath).row])
         return cell
     }
     
      //Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
             // Delete the row from the data source
-            let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
+            let appDel = UIApplication.shared.delegate as! AppDelegate
             let context = appDel.managedObjectContext
-            context.deleteObject(notesArray[indexPath.row] as NSManagedObject)
-            notesArray.removeAtIndex(indexPath.row)
+            context.delete(notesArray[(indexPath as NSIndexPath).row] as NSManagedObject)
+            notesArray.remove(at: (indexPath as NSIndexPath).row)
             print("notesArray after removal \(notesArray)")
             tableView.reloadData()
             
@@ -72,36 +72,36 @@ class NotesTableViewController: UITableViewController {
           }
 
     // MARK: - Navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showNote"{
         
-         let destVC = segue.destinationViewController as! NotesViewController
+         let destVC = segue.destination as! NotesViewController
           if let selectedIndexPath = tableView.indexPathForSelectedRow{
-            let row = Int(selectedIndexPath.row)
+            let row = Int((selectedIndexPath as NSIndexPath).row)
             let noteArray = notesArray[row]
             //let noteForSegue = notesArray[selectedIndexPath]
-            destVC.noteTitle = (noteArray.valueForKey("noteTitle") as! String)
-            destVC.notesDescription = (noteArray.valueForKey("noteText") as! String)
+            destVC.noteTitle = (noteArray.value(forKey: "noteTitle") as! String)
+            destVC.notesDescription = (noteArray.value(forKey: "noteText") as! String)
             destVC.buttonView = "Update"
             }
             
         }else if segue.identifier == "addNote"{
-            let destVC = segue.destinationViewController as! NotesViewController
+            let destVC = segue.destination as! NotesViewController
             destVC.buttonView = "Save"
             }
          }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.managedObjectContext
         let request = NSFetchRequest(entityName: "NoteFile")
         let sortedNames = NSSortDescriptor(key: "noteTitle", ascending: true)
         request.sortDescriptors = [sortedNames]
         
         do{
-            let results = try context.executeFetchRequest(request)
+            let results = try context.fetch(request)
             notesArray = results as! [NSManagedObject]
         }catch let error as NSError{
             print("could not fetch \(error)")
@@ -110,39 +110,39 @@ class NotesTableViewController: UITableViewController {
         tableView.reloadData()
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         self.tableView.reloadData()
     }
-    func controllerWillChangeContent(controller:NSFetchedResultsController){
+    func controllerWillChangeContent(_ controller:NSFetchedResultsController<Any>!){
         self.tableView.beginUpdates()
     }
-    func controller(controller:NSFetchedResultsController, didChangeSection sectionInfo:NSFetchedResultsSectionInfo, atIndex sectionIndex:Int, forChangeType type:NSFetchedResultsChangeType){
+    func controller(_ controller:NSFetchedResultsController<AnyObject>, didChangeSection sectionInfo:NSFetchedResultsSectionInfo, atIndex sectionIndex:Int, forChangeType type:NSFetchedResultsChangeType){
         switch type{
-        case .Insert:
-            self.tableView.insertSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)
-        case .Delete:
-            self.tableView.deleteSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)
-        case .Move:
+        case .insert:
+            self.tableView.insertSections(IndexSet(integer: sectionIndex), with: .fade)
+        case .delete:
+            self.tableView.deleteSections(IndexSet(integer: sectionIndex), with: .fade)
+        case .move:
                 break
-        case .Update:
+        case .update:
             break
         }
     }
     
-    func controller(controller:NSFetchedResultsController, didChangeObject anObject:NSManagedObject, atIndex indexPath:NSIndexPath?, forChangeType type:NSFetchedResultsChangeType, newIndexPath:NSIndexPath?){
+    func controller(_ controller:NSFetchedResultsController<AnyObject>, didChangeObject anObject:NSManagedObject, atIndex indexPath:IndexPath?, forChangeType type:NSFetchedResultsChangeType, newIndexPath:IndexPath?){
         switch type{
-        case .Insert:
-            self.tableView.insertRowsAtIndexPaths([newIndexPath!], withRowAnimation: .Fade)
-        case .Delete:
-            self.tableView.deleteRowsAtIndexPaths([indexPath!], withRowAnimation: .Fade)
-        case .Update:
+        case .insert:
+            self.tableView.insertRows(at: [newIndexPath!], with: .fade)
+        case .delete:
+            self.tableView.deleteRows(at: [indexPath!], with: .fade)
+        case .update:
             break
-        case .Move:
-            self.tableView.deleteRowsAtIndexPaths([indexPath!], withRowAnimation: .Fade)
-            self.tableView.insertRowsAtIndexPaths([indexPath!], withRowAnimation: .Fade)
+        case .move:
+            self.tableView.deleteRows(at: [indexPath!], with: .fade)
+            self.tableView.insertRows(at: [indexPath!], with: .fade)
         }
     }
-    func controllerDidChangeContent(controller:NSFetchedResultsController){
+    func controllerDidChangeContent(_ controller:NSFetchedResultsController<AnyObject>){
         self.tableView.endUpdates()
     }
 }

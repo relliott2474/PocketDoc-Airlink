@@ -28,24 +28,24 @@ class ArticleTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return articles.count
     }
 
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("articleCell", forIndexPath: indexPath) as! ArticleTableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "articleCell", for: indexPath) as! ArticleTableViewCell
     
         // Configure the cell...
         //let article = articles[indexPath.row]
         //let article = articles.objectForKey("pdf name") as! String
-        cell.mainName.text = articles[indexPath.row]["pdf name"] as? String
+        cell.mainName.text = articles[(indexPath as NSIndexPath).row]["pdf name"] as? String
         cell.mainName.adjustsFontSizeToFitWidth = true
         
         return cell
@@ -53,22 +53,22 @@ class ArticleTableViewController: UITableViewController {
     
 
     // MARK: - Navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let destinationVC = segue.destinationViewController as! ArticleViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! ArticleViewController
         if let indexPath = self.tableView.indexPathForSelectedRow{
-            let row = Int(indexPath.row)
+            let row = Int((indexPath as NSIndexPath).row)
             destinationVC.articlePDF = (articles[row]["pdf name"] ) as! String
         }
     }
  
-    func loadTableData(segueName:String){
+    func loadTableData(_ segueName:String){
         //func for segue load
-        let path = NSBundle.mainBundle().pathForResource("pdf List", ofType:"plist")
+        let path = Bundle.main.path(forResource: "pdf List", ofType:"plist")
         let cellContent:Array = NSArray(contentsOfFile:path!) as! [[String:String]]
         filteredContent = cellContent.filter{$0["type"] == segueName}
         let filtArray:NSArray = filteredContent as NSArray
         let descriptor: NSSortDescriptor = NSSortDescriptor(key: "pdf name", ascending: true)
-        let sortedResults = filtArray.sortedArrayUsingDescriptors([descriptor])
+        let sortedResults = filtArray.sortedArray(using: [descriptor])
         articles = sortedResults as! [NSDictionary]
         
     }

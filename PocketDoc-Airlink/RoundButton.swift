@@ -8,11 +8,11 @@
 
 import UIKit
 
-public class RoundButton:UIButton {
+open class RoundButton:UIButton {
     
-    var borderColor:UIColor = UIColor.whiteColor(){
+    var borderColor:UIColor = UIColor.white{
         didSet{
-            layer.borderColor = borderColor.CGColor
+            layer.borderColor = borderColor.cgColor
             }
         }
     var borderWidth:CGFloat = 2.0{
@@ -20,7 +20,7 @@ public class RoundButton:UIButton {
             layer.borderWidth = borderWidth
             }
         }
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         layer.cornerRadius = 0.5 * bounds.size.width
         clipsToBounds = true

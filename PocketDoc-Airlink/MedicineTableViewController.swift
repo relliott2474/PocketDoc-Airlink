@@ -10,7 +10,7 @@ import UIKit
 
 class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
     var meds = [NSDictionary]()
-    var cellContent = []
+    var cellContent = [NSArray]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,11 +19,11 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
     
     }
     func loadTableData(){
-        let path = NSBundle.mainBundle().pathForResource("Meds List", ofType:"plist")
-        cellContent = NSArray(contentsOfFile:path!)!
+        let path = Bundle.main.path(forResource: "Meds List", ofType:"plist")
+        cellContent = NSArray(contentsOfFile:path!) as! [NSArray]
         print("loaded cell content is \(cellContent)")
         let descriptor: NSSortDescriptor = NSSortDescriptor(key: "name", ascending: true)
-        let sortedResults: NSArray = cellContent.sortedArrayUsingDescriptors([descriptor])
+        let sortedResults: NSArray = cellContent.sorted(by: [descriptor])
         meds = sortedResults as! [NSDictionary]
     }
 
@@ -34,46 +34,46 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return meds.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("medsCell", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "medsCell", for: indexPath)
         tableView.rowHeight = 50
-        cell.textLabel?.text = meds[indexPath.row]["name"] as? String
-        cell.detailTextLabel?.text = meds[indexPath.row]["dose range"] as? String
+        cell.textLabel?.text = meds[(indexPath as NSIndexPath).row]["name"] as? String
+        cell.detailTextLabel?.text = meds[(indexPath as NSIndexPath).row]["dose range"] as? String
         // Configure the cell...
 
         return cell
     }
     
-    func searchBarTextDidEndEditing(searchBar: UISearchBar) {
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
         //dismiss keyboard
         searchBar.resignFirstResponder()
         //reload table data
         
     }
-    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
         //self.loadObjects()
     }
-    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.text = ""
         //dismiss
         searchBar.resignFirstResponder()
         //self.loadObjects()
     }
-    func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         //self.loadObjects()
     }
-    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         //let text = searchText.text
     }
 
@@ -93,12 +93,12 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      // Get the new view controller using segue.destinationViewController.
      // Pass the selected object to the new view controller.
-        let destinationVC = segue.destinationViewController as! MedicineViewController
+        let destinationVC = segue.destination as! MedicineViewController
         if let indexPath = self.tableView.indexPathForSelectedRow{
-            let row = Int(indexPath.row)
+            let row = Int((indexPath as NSIndexPath).row)
         
         destinationVC.ntitle = (meds[row]["name"]) as! String
         destinationVC.ndata = (meds[row]["dose range"]) as! String

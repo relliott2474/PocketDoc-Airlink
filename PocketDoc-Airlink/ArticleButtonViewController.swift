@@ -25,31 +25,31 @@ class ArticleButtonViewController: UIViewController {
     var segueIdentifier = TypeArt.Empty.rawValue
     
     
-    @IBAction func traumaGuide(sender: AnyObject) {
+    @IBAction func traumaGuide(_ sender: AnyObject) {
         segueIdentifier = TypeArt.Trauma.rawValue
-        performSegueWithIdentifier(segueIdentifier, sender: nil)
+        performSegue(withIdentifier: segueIdentifier, sender: nil)
         //segueIdentifier = "Trauma"
         
     }
-    @IBAction func adultGuide(sender: AnyObject) {
+    @IBAction func adultGuide(_ sender: AnyObject) {
         //segueIdentifier = "Adult"
          segueIdentifier = TypeArt.Adult.rawValue
-        performSegueWithIdentifier(segueIdentifier, sender: nil)
+        performSegue(withIdentifier: segueIdentifier, sender: nil)
     }
-    @IBAction func pediatricGuide(sender: AnyObject) {
+    @IBAction func pediatricGuide(_ sender: AnyObject) {
         //segueIdentifier = "Pediatric"
          segueIdentifier = TypeArt.Peds.rawValue
-        performSegueWithIdentifier(segueIdentifier, sender: nil)
+        performSegue(withIdentifier: segueIdentifier, sender: nil)
     }
-    @IBAction func obGuide(sender: AnyObject) {
+    @IBAction func obGuide(_ sender: AnyObject) {
         //segueIdentifier = "OB"
          segueIdentifier = TypeArt.OB.rawValue
-        performSegueWithIdentifier(segueIdentifier, sender: nil)
+        performSegue(withIdentifier: segueIdentifier, sender: nil)
     }
         
-    @IBAction func proceduresGuide(sender: AnyObject) {
+    @IBAction func proceduresGuide(_ sender: AnyObject) {
         segueIdentifier = TypeArt.Procedures.rawValue
-        performSegueWithIdentifier(segueIdentifier, sender: nil)
+        performSegue(withIdentifier: segueIdentifier, sender: nil)
         
     }
     override func viewDidLoad() {
@@ -64,7 +64,7 @@ class ArticleButtonViewController: UIViewController {
     }
     
 
-  override func performSegueWithIdentifier(identifier: String, sender: AnyObject?){
+  override func performSegue(withIdentifier identifier: String, sender: Any?){
         identified = identifier
         //print("segue identifier = \(identified)")
         

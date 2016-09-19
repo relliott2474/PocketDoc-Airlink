@@ -11,11 +11,11 @@ import UIKit
 
 class ButtonViewController: UIViewController {
     
-    @IBAction func callRod(sender: AnyObject) {
+    @IBAction func callRod(_ sender: AnyObject) {
         notify("Rod", number:"tel://8307089137")
     }
     
-    @IBAction func callHelenka(sender: AnyObject) {
+    @IBAction func callHelenka(_ sender: AnyObject) {
         notify("Helenka", number: "tel://5414195220")
     }
     
@@ -25,7 +25,7 @@ class ButtonViewController: UIViewController {
     @IBOutlet weak var notesButton: UIButton!
 
     
-    let buttonColor:UIColor = UIColor.whiteColor()
+    let buttonColor:UIColor = UIColor.white
     let barColorTint:UIColor = UIColor(red:0.94, green:0.33, blue:0.31, alpha:1.0)
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,19 +34,19 @@ class ButtonViewController: UIViewController {
         navigationController!.navigationBar.barTintColor = buttonColor
         
         //this sets the navigation bar title text color
-        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         
         //this sets the back bar button color in the navigation bar.
-       navigationController!.navigationBar.tintColor = UIColor.whiteColor()
-        navigationController?.navigationBar
+       navigationController!.navigationBar.tintColor = UIColor.white
+        //navigationController?.navigationBar
         //borders()
         
         //set a pic to the background of the title bar.
-        navigationController!.navigationBar.barTintColor = UIColor.clearColor()
+        navigationController!.navigationBar.barTintColor = UIColor.clear
         let image:UIImage = UIImage(named: "Header Airlink")!
         
-        self.navigationController!.navigationBar.setBackgroundImage(image , forBarMetrics:.Default)
-        self.navigationController!.navigationBar
+        self.navigationController!.navigationBar.setBackgroundImage(image , for:.default)
+        //self.navigationController!.navigationBar
         //self.title = UIFont(name: "Avenir", size: 20)
         self.title = "Airlink "
         
@@ -58,22 +58,22 @@ class ButtonViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         //navigationController!.navigationBar.barTintColor = UIColor.redColor()
         
     }
     
-    func notify(name:String, number:String){
+    func notify(_ name:String, number:String){
         
-        let callAlert = UIAlertController(title: "Call", message: "Do you wish to call \(name)?", preferredStyle: UIAlertControllerStyle.Alert)
+        let callAlert = UIAlertController(title: "Call", message: "Do you wish to call \(name)?", preferredStyle: UIAlertControllerStyle.alert)
         
-        callAlert.addAction(UIAlertAction(title: "Yes", style: .Default, handler: {( action:UIAlertAction!) in
-            UIApplication.sharedApplication().openURL(NSURL(string: number)!)}
+        callAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {( action:UIAlertAction!) in
+            UIApplication.shared.openURL(URL(string: number)!)}
             ))
         
-        callAlert.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
+        callAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         
-        self.presentViewController(callAlert, animated:true, completion:nil)
+        self.present(callAlert, animated:true, completion:nil)
     }
     
     
