@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		010D37DA1D8C62A600FEC796 /* Ketamine Guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010D37D91D8C62A600FEC796 /* Ketamine Guideline.pdf */; };
+		015DD1071D920A06002F1D97 /* AdultRSI-new.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
 		01C282371D888D5B00110337 /* Multiple Patient Incident.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282361D888D5B00110337 /* Multiple Patient Incident.pdf */; };
@@ -112,6 +113,7 @@
 
 /* Begin PBXFileReference section */
 		010D37D91D8C62A600FEC796 /* Ketamine Guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ketamine Guideline.pdf"; sourceTree = "<group>"; };
+		015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AdultRSI-new.pdf"; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01C282361D888D5B00110337 /* Multiple Patient Incident.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Multiple Patient Incident.pdf"; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 		01C282511D888FB000110337 /* Medical */ = {
 			isa = PBXGroup;
 			children = (
+				015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */,
 				01C282521D888FBD00110337 /*  DKA adults.pdf */,
 				01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */,
 				01C282551D888FC900110337 /* Acute Coronary Syndrome (1).pdf */,
@@ -498,6 +501,7 @@
 				01C2829F1D888FC900110337 /* Epiglottis and croup.pdf in Resources */,
 				01C282BC1D888FC900110337 /* Postpartum Hemorrhage.pdf in Resources */,
 				01C282B71D888FC900110337 /* Pediatric Seizures.pdf in Resources */,
+				015DD1071D920A06002F1D97 /* AdultRSI-new.pdf in Resources */,
 				01C282A71D888FC900110337 /* Hyperthermia.pdf in Resources */,
 				01C282C71D888FC900110337 /* Therapeutic Hypothermia.pdf in Resources */,
 				01C282B01D888FC900110337 /* Pediatric Anaphylaxis.pdf in Resources */,

@@ -434,5 +434,11 @@
 		<key>pdf name</key>
 		<string>Ketamine Guideline</string>
 	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>AdultRSI-new</string>
+		<key>type</key>
+		<string>Adult</string>
+	</dict>
 </array>
 </plist>
