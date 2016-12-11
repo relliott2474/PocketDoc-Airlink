@@ -46,7 +46,7 @@ class NotesTableViewController: UITableViewController {
         //cell.textLabel!.text = notesArray[indexPath.row].title  // if using a class
         cell.textLabel?.text = noteHeading.value(forKey: "noteTitle") as? String // accesses the CoreData
         cell.detailTextLabel?.text = noteHeading.value(forKey: "noteDate") as? String
-        print(noteHeading.value(forKey: "noteDate"))
+        print(noteHeading.value(forKey: "noteDate")!)
         print(notesArray[(indexPath as NSIndexPath).row])
         return cell
     }
@@ -56,20 +56,25 @@ class NotesTableViewController: UITableViewController {
         if editingStyle == .delete {
             // Delete the row from the data source
             let appDel = UIApplication.shared.delegate as! AppDelegate
-            let context = appDel.managedObjectContext
-            context.delete(notesArray[(indexPath as NSIndexPath).row] as NSManagedObject)
-            notesArray.remove(at: (indexPath as NSIndexPath).row)
-            print("notesArray after removal \(notesArray)")
-            tableView.reloadData()
-            
-            do{
-                try context.save()
-            }catch{
-                abort()
+            if #available(iOS 10.0, *) {
+                let context = appDel.persistentContainer.viewContext
+                context.delete(notesArray[(indexPath as NSIndexPath).row] as NSManagedObject)
+                notesArray.remove(at: (indexPath as NSIndexPath).row)
+                print("notesArray after removal \(notesArray)")
+                tableView.reloadData()
+                
+                do{
+                    try context.save()
+                }catch{
+                    abort()
+                }
+
+            } else {
+                // Fallback on earlier versions
             }
-           
-                           }
-          }
+            
+        }
+    }
 
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -95,28 +100,33 @@ class NotesTableViewController: UITableViewController {
         super.viewWillAppear(animated)
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        let context = appDelegate.managedObjectContext
-        let request = NSFetchRequest(entityName: "NoteFile")
-        let sortedNames = NSSortDescriptor(key: "noteTitle", ascending: true)
-        request.sortDescriptors = [sortedNames]
-        
-        do{
-            let results = try context.fetch(request)
-            notesArray = results as! [NSManagedObject]
-        }catch let error as NSError{
-            print("could not fetch \(error)")
+        if #available(iOS 10.0, *) {
+            let context = appDelegate.persistentContainer.viewContext
+            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "NoteFile")
+            let sortedNames = NSSortDescriptor(key: "noteTitle", ascending: true)
+            request.sortDescriptors = [sortedNames]
+            
+            do{
+                let results = try context.fetch(request)
+                notesArray = results as! [NSManagedObject]
+            }catch let error as NSError{
+                print("could not fetch \(error)")
+            }
+            
+
+        } else {
+            // Fallback on earlier versions
         }
-        
-        tableView.reloadData()
+                tableView.reloadData()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         self.tableView.reloadData()
     }
-    func controllerWillChangeContent(_ controller:NSFetchedResultsController<Any>!){
+    func controllerWillChangeContent(_ controller:NSFetchedResultsController<NSFetchRequestResult>!){
         self.tableView.beginUpdates()
     }
-    func controller(_ controller:NSFetchedResultsController<AnyObject>, didChangeSection sectionInfo:NSFetchedResultsSectionInfo, atIndex sectionIndex:Int, forChangeType type:NSFetchedResultsChangeType){
+    func controller(_ controller:NSFetchedResultsController<NSFetchRequestResult>, didChangeSection sectionInfo:NSFetchedResultsSectionInfo, atIndex sectionIndex:Int, forChangeType type:NSFetchedResultsChangeType){
         switch type{
         case .insert:
             self.tableView.insertSections(IndexSet(integer: sectionIndex), with: .fade)
@@ -129,7 +139,7 @@ class NotesTableViewController: UITableViewController {
         }
     }
     
-    func controller(_ controller:NSFetchedResultsController<AnyObject>, didChangeObject anObject:NSManagedObject, atIndex indexPath:IndexPath?, forChangeType type:NSFetchedResultsChangeType, newIndexPath:IndexPath?){
+    func controller(_ controller:NSFetchedResultsController<NSFetchRequestResult>, didChangeObject anObject:NSManagedObject, atIndex indexPath:IndexPath?, forChangeType type:NSFetchedResultsChangeType, newIndexPath:IndexPath?){
         switch type{
         case .insert:
             self.tableView.insertRows(at: [newIndexPath!], with: .fade)
@@ -142,7 +152,7 @@ class NotesTableViewController: UITableViewController {
             self.tableView.insertRows(at: [indexPath!], with: .fade)
         }
     }
-    func controllerDidChangeContent(_ controller:NSFetchedResultsController<AnyObject>){
+    func controllerDidChangeContent(_ controller:NSFetchedResultsController<NSFetchRequestResult>){
         self.tableView.endUpdates()
     }
 }

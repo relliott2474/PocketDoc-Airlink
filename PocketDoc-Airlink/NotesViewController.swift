@@ -41,6 +41,7 @@ class NotesViewController: UIViewController {
         } else if buttonView == "Update"{
             buttonView = "Update"
             buttonOutlet.setTitle("Update", for: UIControlState())
+            buttonOutlet.backgroundColor = UIColor.green
             var name = titleTextField.text
             if name != name?.capitalized{
                 name = name?.capitalized

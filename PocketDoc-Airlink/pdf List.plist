@@ -70,7 +70,7 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Acute Coronary Syndrome (1)</string>
+		<string>Acute Coronary Syndrome</string>
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
@@ -148,7 +148,7 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Sepsis, Septic Shock, Adult</string>
+		<string>Adult Sepsis</string>
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
