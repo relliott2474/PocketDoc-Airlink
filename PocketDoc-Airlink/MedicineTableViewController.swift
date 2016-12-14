@@ -26,6 +26,7 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
                 let sortedResults: NSArray = cellContent.sorted(by: [descriptor])
         meds = sortedResults as! [NSDictionary]
     }*/
+    
     func loadTableData(){
         let path = Bundle.main.path(forResource: "Meds List", ofType:"plist")
         cellContent = NSArray(contentsOfFile:path!) as! [NSArray] //as! [[String : String]]
@@ -38,7 +39,6 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - Table view data source
