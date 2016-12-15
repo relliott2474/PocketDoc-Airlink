@@ -8,25 +8,25 @@
 
 import UIKit
 
-class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
+
+class MedicineTableViewController: UITableViewController {
+    
     var meds = [NSDictionary]()
     var cellContent = [NSArray]()
+    var filterMeds = [NSDictionary]()
+    var shouldShowSearchResults = false
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loadTableData()
         self.title = "Medications"
-    
+        
+        
     }
-    /*func loadTableData(){
-        let path = Bundle.main.path(forResource: "Meds List", ofType:"plist")
-        cellContent = NSArray(contentsOfFile:path!) as! [NSArray]
-        print("loaded cell content is \(cellContent)")
-        let descriptor: NSSortDescriptor = NSSortDescriptor(key: "name", ascending: true)
-                let sortedResults: NSArray = cellContent.sorted(by: [descriptor])
-        meds = sortedResults as! [NSDictionary]
-    }*/
     
+
     func loadTableData(){
         let path = Bundle.main.path(forResource: "Meds List", ofType:"plist")
         cellContent = NSArray(contentsOfFile:path!) as! [NSArray] //as! [[String : String]]
@@ -49,19 +49,23 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return meds.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "medsCell", for: indexPath)
         tableView.rowHeight = 50
+        if shouldShowSearchResults{
+            cell.textLabel?.text = filterMeds[(indexPath as NSIndexPath).row]["name"] as? String
+            cell.detailTextLabel?.text = filterMeds[(indexPath as NSIndexPath).row]["dose range"] as? String
+            return cell
+        }else{
         cell.textLabel?.text = meds[(indexPath as NSIndexPath).row]["name"] as? String
         cell.detailTextLabel?.text = meds[(indexPath as NSIndexPath).row]["dose range"] as? String
-        // Configure the cell...
-
         return cell
+            }
     }
+
     
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
         //dismiss keyboard
@@ -70,11 +74,11 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
         
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.resignFirstResponder()
+        
         //self.loadObjects()
     }
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.text = ""
+       
         //dismiss
         searchBar.resignFirstResponder()
         //self.loadObjects()
@@ -83,21 +87,10 @@ class MedicineTableViewController: UITableViewController, UISearchBarDelegate {
         //self.loadObjects()
     }
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        //let text = searchText.text
+        
+       
     }
 
-    /*
-     // Override to support editing the table view.
-     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-     if editingStyle == .Delete {
-     // Delete the row from the data source
-     tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-     } else if editingStyle == .Insert {
-     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-     }
-     }
-     */
-    
     
      // MARK: - Navigation
      

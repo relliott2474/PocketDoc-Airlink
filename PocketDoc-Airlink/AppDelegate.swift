@@ -28,14 +28,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UINavigationBar.appearance().tintColor = UIColor.red
         
+        //use if you wish to use the Parse server
         /*let parseConfiguration = ParseClientConfiguration(block: { (ParseMutableClientConfiguration) -> Void in
             ParseMutableClientConfiguration.applicationId = "5tttttiuibkdi,kl000234"
             ParseMutableClientConfiguration.clientKey = "Bijkr66724o0PX"
             ParseMutableClientConfiguration.server = "https://pocketdoc2474.herokuapp.com/parse"
         })
         
-        Parse.initializeWithConfiguration(parseConfiguration)*/
-        
+        Parse.initializeWithConfiguration(parseConfiguration)
+        */
         return true
     }
 

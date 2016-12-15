@@ -14,7 +14,6 @@
 		015DD1071D920A06002F1D97 /* AdultRSI-new.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
-		01C043361DE50C0C000A8F5D /* iOS9DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043351DE50C0C000A8F5D /* iOS9DataManager.swift */; };
 		01C0433C1DE50E4F000A8F5D /* NoteFile+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C043391DE50E4F000A8F5D /* NoteFile+CoreDataClass.m */; };
 		01C0433D1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C0433B1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m */; };
 		01C282371D888D5B00110337 /* Multiple Patient Incident.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282361D888D5B00110337 /* Multiple Patient Incident.pdf */; };
@@ -125,7 +124,6 @@
 		015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AdultRSI-new.pdf"; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
-		01C043351DE50C0C000A8F5D /* iOS9DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS9DataManager.swift; sourceTree = "<group>"; };
 		01C043371DE50E4F000A8F5D /* PocketDoc-Airlink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketDoc-Airlink-Bridging-Header.h"; sourceTree = "<group>"; };
 		01C043381DE50E4F000A8F5D /* NoteFile+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoteFile+CoreDataClass.h"; sourceTree = "<group>"; };
 		01C043391DE50E4F000A8F5D /* NoteFile+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoteFile+CoreDataClass.m"; sourceTree = "<group>"; };
@@ -387,13 +385,13 @@
 		BD83CDD41D01F87F004A756C = {
 			isa = PBXGroup;
 			children = (
+				BD83CDDF1D01F87F004A756C /* PocketDoc-Airlink */,
+				BD83CDDE1D01F87F004A756C /* Products */,
+				01C043371DE50E4F000A8F5D /* PocketDoc-Airlink-Bridging-Header.h */,
 				01C043381DE50E4F000A8F5D /* NoteFile+CoreDataClass.h */,
 				01C043391DE50E4F000A8F5D /* NoteFile+CoreDataClass.m */,
 				01C0433A1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.h */,
 				01C0433B1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m */,
-				BD83CDDF1D01F87F004A756C /* PocketDoc-Airlink */,
-				BD83CDDE1D01F87F004A756C /* Products */,
-				01C043371DE50E4F000A8F5D /* PocketDoc-Airlink-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,7 +412,6 @@
 				BD83CDFC1D01F978004A756C /* ButtonViewController.swift */,
 				01D5101C1D41370A00803366 /* RoundButton.swift */,
 				BD83CDFA1D01F96E004A756C /* AppDelegate.swift */,
-				01C043351DE50C0C000A8F5D /* iOS9DataManager.swift */,
 				BD3A19421D138C7600A3FF80 /* Medicine Viewer */,
 				BD3A19411D138C5E00A3FF80 /* Notes Viewer */,
 				BD3A19401D138C5000A3FF80 /* Articles View */,
@@ -426,11 +423,11 @@
 				019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */,
 				01EEC4C11D5A5C540064497F /* heli_vert.jpg */,
 				BD68A0591D133B1500DF536D /* pdf List.plist */,
+				BD68A06C1D13548600DF536D /* Meds List.plist */,
 				013B9E6C1DF1FB590063EBD2 /* OB Files */,
 				01C282511D888FB000110337 /* Medical */,
 				01C282381D888F4500110337 /* Trauma Guides */,
 				BD4363D41D829985008E30FF /* Procedures */,
-				BD68A06C1D13548600DF536D /* Meds List.plist */,
 			);
 			path = "PocketDoc-Airlink";
 			sourceTree = "<group>";
@@ -600,7 +597,6 @@
 				BD83CDF91D01F948004A756C /* NotesViewController.swift in Sources */,
 				01DFE8DC1D43DFC600BDCDB1 /* ArticleButtonViewController.swift in Sources */,
 				BD83CDF71D01F93C004A756C /* NotesTableViewController.swift in Sources */,
-				01C043361DE50C0C000A8F5D /* iOS9DataManager.swift in Sources */,
 				01C0433C1DE50E4F000A8F5D /* NoteFile+CoreDataClass.m in Sources */,
 				BD83CDFB1D01F96E004A756C /* AppDelegate.swift in Sources */,
 				BD68A04E1D132C2900DF536D /* ArticleViewController.swift in Sources */,
@@ -669,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -710,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -726,7 +722,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -746,7 +742,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "PocketDoc-Airlink/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.DNRInnovations.PocketDoc-Airlink";
 				PRODUCT_NAME = "$(TARGET_NAME)";

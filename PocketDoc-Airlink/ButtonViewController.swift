@@ -68,7 +68,8 @@ class ButtonViewController: UIViewController {
         let callAlert = UIAlertController(title: "Call", message: "Do you wish to call \(name)?", preferredStyle: UIAlertControllerStyle.alert)
         
         callAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {( action:UIAlertAction!) in
-            UIApplication.shared.openURL(URL(string: number)!)}
+            UIApplication.shared.open(URL(string: number)!)}
+            //UIApplication.shared.openURL(URL(string: number)!)}
             ))
         
         callAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
