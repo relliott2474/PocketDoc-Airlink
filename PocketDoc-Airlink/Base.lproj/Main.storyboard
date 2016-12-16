@@ -31,7 +31,7 @@
                                 <rect key="frame" x="37" y="160" width="300" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="B0g-dF-Z3l"/>
-                                    <constraint firstAttribute="width" constant="300" id="w8q-QO-2vI"/>
+                                    <constraint firstAttribute="width" priority="750" constant="300" id="w8q-QO-2vI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
                                 <state key="normal" title="OB Guidelines">
@@ -46,7 +46,7 @@
                                 <rect key="frame" x="37" y="90" width="300" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="fmT-nF-6xU"/>
-                                    <constraint firstAttribute="width" constant="300" id="wzF-h7-D2C"/>
+                                    <constraint firstAttribute="width" priority="750" constant="300" id="wzF-h7-D2C"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
                                 <state key="normal" title="Pediatric Guidelines">
@@ -60,7 +60,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ma9-aF-oVd">
                                 <rect key="frame" x="37" y="230" width="300" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="QyN-wa-htH"/>
+                                    <constraint firstAttribute="width" priority="750" constant="300" id="QyN-wa-htH"/>
                                     <constraint firstAttribute="height" constant="50" id="rU0-dG-Kld"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
@@ -72,24 +72,10 @@
                                     <segue destination="Py4-qm-rs1" kind="show" identifier="Trauma" id="mji-8u-hnX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-XC-ayK">
-                                <rect key="frame" x="37" y="300" width="300" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="7Ai-EB-mFn"/>
-                                    <constraint firstAttribute="height" constant="50" id="GuR-lL-B2w"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
-                                <state key="normal" title="Procedures">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="proceduresGuide:" destination="RhC-Uv-FE0" eventType="touchUpInside" id="SWi-ay-HvK"/>
-                                    <segue destination="Py4-qm-rs1" kind="show" id="UXT-qq-cig"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSc-85-Dyc">
-                                <rect key="frame" x="36" y="20" width="303" height="50"/>
+                                <rect key="frame" x="37" y="20" width="300" height="50"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="300" id="cvL-dU-0kR"/>
                                     <constraint firstAttribute="height" constant="50" id="lha-Jq-c7G"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
@@ -101,11 +87,26 @@
                                     <segue destination="Py4-qm-rs1" kind="show" identifier="Adult" id="ocb-98-sE2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-XC-ayK">
+                                <rect key="frame" x="37" y="302" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="300" id="7Ai-EB-mFn"/>
+                                    <constraint firstAttribute="height" constant="50" id="GuR-lL-B2w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <state key="normal" title="Procedures">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceduresGuide:" destination="RhC-Uv-FE0" eventType="touchUpInside" id="SWi-ay-HvK"/>
+                                    <segue destination="Py4-qm-rs1" kind="show" id="UXT-qq-cig"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uEe-8D-URL" firstAttribute="top" secondItem="2Tn-uI-J8c" secondAttribute="bottom" constant="20" id="2br-Fl-Nbf"/>
-                            <constraint firstItem="6Gd-XC-ayK" firstAttribute="top" secondItem="ma9-aF-oVd" secondAttribute="bottom" constant="20" id="2rq-b7-aY9"/>
+                            <constraint firstItem="6Gd-XC-ayK" firstAttribute="top" secondItem="ma9-aF-oVd" secondAttribute="bottom" constant="22" id="2rq-b7-aY9"/>
                             <constraint firstItem="BSc-85-Dyc" firstAttribute="top" secondItem="P7J-av-FwJ" secondAttribute="bottom" constant="20" id="8Iy-jz-W3U"/>
                             <constraint firstItem="HlN-D1-NOK" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leading" id="BHL-ft-mgC"/>
                             <constraint firstItem="6Gd-XC-ayK" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leadingMargin" constant="21" id="DPR-aL-CsF"/>
@@ -113,14 +114,14 @@
                             <constraint firstItem="HlN-D1-NOK" firstAttribute="top" secondItem="P7J-av-FwJ" secondAttribute="bottom" id="F8Z-2n-3qh"/>
                             <constraint firstItem="ma9-aF-oVd" firstAttribute="top" secondItem="uEe-8D-URL" secondAttribute="bottom" constant="20" id="P4Y-cJ-MsN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uEe-8D-URL" secondAttribute="trailing" constant="22" id="SYZ-uo-DG4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="BSc-85-Dyc" secondAttribute="trailing" constant="20" id="XEM-9N-5nE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BSc-85-Dyc" secondAttribute="trailing" constant="22" id="XEM-9N-5nE"/>
                             <constraint firstAttribute="trailing" secondItem="HlN-D1-NOK" secondAttribute="trailing" id="XYC-8b-J8k"/>
                             <constraint firstItem="dfq-Je-UQ0" firstAttribute="top" secondItem="HlN-D1-NOK" secondAttribute="bottom" id="Xcq-rZ-NkP"/>
                             <constraint firstItem="ma9-aF-oVd" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leadingMargin" constant="21" id="b44-ER-vKx"/>
                             <constraint firstItem="2Tn-uI-J8c" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leadingMargin" constant="21" id="bDr-Cf-WKu"/>
-                            <constraint firstItem="BSc-85-Dyc" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leadingMargin" constant="20" id="cam-Gf-CFG"/>
+                            <constraint firstItem="BSc-85-Dyc" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leadingMargin" constant="21" id="cam-Gf-CFG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2Tn-uI-J8c" secondAttribute="trailing" constant="22" id="kg9-hs-xEX"/>
-                            <constraint firstItem="dfq-Je-UQ0" firstAttribute="top" secondItem="6Gd-XC-ayK" secondAttribute="bottom" priority="750" constant="224" id="oDE-3H-UWL"/>
+                            <constraint firstItem="dfq-Je-UQ0" firstAttribute="top" secondItem="6Gd-XC-ayK" secondAttribute="bottom" priority="750" constant="251" id="oDE-3H-UWL"/>
                             <constraint firstItem="uEe-8D-URL" firstAttribute="leading" secondItem="Xsh-vR-JC9" secondAttribute="leadingMargin" constant="21" id="od3-CR-C5g"/>
                             <constraint firstItem="2Tn-uI-J8c" firstAttribute="top" secondItem="BSc-85-Dyc" secondAttribute="bottom" constant="20" id="wVq-cP-JuQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6Gd-XC-ayK" secondAttribute="trailing" constant="22" id="yHw-ZQ-tGX"/>
