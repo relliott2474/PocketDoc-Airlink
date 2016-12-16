@@ -525,7 +525,7 @@
                                 <rect key="frame" x="0.0" y="22" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4II-CV-XRo" id="KYq-dn-jMZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="49"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W6f-T1-sI4">
@@ -560,7 +560,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="8CM-Bn-hWD"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="24F-3N-RMU" id="jFB-MF-axj"/>
+                        <outlet property="searchDisplayController" destination="i29-ne-UBP" id="DIU-5L-fe3"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bkw-vX-SOZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -570,6 +570,14 @@
                         <outlet property="searchContentsController" destination="jdP-zK-tTX" id="Xnm-zc-cIe"/>
                         <outlet property="searchResultsDataSource" destination="jdP-zK-tTX" id="d7h-eB-lVC"/>
                         <outlet property="searchResultsDelegate" destination="jdP-zK-tTX" id="Ihg-64-bVf"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="i29-ne-UBP">
+                    <connections>
+                        <outlet property="delegate" destination="jdP-zK-tTX" id="Iee-yv-uEa"/>
+                        <outlet property="searchContentsController" destination="jdP-zK-tTX" id="ot6-Df-YlS"/>
+                        <outlet property="searchResultsDataSource" destination="jdP-zK-tTX" id="lLT-YM-gBy"/>
+                        <outlet property="searchResultsDelegate" destination="jdP-zK-tTX" id="ScA-Nf-ae6"/>
                     </connections>
                 </searchDisplayController>
             </objects>

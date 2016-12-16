@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010007991E0375B200EC0A10 /* BiPAP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007981E0375B200EC0A10 /* BiPAP.pdf */; };
+		0100079B1E03763600EC0A10 /* EZ  I_O.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0100079A1E03763600EC0A10 /* EZ  I_O.pdf */; };
+		0100079D1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0100079C1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf */; };
+		0100079F1E03771200EC0A10 /* Cricothyroidotomy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0100079E1E03771200EC0A10 /* Cricothyroidotomy.pdf */; };
+		010007A11E037D7800EC0A10 /* Trauma Orthopedic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007A01E037D7800EC0A10 /* Trauma Orthopedic.pdf */; };
+		010007A31E037E9200EC0A10 /* ABG Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007A21E037E9200EC0A10 /* ABG Procedure.pdf */; };
+		010007A51E037F1900EC0A10 /* Emergent Umbilical Line Insertion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007A41E037F1900EC0A10 /* Emergent Umbilical Line Insertion.pdf */; };
+		010007A71E03801200EC0A10 /* Femoral Line Cannulation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007A61E03801200EC0A10 /* Femoral Line Cannulation.pdf */; };
+		010007A91E03813700EC0A10 /* Foley Catheter Insertion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007A81E03813700EC0A10 /* Foley Catheter Insertion.pdf */; };
+		010007AB1E03820700EC0A10 /* Mechanical Ventilation procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007AA1E03820700EC0A10 /* Mechanical Ventilation procedure.pdf */; };
+		010007AD1E03839B00EC0A10 /* Oral Intubation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007AC1E03839B00EC0A10 /* Oral Intubation.pdf */; };
+		010007AF1E03842700EC0A10 /* Tension Pneumothorax.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007AE1E03842700EC0A10 /* Tension Pneumothorax.pdf */; };
+		0100106E1E03293900CECCAA /* Medicines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0100106D1E03293900CECCAA /* Medicines.swift */; };
 		010D37DA1D8C62A600FEC796 /* Ketamine Guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010D37D91D8C62A600FEC796 /* Ketamine Guideline.pdf */; };
 		013B9E6E1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E6D1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf */; };
 		013B9E701DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E6F1DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf */; };
@@ -26,8 +39,7 @@
 		01C2824B1D888F6D00110337 /* General Trauma Management.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282401D888F6D00110337 /* General Trauma Management.pdf */; };
 		01C2824C1D888F6D00110337 /* Head Injury Protocol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282411D888F6D00110337 /* Head Injury Protocol.pdf */; };
 		01C2824D1D888F6D00110337 /* Spinal Cord Injury.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282421D888F6D00110337 /* Spinal Cord Injury.pdf */; };
-		01C2824E1D888F6D00110337 /* SpinalImmobilization-Interfacility.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282431D888F6D00110337 /* SpinalImmobilization-Interfacility.pdf */; };
-		01C2824F1D888F6D00110337 /* TraumaOrthopedic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282441D888F6D00110337 /* TraumaOrthopedic.pdf */; };
+		01C2824E1D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282431D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf */; };
 		01C282501D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282451D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf */; };
 		01C282531D888FBD00110337 /*  DKA adults.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282521D888FBD00110337 /*  DKA adults.pdf */; };
 		01C2828F1D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */; };
@@ -117,6 +129,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010007981E0375B200EC0A10 /* BiPAP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BiPAP.pdf; sourceTree = "<group>"; };
+		0100079A1E03763600EC0A10 /* EZ  I_O.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "EZ  I_O.pdf"; sourceTree = "<group>"; };
+		0100079C1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Inclusion criteria for burn center transfer.pdf"; sourceTree = "<group>"; };
+		0100079E1E03771200EC0A10 /* Cricothyroidotomy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Cricothyroidotomy.pdf; sourceTree = "<group>"; };
+		010007A01E037D7800EC0A10 /* Trauma Orthopedic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Trauma Orthopedic.pdf"; sourceTree = "<group>"; };
+		010007A21E037E9200EC0A10 /* ABG Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ABG Procedure.pdf"; sourceTree = "<group>"; };
+		010007A41E037F1900EC0A10 /* Emergent Umbilical Line Insertion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Emergent Umbilical Line Insertion.pdf"; sourceTree = "<group>"; };
+		010007A61E03801200EC0A10 /* Femoral Line Cannulation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Femoral Line Cannulation.pdf"; sourceTree = "<group>"; };
+		010007A81E03813700EC0A10 /* Foley Catheter Insertion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Foley Catheter Insertion.pdf"; sourceTree = "<group>"; };
+		010007AA1E03820700EC0A10 /* Mechanical Ventilation procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mechanical Ventilation procedure.pdf"; sourceTree = "<group>"; };
+		010007AC1E03839B00EC0A10 /* Oral Intubation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Oral Intubation.pdf"; sourceTree = "<group>"; };
+		010007AE1E03842700EC0A10 /* Tension Pneumothorax.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tension Pneumothorax.pdf"; sourceTree = "<group>"; };
+		0100106D1E03293900CECCAA /* Medicines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicines.swift; sourceTree = "<group>"; };
 		010D37D91D8C62A600FEC796 /* Ketamine Guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ketamine Guideline.pdf"; sourceTree = "<group>"; };
 		013B9E6D1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Magnesium Sulfate.pdf"; sourceTree = "<group>"; };
 		013B9E6F1DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "revised Preterm Labor.pdf may 2016.pdf"; sourceTree = "<group>"; };
@@ -139,8 +164,7 @@
 		01C282401D888F6D00110337 /* General Trauma Management.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "General Trauma Management.pdf"; sourceTree = "<group>"; };
 		01C282411D888F6D00110337 /* Head Injury Protocol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Head Injury Protocol.pdf"; sourceTree = "<group>"; };
 		01C282421D888F6D00110337 /* Spinal Cord Injury.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Spinal Cord Injury.pdf"; sourceTree = "<group>"; };
-		01C282431D888F6D00110337 /* SpinalImmobilization-Interfacility.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SpinalImmobilization-Interfacility.pdf"; sourceTree = "<group>"; };
-		01C282441D888F6D00110337 /* TraumaOrthopedic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TraumaOrthopedic.pdf; sourceTree = "<group>"; };
+		01C282431D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Spinal Immobilization-Interfacility.pdf"; sourceTree = "<group>"; };
 		01C282451D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TXA Bleeding control in the trauma patient.pdf"; sourceTree = "<group>"; };
 		01C282521D888FBD00110337 /*  DKA adults.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = " DKA adults.pdf"; sourceTree = "<group>"; };
 		01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Abdominal Pain not related to pregnancy or trauma.pdf"; sourceTree = "<group>"; };
@@ -242,6 +266,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010007971E033A6E00EC0A10 /* Extra files */ = {
+			isa = PBXGroup;
+			children = (
+				01C043371DE50E4F000A8F5D /* PocketDoc-Airlink-Bridging-Header.h */,
+				01C043381DE50E4F000A8F5D /* NoteFile+CoreDataClass.h */,
+				01C043391DE50E4F000A8F5D /* NoteFile+CoreDataClass.m */,
+				01C0433A1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.h */,
+				01C0433B1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m */,
+			);
+			name = "Extra files";
+			sourceTree = "<group>";
+		};
 		013B9E6C1DF1FB590063EBD2 /* OB Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +297,7 @@
 		01C282381D888F4500110337 /* Trauma Guides */ = {
 			isa = PBXGroup;
 			children = (
+				0100079C1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf */,
 				01C282391D888F6000110337 /* Abdominal Trauma.pdf */,
 				01C2823B1D888F6D00110337 /* Amputation.pdf */,
 				01C2823C1D888F6D00110337 /* Blood Transfusion Protocol.pdf */,
@@ -270,8 +307,8 @@
 				01C282401D888F6D00110337 /* General Trauma Management.pdf */,
 				01C282411D888F6D00110337 /* Head Injury Protocol.pdf */,
 				01C282421D888F6D00110337 /* Spinal Cord Injury.pdf */,
-				01C282431D888F6D00110337 /* SpinalImmobilization-Interfacility.pdf */,
-				01C282441D888F6D00110337 /* TraumaOrthopedic.pdf */,
+				01C282431D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf */,
+				010007A01E037D7800EC0A10 /* Trauma Orthopedic.pdf */,
 				01C282451D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf */,
 			);
 			name = "Trauma Guides";
@@ -297,8 +334,6 @@
 				01C282621D888FC900110337 /* Death in field guideline.pdf */,
 				01C282631D888FC900110337 /* Drowning.pdf */,
 				01C282641D888FC900110337 /* Epiglottis and croup.pdf */,
-				01C282651D888FC900110337 /* Escharotomy guideline.pdf */,
-				01C282661D888FC900110337 /* External Jugular Cannulation.pdf */,
 				01C282671D888FC900110337 /* Frostbite.pdf */,
 				01C282681D888FC900110337 /* General Overdose.pdf */,
 				01C282691D888FC900110337 /* Hazmat Transport.pdf */,
@@ -364,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				BD83CDF41D01F930004A756C /* MedicinesTableViewCell.swift */,
+				0100106D1E03293900CECCAA /* Medicines.swift */,
 				BD68A04F1D13333600DF536D /* MedicineTableViewController.swift */,
 				BD68A0511D13334B00DF536D /* MedicineViewController.swift */,
 			);
@@ -373,11 +409,23 @@
 		BD4363D41D829985008E30FF /* Procedures */ = {
 			isa = PBXGroup;
 			children = (
+				010007A21E037E9200EC0A10 /* ABG Procedure.pdf */,
+				010007981E0375B200EC0A10 /* BiPAP.pdf */,
+				0100079E1E03771200EC0A10 /* Cricothyroidotomy.pdf */,
+				010007A41E037F1900EC0A10 /* Emergent Umbilical Line Insertion.pdf */,
+				0100079A1E03763600EC0A10 /* EZ  I_O.pdf */,
+				01C282651D888FC900110337 /* Escharotomy guideline.pdf */,
+				01C282661D888FC900110337 /* External Jugular Cannulation.pdf */,
+				010007A61E03801200EC0A10 /* Femoral Line Cannulation.pdf */,
+				010007A81E03813700EC0A10 /* Foley Catheter Insertion.pdf */,
+				010007AA1E03820700EC0A10 /* Mechanical Ventilation procedure.pdf */,
 				01C282361D888D5B00110337 /* Multiple Patient Incident.pdf */,
 				BD4363E11D82A672008E30FF /* Pelvic Fracture Stablization.pdf */,
 				BD4363DF1D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf */,
+				010007AC1E03839B00EC0A10 /* Oral Intubation.pdf */,
 				BD4363DD1D829D18008E30FF /* Needle Cricothyroidotomy.pdf */,
 				BD4363D51D829A57008E30FF /* Femoral ABG Procedure .pdf */,
+				010007AE1E03842700EC0A10 /* Tension Pneumothorax.pdf */,
 			);
 			name = Procedures;
 			sourceTree = "<group>";
@@ -387,11 +435,7 @@
 			children = (
 				BD83CDDF1D01F87F004A756C /* PocketDoc-Airlink */,
 				BD83CDDE1D01F87F004A756C /* Products */,
-				01C043371DE50E4F000A8F5D /* PocketDoc-Airlink-Bridging-Header.h */,
-				01C043381DE50E4F000A8F5D /* NoteFile+CoreDataClass.h */,
-				01C043391DE50E4F000A8F5D /* NoteFile+CoreDataClass.m */,
-				01C0433A1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.h */,
-				01C0433B1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m */,
+				010007971E033A6E00EC0A10 /* Extra files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -494,10 +538,12 @@
 			files = (
 				01C282B21D888FC900110337 /* Pediatric DKA Protocol.pdf in Resources */,
 				01C282C11D888FC900110337 /* Seizure  Adult.pdf in Resources */,
+				010007A11E037D7800EC0A10 /* Trauma Orthopedic.pdf in Resources */,
 				01C282941D888FC900110337 /* Aortic Dissection.pdf in Resources */,
 				01C282C81D888FC900110337 /* Tylenol Overdose.pdf in Resources */,
 				01C282BB1D888FC900110337 /* Platelets During Transport.pdf in Resources */,
 				01C282C21D888FC900110337 /* Sepsis, Septic Shock, Adult.pdf in Resources */,
+				010007A31E037E9200EC0A10 /* ABG Procedure.pdf in Resources */,
 				01C282901D888FC900110337 /* Acute Coronary Syndrome (1).pdf in Resources */,
 				01C282B41D888FC900110337 /* Pediatric Head Injury.pdf in Resources */,
 				01C282B91D888FC900110337 /* Peds Burn.pdf in Resources */,
@@ -515,9 +561,9 @@
 				01EEC4C21D5A5C540064497F /* heli_vert.jpg in Resources */,
 				01C282981D888FC900110337 /* Childbirth Abnormal Delivery.pdf in Resources */,
 				01C282A21D888FC900110337 /* Frostbite.pdf in Resources */,
-				01C2824F1D888F6D00110337 /* TraumaOrthopedic.pdf in Resources */,
+				010007A51E037F1900EC0A10 /* Emergent Umbilical Line Insertion.pdf in Resources */,
 				01C2824C1D888F6D00110337 /* Head Injury Protocol.pdf in Resources */,
-				01C2824E1D888F6D00110337 /* SpinalImmobilization-Interfacility.pdf in Resources */,
+				01C2824E1D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf in Resources */,
 				01C282371D888D5B00110337 /* Multiple Patient Incident.pdf in Resources */,
 				01C282B51D888FC900110337 /* Pediatric RSI.pdf in Resources */,
 				01C282921D888FC900110337 /* Altered Mental Status.pdf in Resources */,
@@ -527,6 +573,7 @@
 				01C282A31D888FC900110337 /* General Overdose.pdf in Resources */,
 				01C282AB1D888FC900110337 /* Insulin.pdf in Resources */,
 				01C282951D888FC900110337 /* Asthma - Adult.pdf in Resources */,
+				010007A71E03801200EC0A10 /* Femoral Line Cannulation.pdf in Resources */,
 				01C2829F1D888FC900110337 /* Epiglottis and croup.pdf in Resources */,
 				013B9E701DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf in Resources */,
 				01C282BC1D888FC900110337 /* Postpartum Hemorrhage.pdf in Resources */,
@@ -535,24 +582,31 @@
 				013B9E6E1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf in Resources */,
 				01C282A71D888FC900110337 /* Hyperthermia.pdf in Resources */,
 				01C282C71D888FC900110337 /* Therapeutic Hypothermia.pdf in Resources */,
+				010007A91E03813700EC0A10 /* Foley Catheter Insertion.pdf in Resources */,
+				0100079D1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf in Resources */,
 				01C282B01D888FC900110337 /* Pediatric Anaphylaxis.pdf in Resources */,
 				01C282911D888FC900110337 /* Air vs ground Algorhithm.pdf in Resources */,
 				01C282B11D888FC900110337 /* Pediatric Asthma.pdf in Resources */,
 				01C2829A1D888FC900110337 /* CVA Stroke one.pdf in Resources */,
 				BD4363E21D82A672008E30FF /* Pelvic Fracture Stablization.pdf in Resources */,
+				010007AB1E03820700EC0A10 /* Mechanical Ventilation procedure.pdf in Resources */,
 				01C282C61D888FC900110337 /* Terbutaline Sulfate Protocol.pdf in Resources */,
+				0100079F1E03771200EC0A10 /* Cricothyroidotomy.pdf in Resources */,
 				01C282BA1D888FC900110337 /* PEEP Reccs.pdf in Resources */,
 				013B9E721DF1FC550063EBD2 /* Maternal General Guidelines.pdf in Resources */,
 				01C282C91D888FC900110337 /* Vaginal Bleeding.pdf in Resources */,
 				BD68A06D1D13548600DF536D /* Meds List.plist in Resources */,
+				0100079B1E03763600EC0A10 /* EZ  I_O.pdf in Resources */,
 				01C2829C1D888FC900110337 /* Dangerous patient.pdf in Resources */,
 				01C2829B1D888FC900110337 /* CVA Stroke one(2).pdf in Resources */,
 				01C2824A1D888F6D00110337 /* Facial trauma.pdf in Resources */,
 				BD68A0651D133B1500DF536D /* pdf List.plist in Resources */,
 				01C282C01D888FC900110337 /* Sedation guideline.pdf in Resources */,
+				010007AD1E03839B00EC0A10 /* Oral Intubation.pdf in Resources */,
 				01C282BD1D888FC900110337 /* Pregnancy Induced Hypertension.pdf in Resources */,
 				01C282A81D888FC900110337 /* Hypoglycemia.pdf in Resources */,
 				01C282A41D888FC900110337 /* Hazmat Transport.pdf in Resources */,
+				010007AF1E03842700EC0A10 /* Tension Pneumothorax.pdf in Resources */,
 				01C282AC1D888FC900110337 /* Istat Guidelines.pdf in Resources */,
 				BD4363E01D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf in Resources */,
 				BD4363D61D829A57008E30FF /* Femoral ABG Procedure .pdf in Resources */,
@@ -563,6 +617,7 @@
 				BD3A194A1D14935300A3FF80 /* Header Airlink.png in Resources */,
 				01C282AF1D888FC900110337 /* Pediatirc Blood Loss, Shock Protocol.pdf in Resources */,
 				01C282461D888F6D00110337 /* Amputation.pdf in Resources */,
+				010007991E0375B200EC0A10 /* BiPAP.pdf in Resources */,
 				01C282961D888FC900110337 /* Blood Products TXA.pdf in Resources */,
 				010D37DA1D8C62A600FEC796 /* Ketamine Guideline.pdf in Resources */,
 				01C2824B1D888F6D00110337 /* General Trauma Management.pdf in Resources */,
@@ -595,6 +650,7 @@
 				BD68A0521D13334B00DF536D /* MedicineViewController.swift in Sources */,
 				BD83CDF51D01F930004A756C /* MedicinesTableViewCell.swift in Sources */,
 				BD83CDF91D01F948004A756C /* NotesViewController.swift in Sources */,
+				0100106E1E03293900CECCAA /* Medicines.swift in Sources */,
 				01DFE8DC1D43DFC600BDCDB1 /* ArticleButtonViewController.swift in Sources */,
 				BD83CDF71D01F93C004A756C /* NotesTableViewController.swift in Sources */,
 				01C0433C1DE50E4F000A8F5D /* NoteFile+CoreDataClass.m in Sources */,

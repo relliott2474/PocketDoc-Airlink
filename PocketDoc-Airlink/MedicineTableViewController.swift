@@ -11,11 +11,12 @@ import UIKit
 
 class MedicineTableViewController: UITableViewController {
     
+    //var meds:Array = [Medicines]()
     var meds = [NSDictionary]()
     var cellContent = [NSArray]()
-    var filterMeds = [NSDictionary]()
-    var shouldShowSearchResults = false
-    
+    //var filterMeds = [NSDictionary]()
+    //var shouldShowSearchResults = false
+    var filterMeds = [Medicines]()
     
     
     override func viewDidLoad() {
@@ -23,10 +24,8 @@ class MedicineTableViewController: UITableViewController {
         loadTableData()
         self.title = "Medications"
         
-        
     }
     
-
     func loadTableData(){
         let path = Bundle.main.path(forResource: "Meds List", ofType:"plist")
         cellContent = NSArray(contentsOfFile:path!) as! [NSArray] //as! [[String : String]]
@@ -55,41 +54,12 @@ class MedicineTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "medsCell", for: indexPath)
         tableView.rowHeight = 50
-        if shouldShowSearchResults{
-            cell.textLabel?.text = filterMeds[(indexPath as NSIndexPath).row]["name"] as? String
-            cell.detailTextLabel?.text = filterMeds[(indexPath as NSIndexPath).row]["dose range"] as? String
-            return cell
-        }else{
-        cell.textLabel?.text = meds[(indexPath as NSIndexPath).row]["name"] as? String
-        cell.detailTextLabel?.text = meds[(indexPath as NSIndexPath).row]["dose range"] as? String
+        cell.textLabel?.text = meds[(indexPath as NSIndexPath).row]["name"]! as? String
+        cell.detailTextLabel?.text = meds[(indexPath as NSIndexPath).row]["dose range"]! as? String
         return cell
-            }
+        
     }
 
-    
-    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
-        //dismiss keyboard
-        searchBar.resignFirstResponder()
-        //reload table data
-        
-    }
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        
-        //self.loadObjects()
-    }
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-       
-        //dismiss
-        searchBar.resignFirstResponder()
-        //self.loadObjects()
-    }
-    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
-        //self.loadObjects()
-    }
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
-       
-    }
 
     
      // MARK: - Navigation
@@ -102,9 +72,9 @@ class MedicineTableViewController: UITableViewController {
         if let indexPath = self.tableView.indexPathForSelectedRow{
             let row = Int((indexPath as NSIndexPath).row)
         
-        destinationVC.ntitle = (meds[row]["name"]) as! String
-        destinationVC.ndata = (meds[row]["dose range"]) as! String
-        destinationVC.ntext = (meds[row]["textinfo"]) as! String
+        destinationVC.ntitle = (meds[row]["name"])! as! String
+        destinationVC.ndata = (meds[row]["dose range"])! as! String
+        destinationVC.ntext = (meds[row]["textinfo"])! as! String
         }
      }
     

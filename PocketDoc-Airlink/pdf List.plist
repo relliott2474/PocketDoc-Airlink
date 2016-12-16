@@ -204,7 +204,7 @@
 		<key>pdf name</key>
 		<string>External Jugular Cannulation</string>
 		<key>type</key>
-		<string>Adult</string>
+		<string>Procedures</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
@@ -234,7 +234,7 @@
 		<key>pdf name</key>
 		<string>Escharotomy guideline</string>
 		<key>type</key>
-		<string>Adult</string>
+		<string>Procedures</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
@@ -334,8 +334,8 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>SpinalImmobilization-Interfacility</string>
-		<key>Type</key>
+		<string>Spinal Immobilization-Interfacility</string>
+		<key>type</key>
 		<string>Trauma</string>
 	</dict>
 	<dict>
@@ -439,6 +439,84 @@
 		<string>AdultRSI-new</string>
 		<key>type</key>
 		<string>Adult</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Procedures</string>
+		<key>pdf name</key>
+		<string>BIPAP</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>EZ  I_O</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Inclusion criteria for burn center transfer</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Cricothyroidotomy</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Trauma</string>
+		<key>pdf name</key>
+		<string>Trauma Orthopedic</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Spinal Cord Injury</string>
+		<key>type</key>
+		<string>Trauma</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>ABG Procedure</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Emergent Umbilical Line Insertion</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Femoral Line Cannulation</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Mechanical Ventilation procedure</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Foley Catheter Insertion</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Oral Intubation</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Tension Pneumothorax</string>
+		<key>type</key>
+		<string>Procedures</string>
 	</dict>
 </array>
 </plist>
