@@ -292,12 +292,6 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Pediatric Fluid Maintenanc</string>
-		<key>type</key>
-		<string>Pediatric</string>
-	</dict>
-	<dict>
-		<key>pdf name</key>
 		<string>Pediatric DKA Protocol</string>
 		<key>type</key>
 		<string>Pediatric</string>
@@ -436,7 +430,7 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>AdultRSI-new</string>
+		<string>Adult RSI-new</string>
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
@@ -508,15 +502,15 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Oral Intubation</string>
+		<string>Tension Pneumothorax</string>
 		<key>type</key>
 		<string>Procedures</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Tension Pneumothorax</string>
+		<string>Magnesium Sulfate</string>
 		<key>type</key>
-		<string>Procedures</string>
+		<string>OB</string>
 	</dict>
 </array>
 </plist>

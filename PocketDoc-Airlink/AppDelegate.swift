@@ -183,5 +183,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //end iOS9 Core Data Stack Management
         }
     }
+    
+
+    
 }
 

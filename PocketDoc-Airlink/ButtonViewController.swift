@@ -24,12 +24,25 @@ class ButtonViewController: UIViewController {
     @IBOutlet weak var callButton: UIButton!
     @IBOutlet weak var notesButton: UIButton!
 
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
+    
+    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
+        return UIInterfaceOrientation.portrait
+    }
     
     let buttonColor:UIColor = UIColor.white
     let barColorTint:UIColor = UIColor(red:0.94, green:0.33, blue:0.31, alpha:1.0)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
         // this sets the navigation bar Color
         navigationController!.navigationBar.barTintColor = buttonColor
         
@@ -76,6 +89,14 @@ class ButtonViewController: UIViewController {
         
         self.present(callAlert, animated:true, completion:nil)
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let value = UIInterfaceOrientation.portrait.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+        
+    }
+    
+        
     
     
 }
