@@ -512,5 +512,17 @@
 		<key>type</key>
 		<string>OB</string>
 	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Ride along Policy revised</string>
+		<key>type</key>
+		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Revised High Risk OB May 2016</string>
+		<key>type</key>
+		<string>OB</string>
+	</dict>
 </array>
 </plist>
