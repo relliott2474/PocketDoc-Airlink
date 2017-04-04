@@ -31,6 +31,7 @@
 		015AAEE61E5CB854008F0689 /* Acute Coronary Syndrome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */; };
 		015AAEE81E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */; };
 		015DD1071D920A06002F1D97 /* Adult RSI-new.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */; };
+		017599B41E94120B008E4C15 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017599B31E94120B008E4C15 /* CalcViewController.swift */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
 		01A093C71E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01A093C61E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf */; };
@@ -156,6 +157,7 @@
 		015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Acute Coronary Syndrome.pdf"; sourceTree = "<group>"; };
 		015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Revised High Risk OB May 2016.pdf"; sourceTree = "<group>"; };
 		015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adult RSI-new.pdf"; sourceTree = "<group>"; };
+		017599B31E94120B008E4C15 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01A093C61E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Anticoagulation Reversal.pdf"; sourceTree = "<group>"; };
@@ -461,6 +463,7 @@
 			children = (
 				019419511D1AE53D003A9618 /* EmailViewController.swift */,
 				BD83CDE41D01F880004A756C /* Main.storyboard */,
+				017599B31E94120B008E4C15 /* CalcViewController.swift */,
 				01DFE8DB1D43DFC600BDCDB1 /* ArticleButtonViewController.swift */,
 				BD83CDFC1D01F978004A756C /* ButtonViewController.swift */,
 				01D5101C1D41370A00803366 /* RoundButton.swift */,
@@ -673,6 +676,7 @@
 				019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */,
 				01DFE8DE1D45761800BDCDB1 /* ArticleTableViewCell.swift in Sources */,
 				BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */,
+				017599B41E94120B008E4C15 /* CalcViewController.swift in Sources */,
 				BD68A0501D13333600DF536D /* MedicineTableViewController.swift in Sources */,
 				01C0433D1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m in Sources */,
 				BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */,

@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
         // Override point for customization after application launch.
-        Thread.sleep(forTimeInterval: 1.0)
+        Thread.sleep(forTimeInterval: 0.5)
         
         //Parse.setApplicationId("rN7P8OZVhVjj4aGCZrWGiv4f2aUrFr1nc9sWfxRG", clientKey: "7hQc37H0DqZ2wrNjQDHZNWJvv58P52d8lMraW8C0")
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]

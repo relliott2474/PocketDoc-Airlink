@@ -24,6 +24,8 @@ class ButtonViewController: UIViewController {
     @IBOutlet weak var callButton: UIButton!
     @IBOutlet weak var notesButton: UIButton!
 
+    @IBOutlet weak var calcButton: UIButton!
+    
     override var shouldAutorotate: Bool {
         return false
     }
