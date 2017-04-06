@@ -508,10 +508,12 @@
                     <navigationItem key="navigationItem" id="WT6-rC-N2j"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
-                        <outlet property="callButton" destination="1TA-QI-XzH" id="IRk-0b-mGv"/>
+                        <outlet property="callButton" destination="VRf-vI-YTb" id="PNl-gh-2dP"/>
                         <outlet property="notesButton" destination="sPg-JK-msu" id="gvY-Nf-7P6"/>
                         <outlet property="refArticles" destination="eBY-D3-Fmg" id="PdI-A1-qpt"/>
                         <outlet property="refMeds" destination="91B-l9-RrC" id="OoS-SC-u3r"/>
+                        <outletCollection property="CallB" destination="1TA-QI-XzH" collectionClass="NSMutableArray" id="Jzo-LX-XmV"/>
+                        <outletCollection property="CallB" destination="VRf-vI-YTb" collectionClass="NSMutableArray" id="EAF-ON-WTg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFK-Sb-yCP" userLabel="First Responder" sceneMemberID="firstResponder"/>

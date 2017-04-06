@@ -19,12 +19,13 @@ class ButtonViewController: UIViewController {
         notify("Helenka", number: "tel://5414195220")
     }
     
+    
     @IBOutlet weak var refArticles: UIButton!
     @IBOutlet weak var refMeds: UIButton!
     @IBOutlet weak var callButton: UIButton!
     @IBOutlet weak var notesButton: UIButton!
 
-    @IBOutlet weak var calcButton: UIButton!
+    //@IBOutlet weak var calcButton: UIButton!
     
     override var shouldAutorotate: Bool {
         return false
@@ -44,7 +45,6 @@ class ButtonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
         // this sets the navigation bar Color
         navigationController!.navigationBar.barTintColor = buttonColor
         
