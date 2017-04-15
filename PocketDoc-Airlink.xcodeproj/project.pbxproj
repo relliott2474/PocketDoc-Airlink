@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010007991E0375B200EC0A10 /* BiPAP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007981E0375B200EC0A10 /* BiPAP.pdf */; };
+		010007991E0375B200EC0A10 /* BIPAP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007981E0375B200EC0A10 /* BIPAP.pdf */; };
 		0100079B1E03763600EC0A10 /* EZ  I_O.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0100079A1E03763600EC0A10 /* EZ  I_O.pdf */; };
 		0100079D1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0100079C1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf */; };
 		0100079F1E03771200EC0A10 /* Cricothyroidotomy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0100079E1E03771200EC0A10 /* Cricothyroidotomy.pdf */; };
@@ -24,9 +24,17 @@
 		013B9E6E1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E6D1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf */; };
 		013B9E701DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E6F1DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf */; };
 		013B9E721DF1FC550063EBD2 /* Maternal General Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E711DF1FC550063EBD2 /* Maternal General Guidelines.pdf */; };
-		015DD1071D920A06002F1D97 /* AdultRSI-new.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */; };
+		015AAEDE1E5CB72D008F0689 /* Ride along Policy revised.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEDD1E5CB72D008F0689 /* Ride along Policy revised.pdf */; };
+		015AAEE01E5CB7D1008F0689 /* Hazmat Transport.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEDF1E5CB7D1008F0689 /* Hazmat Transport.pdf */; };
+		015AAEE21E5CB818008F0689 /* Death in field guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE11E5CB818008F0689 /* Death in field guideline.pdf */; };
+		015AAEE41E5CB83A008F0689 /* Dangerous patient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE31E5CB83A008F0689 /* Dangerous patient.pdf */; };
+		015AAEE61E5CB854008F0689 /* Acute Coronary Syndrome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */; };
+		015AAEE81E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */; };
+		015DD1071D920A06002F1D97 /* Adult RSI-new.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */; };
+		017599B41E94120B008E4C15 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017599B31E94120B008E4C15 /* CalcViewController.swift */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
+		01A093C71E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01A093C61E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf */; };
 		01C0433C1DE50E4F000A8F5D /* NoteFile+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C043391DE50E4F000A8F5D /* NoteFile+CoreDataClass.m */; };
 		01C0433D1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C0433B1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m */; };
 		01C282371D888D5B00110337 /* Multiple Patient Incident.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282361D888D5B00110337 /* Multiple Patient Incident.pdf */; };
@@ -43,7 +51,6 @@
 		01C282501D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282451D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf */; };
 		01C282531D888FBD00110337 /*  DKA adults.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282521D888FBD00110337 /*  DKA adults.pdf */; };
 		01C2828F1D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */; };
-		01C282901D888FC900110337 /* Acute Coronary Syndrome (1).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282551D888FC900110337 /* Acute Coronary Syndrome (1).pdf */; };
 		01C282911D888FC900110337 /* Air vs ground Algorhithm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282561D888FC900110337 /* Air vs ground Algorhithm.pdf */; };
 		01C282921D888FC900110337 /* Altered Mental Status.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282571D888FC900110337 /* Altered Mental Status.pdf */; };
 		01C282931D888FC900110337 /* Anaphylaxis Adult.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282581D888FC900110337 /* Anaphylaxis Adult.pdf */; };
@@ -55,15 +62,12 @@
 		01C282991D888FC900110337 /* Childbirth Normal Delivery.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2825E1D888FC900110337 /* Childbirth Normal Delivery.pdf */; };
 		01C2829A1D888FC900110337 /* CVA Stroke one.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2825F1D888FC900110337 /* CVA Stroke one.pdf */; };
 		01C2829B1D888FC900110337 /* CVA Stroke one(2).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282601D888FC900110337 /* CVA Stroke one(2).pdf */; };
-		01C2829C1D888FC900110337 /* Dangerous patient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282611D888FC900110337 /* Dangerous patient.pdf */; };
-		01C2829D1D888FC900110337 /* Death in field guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282621D888FC900110337 /* Death in field guideline.pdf */; };
 		01C2829E1D888FC900110337 /* Drowning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282631D888FC900110337 /* Drowning.pdf */; };
 		01C2829F1D888FC900110337 /* Epiglottis and croup.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282641D888FC900110337 /* Epiglottis and croup.pdf */; };
 		01C282A01D888FC900110337 /* Escharotomy guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282651D888FC900110337 /* Escharotomy guideline.pdf */; };
 		01C282A11D888FC900110337 /* External Jugular Cannulation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282661D888FC900110337 /* External Jugular Cannulation.pdf */; };
 		01C282A21D888FC900110337 /* Frostbite.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282671D888FC900110337 /* Frostbite.pdf */; };
 		01C282A31D888FC900110337 /* General Overdose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282681D888FC900110337 /* General Overdose.pdf */; };
-		01C282A41D888FC900110337 /* Hazmat Transport.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282691D888FC900110337 /* Hazmat Transport.pdf */; };
 		01C282A51D888FC900110337 /* Hyperkalemia protocol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2826A1D888FC900110337 /* Hyperkalemia protocol.pdf */; };
 		01C282A61D888FC900110337 /* Hypertension not related to pregnancy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2826B1D888FC900110337 /* Hypertension not related to pregnancy.pdf */; };
 		01C282A71D888FC900110337 /* Hyperthermia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2826C1D888FC900110337 /* Hyperthermia.pdf */; };
@@ -93,7 +97,7 @@
 		01C282BF1D888FC900110337 /* Rhabdomyolysis.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282841D888FC900110337 /* Rhabdomyolysis.pdf */; };
 		01C282C01D888FC900110337 /* Sedation guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282851D888FC900110337 /* Sedation guideline.pdf */; };
 		01C282C11D888FC900110337 /* Seizure  Adult.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282861D888FC900110337 /* Seizure  Adult.pdf */; };
-		01C282C21D888FC900110337 /* Sepsis, Septic Shock, Adult.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282871D888FC900110337 /* Sepsis, Septic Shock, Adult.pdf */; };
+		01C282C21D888FC900110337 /* Adult Sepsis.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282871D888FC900110337 /* Adult Sepsis.pdf */; };
 		01C282C31D888FC900110337 /* Shock.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282881D888FC900110337 /* Shock.pdf */; };
 		01C282C41D888FC900110337 /* Snakebite Protocol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282891D888FC900110337 /* Snakebite Protocol.pdf */; };
 		01C282C51D888FC900110337 /* Syncope.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2828A1D888FC900110337 /* Syncope.pdf */; };
@@ -129,7 +133,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		010007981E0375B200EC0A10 /* BiPAP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BiPAP.pdf; sourceTree = "<group>"; };
+		010007981E0375B200EC0A10 /* BIPAP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BIPAP.pdf; sourceTree = "<group>"; };
 		0100079A1E03763600EC0A10 /* EZ  I_O.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "EZ  I_O.pdf"; sourceTree = "<group>"; };
 		0100079C1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Inclusion criteria for burn center transfer.pdf"; sourceTree = "<group>"; };
 		0100079E1E03771200EC0A10 /* Cricothyroidotomy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Cricothyroidotomy.pdf; sourceTree = "<group>"; };
@@ -146,9 +150,17 @@
 		013B9E6D1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Magnesium Sulfate.pdf"; sourceTree = "<group>"; };
 		013B9E6F1DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "revised Preterm Labor.pdf may 2016.pdf"; sourceTree = "<group>"; };
 		013B9E711DF1FC550063EBD2 /* Maternal General Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Maternal General Guidelines.pdf"; sourceTree = "<group>"; };
-		015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AdultRSI-new.pdf"; sourceTree = "<group>"; };
+		015AAEDD1E5CB72D008F0689 /* Ride along Policy revised.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ride along Policy revised.pdf"; sourceTree = "<group>"; };
+		015AAEDF1E5CB7D1008F0689 /* Hazmat Transport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hazmat Transport.pdf"; sourceTree = "<group>"; };
+		015AAEE11E5CB818008F0689 /* Death in field guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Death in field guideline.pdf"; sourceTree = "<group>"; };
+		015AAEE31E5CB83A008F0689 /* Dangerous patient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dangerous patient.pdf"; sourceTree = "<group>"; };
+		015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Acute Coronary Syndrome.pdf"; sourceTree = "<group>"; };
+		015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Revised High Risk OB May 2016.pdf"; sourceTree = "<group>"; };
+		015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adult RSI-new.pdf"; sourceTree = "<group>"; };
+		017599B31E94120B008E4C15 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01A093C61E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Anticoagulation Reversal.pdf"; sourceTree = "<group>"; };
 		01C043371DE50E4F000A8F5D /* PocketDoc-Airlink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketDoc-Airlink-Bridging-Header.h"; sourceTree = "<group>"; };
 		01C043381DE50E4F000A8F5D /* NoteFile+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoteFile+CoreDataClass.h"; sourceTree = "<group>"; };
 		01C043391DE50E4F000A8F5D /* NoteFile+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoteFile+CoreDataClass.m"; sourceTree = "<group>"; };
@@ -168,7 +180,6 @@
 		01C282451D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TXA Bleeding control in the trauma patient.pdf"; sourceTree = "<group>"; };
 		01C282521D888FBD00110337 /*  DKA adults.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = " DKA adults.pdf"; sourceTree = "<group>"; };
 		01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Abdominal Pain not related to pregnancy or trauma.pdf"; sourceTree = "<group>"; };
-		01C282551D888FC900110337 /* Acute Coronary Syndrome (1).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Acute Coronary Syndrome (1).pdf"; sourceTree = "<group>"; };
 		01C282561D888FC900110337 /* Air vs ground Algorhithm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Air vs ground Algorhithm.pdf"; sourceTree = "<group>"; };
 		01C282571D888FC900110337 /* Altered Mental Status.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Altered Mental Status.pdf"; sourceTree = "<group>"; };
 		01C282581D888FC900110337 /* Anaphylaxis Adult.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Anaphylaxis Adult.pdf"; sourceTree = "<group>"; };
@@ -180,15 +191,12 @@
 		01C2825E1D888FC900110337 /* Childbirth Normal Delivery.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Childbirth Normal Delivery.pdf"; sourceTree = "<group>"; };
 		01C2825F1D888FC900110337 /* CVA Stroke one.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CVA Stroke one.pdf"; sourceTree = "<group>"; };
 		01C282601D888FC900110337 /* CVA Stroke one(2).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CVA Stroke one(2).pdf"; sourceTree = "<group>"; };
-		01C282611D888FC900110337 /* Dangerous patient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dangerous patient.pdf"; sourceTree = "<group>"; };
-		01C282621D888FC900110337 /* Death in field guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Death in field guideline.pdf"; sourceTree = "<group>"; };
 		01C282631D888FC900110337 /* Drowning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Drowning.pdf; sourceTree = "<group>"; };
 		01C282641D888FC900110337 /* Epiglottis and croup.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Epiglottis and croup.pdf"; sourceTree = "<group>"; };
 		01C282651D888FC900110337 /* Escharotomy guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Escharotomy guideline.pdf"; sourceTree = "<group>"; };
 		01C282661D888FC900110337 /* External Jugular Cannulation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "External Jugular Cannulation.pdf"; sourceTree = "<group>"; };
 		01C282671D888FC900110337 /* Frostbite.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Frostbite.pdf; sourceTree = "<group>"; };
 		01C282681D888FC900110337 /* General Overdose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "General Overdose.pdf"; sourceTree = "<group>"; };
-		01C282691D888FC900110337 /* Hazmat Transport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hazmat Transport.pdf"; sourceTree = "<group>"; };
 		01C2826A1D888FC900110337 /* Hyperkalemia protocol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hyperkalemia protocol.pdf"; sourceTree = "<group>"; };
 		01C2826B1D888FC900110337 /* Hypertension not related to pregnancy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hypertension not related to pregnancy.pdf"; sourceTree = "<group>"; };
 		01C2826C1D888FC900110337 /* Hyperthermia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hyperthermia.pdf; sourceTree = "<group>"; };
@@ -218,7 +226,7 @@
 		01C282841D888FC900110337 /* Rhabdomyolysis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rhabdomyolysis.pdf; sourceTree = "<group>"; };
 		01C282851D888FC900110337 /* Sedation guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sedation guideline.pdf"; sourceTree = "<group>"; };
 		01C282861D888FC900110337 /* Seizure  Adult.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Seizure  Adult.pdf"; sourceTree = "<group>"; };
-		01C282871D888FC900110337 /* Sepsis, Septic Shock, Adult.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sepsis, Septic Shock, Adult.pdf"; sourceTree = "<group>"; };
+		01C282871D888FC900110337 /* Adult Sepsis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adult Sepsis.pdf"; sourceTree = "<group>"; };
 		01C282881D888FC900110337 /* Shock.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shock.pdf; sourceTree = "<group>"; };
 		01C282891D888FC900110337 /* Snakebite Protocol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Snakebite Protocol.pdf"; sourceTree = "<group>"; };
 		01C2828A1D888FC900110337 /* Syncope.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Syncope.pdf; sourceTree = "<group>"; };
@@ -288,6 +296,7 @@
 				01C282811D888FC900110337 /* Postpartum Hemorrhage.pdf */,
 				01C282821D888FC900110337 /* Pregnancy Induced Hypertension.pdf */,
 				013B9E6F1DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf */,
+				015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */,
 				01C2828B1D888FC900110337 /* Terbutaline Sulfate Protocol.pdf */,
 				01C2828E1D888FC900110337 /* Vaginal Bleeding.pdf */,
 			);
@@ -317,10 +326,10 @@
 		01C282511D888FB000110337 /* Medical */ = {
 			isa = PBXGroup;
 			children = (
-				015DD1061D920A06002F1D97 /* AdultRSI-new.pdf */,
+				015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */,
 				01C282521D888FBD00110337 /*  DKA adults.pdf */,
 				01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */,
-				01C282551D888FC900110337 /* Acute Coronary Syndrome (1).pdf */,
+				015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */,
 				01C282561D888FC900110337 /* Air vs ground Algorhithm.pdf */,
 				01C282571D888FC900110337 /* Altered Mental Status.pdf */,
 				01C282581D888FC900110337 /* Anaphylaxis Adult.pdf */,
@@ -330,13 +339,13 @@
 				01C2825C1D888FC900110337 /* Blood protocol.pdf */,
 				01C2825F1D888FC900110337 /* CVA Stroke one.pdf */,
 				01C282601D888FC900110337 /* CVA Stroke one(2).pdf */,
-				01C282611D888FC900110337 /* Dangerous patient.pdf */,
-				01C282621D888FC900110337 /* Death in field guideline.pdf */,
+				015AAEE31E5CB83A008F0689 /* Dangerous patient.pdf */,
+				015AAEE11E5CB818008F0689 /* Death in field guideline.pdf */,
 				01C282631D888FC900110337 /* Drowning.pdf */,
 				01C282641D888FC900110337 /* Epiglottis and croup.pdf */,
 				01C282671D888FC900110337 /* Frostbite.pdf */,
 				01C282681D888FC900110337 /* General Overdose.pdf */,
-				01C282691D888FC900110337 /* Hazmat Transport.pdf */,
+				015AAEDF1E5CB7D1008F0689 /* Hazmat Transport.pdf */,
 				01C2826A1D888FC900110337 /* Hyperkalemia protocol.pdf */,
 				01C2826B1D888FC900110337 /* Hypertension not related to pregnancy.pdf */,
 				01C2826C1D888FC900110337 /* Hyperthermia.pdf */,
@@ -362,12 +371,14 @@
 				01C2827F1D888FC900110337 /* PEEP Reccs.pdf */,
 				01C282801D888FC900110337 /* Platelets During Transport.pdf */,
 				01C282831D888FC900110337 /* Refusal of care guideline.pdf */,
+				015AAEDD1E5CB72D008F0689 /* Ride along Policy revised.pdf */,
 				01C282841D888FC900110337 /* Rhabdomyolysis.pdf */,
 				01C282851D888FC900110337 /* Sedation guideline.pdf */,
 				01C282861D888FC900110337 /* Seizure  Adult.pdf */,
-				01C282871D888FC900110337 /* Sepsis, Septic Shock, Adult.pdf */,
+				01C282871D888FC900110337 /* Adult Sepsis.pdf */,
 				01C282881D888FC900110337 /* Shock.pdf */,
 				01C282891D888FC900110337 /* Snakebite Protocol.pdf */,
+				01A093C61E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf */,
 				01C2828A1D888FC900110337 /* Syncope.pdf */,
 				01C2828C1D888FC900110337 /* Therapeutic Hypothermia.pdf */,
 				01C2828D1D888FC900110337 /* Tylenol Overdose.pdf */,
@@ -410,7 +421,7 @@
 			isa = PBXGroup;
 			children = (
 				010007A21E037E9200EC0A10 /* ABG Procedure.pdf */,
-				010007981E0375B200EC0A10 /* BiPAP.pdf */,
+				010007981E0375B200EC0A10 /* BIPAP.pdf */,
 				0100079E1E03771200EC0A10 /* Cricothyroidotomy.pdf */,
 				010007A41E037F1900EC0A10 /* Emergent Umbilical Line Insertion.pdf */,
 				0100079A1E03763600EC0A10 /* EZ  I_O.pdf */,
@@ -452,6 +463,7 @@
 			children = (
 				019419511D1AE53D003A9618 /* EmailViewController.swift */,
 				BD83CDE41D01F880004A756C /* Main.storyboard */,
+				017599B31E94120B008E4C15 /* CalcViewController.swift */,
 				01DFE8DB1D43DFC600BDCDB1 /* ArticleButtonViewController.swift */,
 				BD83CDFC1D01F978004A756C /* ButtonViewController.swift */,
 				01D5101C1D41370A00803366 /* RoundButton.swift */,
@@ -542,11 +554,11 @@
 				01C282941D888FC900110337 /* Aortic Dissection.pdf in Resources */,
 				01C282C81D888FC900110337 /* Tylenol Overdose.pdf in Resources */,
 				01C282BB1D888FC900110337 /* Platelets During Transport.pdf in Resources */,
-				01C282C21D888FC900110337 /* Sepsis, Septic Shock, Adult.pdf in Resources */,
+				01C282C21D888FC900110337 /* Adult Sepsis.pdf in Resources */,
 				010007A31E037E9200EC0A10 /* ABG Procedure.pdf in Resources */,
-				01C282901D888FC900110337 /* Acute Coronary Syndrome (1).pdf in Resources */,
 				01C282B41D888FC900110337 /* Pediatric Head Injury.pdf in Resources */,
 				01C282B91D888FC900110337 /* Peds Burn.pdf in Resources */,
+				015AAEDE1E5CB72D008F0689 /* Ride along Policy revised.pdf in Resources */,
 				01C282C41D888FC900110337 /* Snakebite Protocol.pdf in Resources */,
 				01C282A11D888FC900110337 /* External Jugular Cannulation.pdf in Resources */,
 				01C282C31D888FC900110337 /* Shock.pdf in Resources */,
@@ -578,11 +590,12 @@
 				013B9E701DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf in Resources */,
 				01C282BC1D888FC900110337 /* Postpartum Hemorrhage.pdf in Resources */,
 				01C282B71D888FC900110337 /* Pediatric Seizures.pdf in Resources */,
-				015DD1071D920A06002F1D97 /* AdultRSI-new.pdf in Resources */,
+				015DD1071D920A06002F1D97 /* Adult RSI-new.pdf in Resources */,
 				013B9E6E1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf in Resources */,
 				01C282A71D888FC900110337 /* Hyperthermia.pdf in Resources */,
 				01C282C71D888FC900110337 /* Therapeutic Hypothermia.pdf in Resources */,
 				010007A91E03813700EC0A10 /* Foley Catheter Insertion.pdf in Resources */,
+				015AAEE81E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf in Resources */,
 				0100079D1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf in Resources */,
 				01C282B01D888FC900110337 /* Pediatric Anaphylaxis.pdf in Resources */,
 				01C282911D888FC900110337 /* Air vs ground Algorhithm.pdf in Resources */,
@@ -593,21 +606,23 @@
 				01C282C61D888FC900110337 /* Terbutaline Sulfate Protocol.pdf in Resources */,
 				0100079F1E03771200EC0A10 /* Cricothyroidotomy.pdf in Resources */,
 				01C282BA1D888FC900110337 /* PEEP Reccs.pdf in Resources */,
+				015AAEE61E5CB854008F0689 /* Acute Coronary Syndrome.pdf in Resources */,
 				013B9E721DF1FC550063EBD2 /* Maternal General Guidelines.pdf in Resources */,
 				01C282C91D888FC900110337 /* Vaginal Bleeding.pdf in Resources */,
 				BD68A06D1D13548600DF536D /* Meds List.plist in Resources */,
 				0100079B1E03763600EC0A10 /* EZ  I_O.pdf in Resources */,
-				01C2829C1D888FC900110337 /* Dangerous patient.pdf in Resources */,
+				015AAEE21E5CB818008F0689 /* Death in field guideline.pdf in Resources */,
 				01C2829B1D888FC900110337 /* CVA Stroke one(2).pdf in Resources */,
 				01C2824A1D888F6D00110337 /* Facial trauma.pdf in Resources */,
 				BD68A0651D133B1500DF536D /* pdf List.plist in Resources */,
 				01C282C01D888FC900110337 /* Sedation guideline.pdf in Resources */,
+				015AAEE01E5CB7D1008F0689 /* Hazmat Transport.pdf in Resources */,
 				010007AD1E03839B00EC0A10 /* Oral Intubation.pdf in Resources */,
 				01C282BD1D888FC900110337 /* Pregnancy Induced Hypertension.pdf in Resources */,
 				01C282A81D888FC900110337 /* Hypoglycemia.pdf in Resources */,
-				01C282A41D888FC900110337 /* Hazmat Transport.pdf in Resources */,
 				010007AF1E03842700EC0A10 /* Tension Pneumothorax.pdf in Resources */,
 				01C282AC1D888FC900110337 /* Istat Guidelines.pdf in Resources */,
+				015AAEE41E5CB83A008F0689 /* Dangerous patient.pdf in Resources */,
 				BD4363E01D82A5F9008E30FF /* Open Pneumothorax Procedure.pdf in Resources */,
 				BD4363D61D829A57008E30FF /* Femoral ABG Procedure .pdf in Resources */,
 				01C282A01D888FC900110337 /* Escharotomy guideline.pdf in Resources */,
@@ -617,7 +632,7 @@
 				BD3A194A1D14935300A3FF80 /* Header Airlink.png in Resources */,
 				01C282AF1D888FC900110337 /* Pediatirc Blood Loss, Shock Protocol.pdf in Resources */,
 				01C282461D888F6D00110337 /* Amputation.pdf in Resources */,
-				010007991E0375B200EC0A10 /* BiPAP.pdf in Resources */,
+				010007991E0375B200EC0A10 /* BIPAP.pdf in Resources */,
 				01C282961D888FC900110337 /* Blood Products TXA.pdf in Resources */,
 				010D37DA1D8C62A600FEC796 /* Ketamine Guideline.pdf in Resources */,
 				01C2824B1D888F6D00110337 /* General Trauma Management.pdf in Resources */,
@@ -626,12 +641,12 @@
 				01C2823A1D888F6000110337 /* Abdominal Trauma.pdf in Resources */,
 				01C282931D888FC900110337 /* Anaphylaxis Adult.pdf in Resources */,
 				BD83CDE61D01F880004A756C /* Main.storyboard in Resources */,
-				01C2829D1D888FC900110337 /* Death in field guideline.pdf in Resources */,
 				01C282A91D888FC900110337 /* Hypothermia.pdf in Resources */,
 				01C282BE1D888FC900110337 /* Refusal of care guideline.pdf in Resources */,
 				01C282B61D888FC900110337 /* Pediatric Sedation for Intubated Patients.pdf in Resources */,
 				01C282B81D888FC900110337 /* Pediatric Sepsis, Meningitis.pdf in Resources */,
 				019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */,
+				01A093C71E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf in Resources */,
 				01C282531D888FBD00110337 /*  DKA adults.pdf in Resources */,
 				01C2824D1D888F6D00110337 /* Spinal Cord Injury.pdf in Resources */,
 				01C282481D888F6D00110337 /* Burn protocol- Adult.pdf in Resources */,
@@ -661,6 +676,7 @@
 				019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */,
 				01DFE8DE1D45761800BDCDB1 /* ArticleTableViewCell.swift in Sources */,
 				BD83CDFD1D01F978004A756C /* ButtonViewController.swift in Sources */,
+				017599B41E94120B008E4C15 /* CalcViewController.swift in Sources */,
 				BD68A0501D13333600DF536D /* MedicineTableViewController.swift in Sources */,
 				01C0433D1DE50E4F000A8F5D /* NoteFile+CoreDataProperties.m in Sources */,
 				BD83CDF31D01F90C004A756C /* DataManager.swift in Sources */,

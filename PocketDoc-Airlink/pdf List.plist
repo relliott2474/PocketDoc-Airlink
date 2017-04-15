@@ -430,7 +430,7 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>AdultRSI-new</string>
+		<string>Adult RSI-new</string>
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
@@ -502,15 +502,27 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Oral Intubation</string>
+		<string>Tension Pneumothorax</string>
 		<key>type</key>
 		<string>Procedures</string>
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Tension Pneumothorax</string>
+		<string>Magnesium Sulfate</string>
+		<key>type</key>
+		<string>OB</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Ride along Policy revised</string>
 		<key>type</key>
 		<string>Procedures</string>
+	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>Revised High Risk OB May 2016</string>
+		<key>type</key>
+		<string>OB</string>
 	</dict>
 </array>
 </plist>
