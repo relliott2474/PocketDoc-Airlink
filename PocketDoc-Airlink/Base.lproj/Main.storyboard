@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B4U-02-kM9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B4U-02-kM9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -512,8 +512,6 @@
                         <outlet property="notesButton" destination="sPg-JK-msu" id="gvY-Nf-7P6"/>
                         <outlet property="refArticles" destination="eBY-D3-Fmg" id="PdI-A1-qpt"/>
                         <outlet property="refMeds" destination="91B-l9-RrC" id="OoS-SC-u3r"/>
-                        <outletCollection property="CallB" destination="1TA-QI-XzH" collectionClass="NSMutableArray" id="Jzo-LX-XmV"/>
-                        <outletCollection property="CallB" destination="VRf-vI-YTb" collectionClass="NSMutableArray" id="EAF-ON-WTg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFK-Sb-yCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
