@@ -292,12 +292,6 @@
 	</dict>
 	<dict>
 		<key>pdf name</key>
-		<string>Pediatric Fluid Maintenanc</string>
-		<key>type</key>
-		<string>Pediatric</string>
-	</dict>
-	<dict>
-		<key>pdf name</key>
 		<string>Pediatric DKA Protocol</string>
 		<key>type</key>
 		<string>Pediatric</string>
