@@ -51,7 +51,7 @@ class CalcViewController: UIViewController, UNUserNotificationCenterDelegate {
         textFieldDoneEditing(sender: height)
     }
    
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,14 +64,17 @@ class CalcViewController: UIViewController, UNUserNotificationCenterDelegate {
                     //add alert to complain
                 }
         })
-        
+        //self.height.addTarget(self, action: #selector(CalcViewController.textFieldDidChange(height:)), for: UIControlEvents.editingDidBegin)
         //didChangeValue()
         UNUserNotificationCenter.current().delegate = self
         height.keyboardType = UIKeyboardType.numberPad
         
         
     }
-    
+    func textFieldDidChange(height:UITextField){
+        print("Text changed: " + height.text!)
+        calcButton(height)
+    }
     func Calculate(inches:Int) {
         
         if Male.selectedSegmentIndex == 0{
