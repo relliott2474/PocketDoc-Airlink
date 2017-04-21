@@ -167,7 +167,7 @@ class CalcViewController: UIViewController, UNUserNotificationCenterDelegate {
         succsDose.text = String(Int(height * 1.5)) + "mg"
         ketamineDose.text = String(Int(height * 1.5 )) + "mg"
         etomidateDose.text = String(Int(height * 0.3)) + "mg"
-        rocuroniumDose.text = String(Int(height * 2)) + "mg"
+        rocuroniumDose.text = String(Int(height * 1)) + "mg"
         
     }
     
