@@ -46,13 +46,11 @@ class CalcViewController: UIViewController, UNUserNotificationCenterDelegate {
         else {
             inches = Int(i!)!
             Calculate(inches: inches)
-            //height.text = String(inches) + " inches"
+            
         }
         textFieldDoneEditing(sender: height)
     }
    
-   
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -79,23 +77,27 @@ class CalcViewController: UIViewController, UNUserNotificationCenterDelegate {
         
         if Male.selectedSegmentIndex == 0{
             //("male")
-            let hgt = inches
-            let hgt2:Double = Double(100 + ((hgt - 60) * 7)) / 2.2
+            
+            let cmHt:Double = Double(inches) * 2.5
+            let predMaleBW:Double = 50 + 0.91*(cmHt - 152.4)
+            print("predicted bw \(predMaleBW)")
+            //let hgt = inches
+            //let hgt2:Double = Double(100 + ((hgt - 60) * 7)) / 2.2
+            let hgt2 = predMaleBW
             calculations(hgt2: hgt2)
             let HighVT = Int(hgt2 * 8)
             let LowVT = Int(hgt2 * 6)
-            //print("starting tidal volume = \(HighVT)cc")
-            //print("ideal body weight = \(Int(hgt2))kg")
             let hgt4 = (Int(hgt2))
             let hgtWeight = String(hgt4)
             bodyWeight.text = hgtWeight + "kg"
             tidalVolume.text = String(LowVT) + "cc - " + String(HighVT) + "cc"
             
         }else if Male.selectedSegmentIndex == 1{
-            //female short
-            let hgt = inches
-            if hgt < 60 {
-                let hgt2:Double = Double( 100 - (( 60 - hgt) * 5)) / 2.2
+            //female
+                let cmHt = Double(inches) * 2.5
+                let predFemaleBW:Double = 45.5 + 0.91 * (cmHt - 152.4)
+                print(predFemaleBW)
+                let hgt2 = predFemaleBW
                 calculations(hgt2: hgt2)
                 let hgt3 = Int(hgt2 * 8)
                 let LowVT = Int(hgt2 * 6)
@@ -105,20 +107,7 @@ class CalcViewController: UIViewController, UNUserNotificationCenterDelegate {
                 let hgtTidal = String(hgt3)
                 tidalVolume.text = String(LowVT) + "cc - " + String(hgtTidal) + "cc"
             }
-            else{
-                //female tall
-                let hgt2:Double = Double(100 + ((hgt - 60) * 5)) / 2.2
-                calculations(hgt2: hgt2)
-                let hgt3 = Int(hgt2 * 8)
-                let LowVT = Int(hgt2 * 6)
-                let hgt4 = (Int(hgt2))
-                let hgtWeight = String(hgt4)
-                bodyWeight.text = hgtWeight + "kg"
-                let hgtTidal = String(hgt3)
-                tidalVolume.text = String(LowVT) + "cc - " + String(hgtTidal) + "cc"
-            }
-            
-        }
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -175,7 +164,8 @@ class CalcViewController: UIViewController, UNUserNotificationCenterDelegate {
     }
     
     @IBAction func textFieldDoneEditing(sender: UITextField) {
-        sender.resignFirstResponder()}
+        sender.resignFirstResponder()
+        }
     
 }
 
