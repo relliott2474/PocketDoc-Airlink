@@ -524,5 +524,11 @@
 		<key>type</key>
 		<string>OB</string>
 	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>ACLS-Bradycardia</string>
+		<key>type</key>
+		<string>Adult</string>
+	</dict>
 </array>
 </plist>

@@ -14,7 +14,9 @@ class ArticleViewController: UIViewController, UIWebViewDelegate {
         
     @IBOutlet weak var loadIndicator: UIActivityIndicatorView!
     
-    
+    override var shouldAutorotate: Bool {
+        return false
+    }
     override func viewDidLoad() {
         
         super.viewDidLoad()

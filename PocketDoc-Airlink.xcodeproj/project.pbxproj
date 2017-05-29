@@ -32,6 +32,7 @@
 		015AAEE81E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */; };
 		015DD1071D920A06002F1D97 /* Adult RSI-new.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */; };
 		017599B41E94120B008E4C15 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017599B31E94120B008E4C15 /* CalcViewController.swift */; };
+		018D76C01EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
 		019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */; };
 		01A093C71E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01A093C61E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf */; };
@@ -158,6 +159,7 @@
 		015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Revised High Risk OB May 2016.pdf"; sourceTree = "<group>"; };
 		015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adult RSI-new.pdf"; sourceTree = "<group>"; };
 		017599B31E94120B008E4C15 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ACLS-Bradycardia.pdf"; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		019419531D1AF9B0003A9618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01A093C61E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "St Charles Anticoagulation Reversal.pdf"; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */,
+				018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */,
 				01C282521D888FBD00110337 /*  DKA adults.pdf */,
 				01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */,
 				015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */,
@@ -595,6 +598,7 @@
 				01C282A71D888FC900110337 /* Hyperthermia.pdf in Resources */,
 				01C282C71D888FC900110337 /* Therapeutic Hypothermia.pdf in Resources */,
 				010007A91E03813700EC0A10 /* Foley Catheter Insertion.pdf in Resources */,
+				018D76C01EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf in Resources */,
 				015AAEE81E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf in Resources */,
 				0100079D1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf in Resources */,
 				01C282B01D888FC900110337 /* Pediatric Anaphylaxis.pdf in Resources */,
