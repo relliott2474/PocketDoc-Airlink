@@ -30,7 +30,6 @@
 		015AAEE41E5CB83A008F0689 /* Dangerous patient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE31E5CB83A008F0689 /* Dangerous patient.pdf */; };
 		015AAEE61E5CB854008F0689 /* Acute Coronary Syndrome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */; };
 		015AAEE81E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */; };
-		015DD1071D920A06002F1D97 /* Adult RSI-new.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */; };
 		017599B41E94120B008E4C15 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017599B31E94120B008E4C15 /* CalcViewController.swift */; };
 		018D76C01EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */; };
 		019419521D1AE53D003A9618 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019419511D1AE53D003A9618 /* EmailViewController.swift */; };
@@ -106,6 +105,7 @@
 		01C282C71D888FC900110337 /* Therapeutic Hypothermia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2828C1D888FC900110337 /* Therapeutic Hypothermia.pdf */; };
 		01C282C81D888FC900110337 /* Tylenol Overdose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2828D1D888FC900110337 /* Tylenol Overdose.pdf */; };
 		01C282C91D888FC900110337 /* Vaginal Bleeding.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C2828E1D888FC900110337 /* Vaginal Bleeding.pdf */; };
+		01C59DEE1EDDCBB80085FABC /* Adult RSI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C59DED1EDDCBB80085FABC /* Adult RSI.pdf */; };
 		01D5101D1D41370A00803366 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5101C1D41370A00803366 /* RoundButton.swift */; };
 		01DFE8DC1D43DFC600BDCDB1 /* ArticleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DFE8DB1D43DFC600BDCDB1 /* ArticleButtonViewController.swift */; };
 		01DFE8DE1D45761800BDCDB1 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DFE8DD1D45761800BDCDB1 /* ArticleTableViewCell.swift */; };
@@ -157,7 +157,6 @@
 		015AAEE31E5CB83A008F0689 /* Dangerous patient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dangerous patient.pdf"; sourceTree = "<group>"; };
 		015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Acute Coronary Syndrome.pdf"; sourceTree = "<group>"; };
 		015AAEE71E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Revised High Risk OB May 2016.pdf"; sourceTree = "<group>"; };
-		015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adult RSI-new.pdf"; sourceTree = "<group>"; };
 		017599B31E94120B008E4C15 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ACLS-Bradycardia.pdf"; sourceTree = "<group>"; };
 		019419511D1AE53D003A9618 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +235,7 @@
 		01C2828C1D888FC900110337 /* Therapeutic Hypothermia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Therapeutic Hypothermia.pdf"; sourceTree = "<group>"; };
 		01C2828D1D888FC900110337 /* Tylenol Overdose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tylenol Overdose.pdf"; sourceTree = "<group>"; };
 		01C2828E1D888FC900110337 /* Vaginal Bleeding.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Vaginal Bleeding.pdf"; sourceTree = "<group>"; };
+		01C59DED1EDDCBB80085FABC /* Adult RSI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adult RSI.pdf"; sourceTree = "<group>"; };
 		01D5101C1D41370A00803366 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		01DFE8DB1D43DFC600BDCDB1 /* ArticleButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleButtonViewController.swift; sourceTree = "<group>"; };
 		01DFE8DD1D45761800BDCDB1 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
@@ -328,7 +328,7 @@
 		01C282511D888FB000110337 /* Medical */ = {
 			isa = PBXGroup;
 			children = (
-				015DD1061D920A06002F1D97 /* Adult RSI-new.pdf */,
+				01C59DED1EDDCBB80085FABC /* Adult RSI.pdf */,
 				018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */,
 				01C282521D888FBD00110337 /*  DKA adults.pdf */,
 				01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */,
@@ -593,7 +593,6 @@
 				013B9E701DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf in Resources */,
 				01C282BC1D888FC900110337 /* Postpartum Hemorrhage.pdf in Resources */,
 				01C282B71D888FC900110337 /* Pediatric Seizures.pdf in Resources */,
-				015DD1071D920A06002F1D97 /* Adult RSI-new.pdf in Resources */,
 				013B9E6E1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf in Resources */,
 				01C282A71D888FC900110337 /* Hyperthermia.pdf in Resources */,
 				01C282C71D888FC900110337 /* Therapeutic Hypothermia.pdf in Resources */,
@@ -624,6 +623,7 @@
 				010007AD1E03839B00EC0A10 /* Oral Intubation.pdf in Resources */,
 				01C282BD1D888FC900110337 /* Pregnancy Induced Hypertension.pdf in Resources */,
 				01C282A81D888FC900110337 /* Hypoglycemia.pdf in Resources */,
+				01C59DEE1EDDCBB80085FABC /* Adult RSI.pdf in Resources */,
 				010007AF1E03842700EC0A10 /* Tension Pneumothorax.pdf in Resources */,
 				01C282AC1D888FC900110337 /* Istat Guidelines.pdf in Resources */,
 				015AAEE41E5CB83A008F0689 /* Dangerous patient.pdf in Resources */,
