@@ -530,5 +530,11 @@
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
+	<dict>
+		<key>pdf name</key>
+		<string>DKA adults</string>
+		<key>type</key>
+		<string>Adult</string>
+	</dict>
 </array>
 </plist>

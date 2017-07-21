@@ -49,7 +49,7 @@
 		01C2824D1D888F6D00110337 /* Spinal Cord Injury.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282421D888F6D00110337 /* Spinal Cord Injury.pdf */; };
 		01C2824E1D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282431D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf */; };
 		01C282501D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282451D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf */; };
-		01C282531D888FBD00110337 /*  DKA adults.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282521D888FBD00110337 /*  DKA adults.pdf */; };
+		01C282531D888FBD00110337 /* DKA adults.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282521D888FBD00110337 /* DKA adults.pdf */; };
 		01C2828F1D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */; };
 		01C282911D888FC900110337 /* Air vs ground Algorhithm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282561D888FC900110337 /* Air vs ground Algorhithm.pdf */; };
 		01C282921D888FC900110337 /* Altered Mental Status.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01C282571D888FC900110337 /* Altered Mental Status.pdf */; };
@@ -179,7 +179,7 @@
 		01C282421D888F6D00110337 /* Spinal Cord Injury.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Spinal Cord Injury.pdf"; sourceTree = "<group>"; };
 		01C282431D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Spinal Immobilization-Interfacility.pdf"; sourceTree = "<group>"; };
 		01C282451D888F6D00110337 /* TXA Bleeding control in the trauma patient.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TXA Bleeding control in the trauma patient.pdf"; sourceTree = "<group>"; };
-		01C282521D888FBD00110337 /*  DKA adults.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = " DKA adults.pdf"; sourceTree = "<group>"; };
+		01C282521D888FBD00110337 /* DKA adults.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "DKA adults.pdf"; sourceTree = "<group>"; };
 		01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Abdominal Pain not related to pregnancy or trauma.pdf"; sourceTree = "<group>"; };
 		01C282561D888FC900110337 /* Air vs ground Algorhithm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Air vs ground Algorhithm.pdf"; sourceTree = "<group>"; };
 		01C282571D888FC900110337 /* Altered Mental Status.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Altered Mental Status.pdf"; sourceTree = "<group>"; };
@@ -330,7 +330,7 @@
 			children = (
 				01C59DED1EDDCBB80085FABC /* Adult RSI.pdf */,
 				018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */,
-				01C282521D888FBD00110337 /*  DKA adults.pdf */,
+				01C282521D888FBD00110337 /* DKA adults.pdf */,
 				01C282541D888FC900110337 /* Abdominal Pain not related to pregnancy or trauma.pdf */,
 				015AAEE51E5CB854008F0689 /* Acute Coronary Syndrome.pdf */,
 				01C282561D888FC900110337 /* Air vs ground Algorhithm.pdf */,
@@ -651,7 +651,7 @@
 				01C282B81D888FC900110337 /* Pediatric Sepsis, Meningitis.pdf in Resources */,
 				019419541D1AF9B0003A9618 /* LaunchScreen.storyboard in Resources */,
 				01A093C71E24194E00E932D9 /* St Charles Anticoagulation Reversal.pdf in Resources */,
-				01C282531D888FBD00110337 /*  DKA adults.pdf in Resources */,
+				01C282531D888FBD00110337 /* DKA adults.pdf in Resources */,
 				01C2824D1D888F6D00110337 /* Spinal Cord Injury.pdf in Resources */,
 				01C282481D888F6D00110337 /* Burn protocol- Adult.pdf in Resources */,
 				01C282991D888FC900110337 /* Childbirth Normal Delivery.pdf in Resources */,
