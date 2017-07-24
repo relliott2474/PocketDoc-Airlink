@@ -536,5 +536,17 @@
 		<key>type</key>
 		<string>Adult</string>
 	</dict>
+	<dict>
+		<key>type</key>
+		<string>Adult</string>
+		<key>pdf name</key>
+		<string>ACLS Tachycardia with Pulse-Algorithm</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>Adult</string>
+		<key>pdf name</key>
+		<string>ACLS Cardiac Arrest - PEA Asystole VTACH VFIB</string>
+	</dict>
 </array>
 </plist>

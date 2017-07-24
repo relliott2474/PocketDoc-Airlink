@@ -21,6 +21,8 @@
 		010007AF1E03842700EC0A10 /* Tension Pneumothorax.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010007AE1E03842700EC0A10 /* Tension Pneumothorax.pdf */; };
 		0100106E1E03293900CECCAA /* Medicines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0100106D1E03293900CECCAA /* Medicines.swift */; };
 		010D37DA1D8C62A600FEC796 /* Ketamine Guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 010D37D91D8C62A600FEC796 /* Ketamine Guideline.pdf */; };
+		01255DB01F2670FF00D9C38D /* ACLS Tachycardia with Pulse-Algorithm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01255DAF1F2670FF00D9C38D /* ACLS Tachycardia with Pulse-Algorithm.pdf */; };
+		01255DB21F26719200D9C38D /* ACLS Cardiac Arrest - PEA Asystole VTACH VFIB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01255DB11F26719200D9C38D /* ACLS Cardiac Arrest - PEA Asystole VTACH VFIB.pdf */; };
 		013B9E6E1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E6D1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf */; };
 		013B9E701DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E6F1DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf */; };
 		013B9E721DF1FC550063EBD2 /* Maternal General Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 013B9E711DF1FC550063EBD2 /* Maternal General Guidelines.pdf */; };
@@ -148,6 +150,8 @@
 		010007AE1E03842700EC0A10 /* Tension Pneumothorax.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tension Pneumothorax.pdf"; sourceTree = "<group>"; };
 		0100106D1E03293900CECCAA /* Medicines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicines.swift; sourceTree = "<group>"; };
 		010D37D91D8C62A600FEC796 /* Ketamine Guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ketamine Guideline.pdf"; sourceTree = "<group>"; };
+		01255DAF1F2670FF00D9C38D /* ACLS Tachycardia with Pulse-Algorithm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ACLS Tachycardia with Pulse-Algorithm.pdf"; sourceTree = "<group>"; };
+		01255DB11F26719200D9C38D /* ACLS Cardiac Arrest - PEA Asystole VTACH VFIB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ACLS Cardiac Arrest - PEA Asystole VTACH VFIB.pdf"; sourceTree = "<group>"; };
 		013B9E6D1DF1FBCA0063EBD2 /* Magnesium Sulfate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Magnesium Sulfate.pdf"; sourceTree = "<group>"; };
 		013B9E6F1DF1FC280063EBD2 /* revised Preterm Labor.pdf may 2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "revised Preterm Labor.pdf may 2016.pdf"; sourceTree = "<group>"; };
 		013B9E711DF1FC550063EBD2 /* Maternal General Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Maternal General Guidelines.pdf"; sourceTree = "<group>"; };
@@ -328,6 +332,8 @@
 		01C282511D888FB000110337 /* Medical */ = {
 			isa = PBXGroup;
 			children = (
+				01255DAF1F2670FF00D9C38D /* ACLS Tachycardia with Pulse-Algorithm.pdf */,
+				01255DB11F26719200D9C38D /* ACLS Cardiac Arrest - PEA Asystole VTACH VFIB.pdf */,
 				01C59DED1EDDCBB80085FABC /* Adult RSI.pdf */,
 				018D76BF1EDC85A700A2C3F4 /* ACLS-Bradycardia.pdf */,
 				01C282521D888FBD00110337 /* DKA adults.pdf */,
@@ -577,6 +583,7 @@
 				01C282981D888FC900110337 /* Childbirth Abnormal Delivery.pdf in Resources */,
 				01C282A21D888FC900110337 /* Frostbite.pdf in Resources */,
 				010007A51E037F1900EC0A10 /* Emergent Umbilical Line Insertion.pdf in Resources */,
+				01255DB01F2670FF00D9C38D /* ACLS Tachycardia with Pulse-Algorithm.pdf in Resources */,
 				01C2824C1D888F6D00110337 /* Head Injury Protocol.pdf in Resources */,
 				01C2824E1D888F6D00110337 /* Spinal Immobilization-Interfacility.pdf in Resources */,
 				01C282371D888D5B00110337 /* Multiple Patient Incident.pdf in Resources */,
@@ -601,6 +608,7 @@
 				015AAEE81E5CBB34008F0689 /* Revised High Risk OB May 2016.pdf in Resources */,
 				0100079D1E03768100EC0A10 /* Inclusion criteria for burn center transfer.pdf in Resources */,
 				01C282B01D888FC900110337 /* Pediatric Anaphylaxis.pdf in Resources */,
+				01255DB21F26719200D9C38D /* ACLS Cardiac Arrest - PEA Asystole VTACH VFIB.pdf in Resources */,
 				01C282911D888FC900110337 /* Air vs ground Algorhithm.pdf in Resources */,
 				01C282B11D888FC900110337 /* Pediatric Asthma.pdf in Resources */,
 				01C2829A1D888FC900110337 /* CVA Stroke one.pdf in Resources */,
